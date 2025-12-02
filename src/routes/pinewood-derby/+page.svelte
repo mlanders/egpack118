@@ -1,3 +1,7 @@
+<script>
+    import pinewood_derby from "/src/lib/assets/activities/pinewood_derby.webp";
+</script>
+
 <svelte:head>
     <title>Pinewood Derby - Cub Scout Pack 118</title>
 </svelte:head>
@@ -15,7 +19,7 @@
     <div class="mb-12">
         <div class="rounded-lg h-96 overflow-hidden">
             <img
-                src="/src/lib/assets/activities/pinewood_derby.webp"
+                src={pinewood_derby}
                 alt="Pinewood Derby Cars"
                 class="w-full h-full object-cover"
             />
