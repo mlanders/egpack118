@@ -1,3 +1,9 @@
+<script>
+    import scouts1 from "$lib/assets/scouts1.webp";
+    import scouts2 from "$lib/assets/scouts2.webp";
+    import truckee from "$lib/assets/truckee.webp";
+</script>
+
 <svelte:head>
     <title>Cub Scout Pack 118 - Elk Grove, CA</title>
 </svelte:head>
@@ -5,7 +11,7 @@
 <!-- Hero Section -->
 <section
     class="relative bg-scout-blue text-white"
-    style="background-image: url('/src/lib/assets/IMG_7743.webp'); background-size: cover; background-position: center;"
+    style="background-image: url({truckee}); background-size: cover; background-position: center;"
 >
     <div
         class="absolute inset-0 bg-linear-to-r from-scout-blue to-blue-600 opacity-60"
@@ -58,7 +64,7 @@
         </div>
         <div class="rounded-lg h-96 overflow-hidden">
             <img
-                src="/src/lib/assets/scouts1.webp"
+                src={scouts1}
                 alt="Cub Scouts in action"
                 class="w-full h-full object-cover"
             />
@@ -72,7 +78,7 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div class="rounded-lg h-96 overflow-hidden">
                 <img
-                    src="/src/lib/assets/scouts2.webp"
+                    src={scouts2}
                     alt="Pack meeting activity"
                     class="w-full h-full object-cover"
                 />
