@@ -14,6 +14,10 @@
         resourcesDropdownOpen = !resourcesDropdownOpen;
     }
 
+    function openResourcesDropdown() {
+        resourcesDropdownOpen = true;
+    }
+
     function closeResourcesDropdown() {
         resourcesDropdownOpen = false;
     }
@@ -81,7 +85,7 @@
                 <div class="relative" onmouseleave={closeResourcesDropdown}>
                     <button
                         class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105 flex items-center gap-1"
-                        onmouseenter={toggleResourcesDropdown}
+                        onmouseenter={openResourcesDropdown}
                         onclick={toggleResourcesDropdown}
                     >
                         Resources
