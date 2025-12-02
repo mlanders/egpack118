@@ -13,7 +13,7 @@
 
 <div class="min-h-screen flex flex-col">
     <Navigation />
-    <main class="flex-grow">
+    <main class="grow">
         {@render children()}
     </main>
     <Footer />

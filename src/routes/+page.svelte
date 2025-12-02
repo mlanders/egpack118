@@ -183,7 +183,7 @@
 </section>
 
 <!-- Scout Oath Section -->
-<section class="bg-gradient-to-r from-scout-blue to-blue-600 text-white py-16">
+<section class="bg-linear-to-r from-scout-blue to-blue-600 text-white py-16">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <blockquote class="text-xl md:text-2xl italic leading-relaxed">
             <p class="mb-4">
