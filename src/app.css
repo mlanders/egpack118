@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+    --color-scout-blue: #003f87;
+    --color-scout-gold: #ffc72c;
+    --font-weight-normal: 300;
+    --font-weight-medium: 400;
+    --font-weight-semibold: 500;
+    --font-weight-bold: 600;
+}
+
+body {
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 600 !important;
+}
+
+.font-semibold {
+    font-weight: 500 !important;
+}
+
+.font-medium {
+    font-weight: 400 !important;
+}
+
+.font-normal {
+    font-weight: 300 !important;
+}
