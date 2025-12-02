@@ -1,3 +1,12 @@
+<script>
+    import blue_and_gold_banquet from "$lib/assets/activities/blue_and_gold_banquet.webp";
+    import camping from "$lib/assets/activities/camping.webp";
+    import den_meetings from "$lib/assets/activities/den_meetings.webp";
+    import pack_meetings from "$lib/assets/activities/pack_meetings.webp";
+    import pinewood_derby from "$lib/assets/activities/pinewood_derby.webp";
+    import service_projects from "$lib/assets/activities/service_projects.webp";
+</script>
+
 <svelte:head>
     <title>Activities - Cub Scout Pack 118</title>
 </svelte:head>
@@ -19,7 +28,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
-                    src="/src/lib/assets/activities/pack_meetings.webp"
+                    src={pack_meetings}
                     alt="Pack Meeting"
                     class="w-full h-full object-cover"
                 />
@@ -42,7 +51,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
-                    src="/src/lib/assets/activities/pinewood_derby.webp"
+                    src={pinewood_derby}
                     alt="Pinewood Derby"
                     class="w-full h-full object-cover"
                 />
@@ -70,7 +79,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
-                    src="/src/lib/assets/activities/den_meetings.webp"
+                    src={den_meetings}
                     alt="Den Meeting"
                     class="w-full h-full object-cover"
                 />
@@ -92,7 +101,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
-                    src="/src/lib/assets/activities/blue_and_gold_banquet.webp"
+                    src={blue_and_gold_banquet}
                     alt="Blue & Gold Banquet"
                     class="w-full h-full object-cover"
                 />
@@ -115,7 +124,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
-                    src="/src/lib/assets/activities/service_projects.webp"
+                    src={service_projects}
                     alt="Service Projects"
                     class="w-full h-full object-cover"
                 />
@@ -138,7 +147,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
-                    src="/src/lib/assets/activities/camping.webp"
+                    src={camping}
                     alt="Camping & Nature Hikes"
                     class="w-full h-full object-cover"
                 />
