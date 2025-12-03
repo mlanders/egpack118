@@ -107,60 +107,62 @@
                     </button>
 
                     {#if resourcesDropdownOpen}
-                        <div
-                            class="absolute right-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2"
-                        >
-                            <a
-                                href="/become-a-leader"
-                                class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                onclick={closeResourcesDropdown}
+                        <div class="absolute right-0 mt-0 pt-2 w-64">
+                            <div
+                                class="bg-white rounded-lg shadow-lg border border-gray-200 py-2"
                             >
-                                Become a Leader
-                            </a>
-                            <a
-                                href="https://advancements.scouting.org/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                onclick={closeResourcesDropdown}
-                            >
-                                Scouting Advancements
-                                <svg
-                                    class="inline w-3 h-3 ml-1"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
+                                <a
+                                    href="/become-a-leader"
+                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
+                                    onclick={closeResourcesDropdown}
                                 >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                    />
-                                </svg>
-                            </a>
-                            <a
-                                href="https://gec-bsa.org/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                onclick={closeResourcesDropdown}
-                            >
-                                Golden Empire Council
-                                <svg
-                                    class="inline w-3 h-3 ml-1"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
+                                    Become a Leader
+                                </a>
+                                <a
+                                    href="https://advancements.scouting.org/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
+                                    onclick={closeResourcesDropdown}
                                 >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                    />
-                                </svg>
-                            </a>
+                                    Scouting Advancements
+                                    <svg
+                                        class="inline w-3 h-3 ml-1"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        />
+                                    </svg>
+                                </a>
+                                <a
+                                    href="https://gec-bsa.org/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
+                                    onclick={closeResourcesDropdown}
+                                >
+                                    Golden Empire Council
+                                    <svg
+                                        class="inline w-3 h-3 ml-1"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     {/if}
                 </div>
