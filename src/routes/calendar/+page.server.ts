@@ -5,7 +5,7 @@ import { cleanEventData } from "$lib/config/calendar-whitelist";
 
 export const load: PageServerLoad = async () => {
   try {
-    const calendarPath = join(process.cwd(), "src/content/calendar.md");
+    const calendarPath = join(process.cwd(), "static/calendar.md");
     const calendarContent = readFileSync(calendarPath, "utf-8");
 
     // Parse the markdown into structured data
