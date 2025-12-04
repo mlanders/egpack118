@@ -1,5 +1,11 @@
 <script>
     import scouts1 from "$lib/assets/scouts1.webp";
+    import lionInsignia from "$lib/assets/den_insignias/Lion-insignia-CSBC.jpg";
+    import tigerInsignia from "$lib/assets/den_insignias/TIGER-color-insignia-CSBC.jpg";
+    import wolfInsignia from "$lib/assets/den_insignias/Wolf rank-color-insignia-CSBC.jpg";
+    import bearInsignia from "$lib/assets/den_insignias/CS_bear-insignia-CSBC.jpg";
+    import webelosInsignia from "$lib/assets/den_insignias/Webelos Oval-color-insignia-CSBC.jpg";
+    import arrowOfLightInsignia from "$lib/assets/den_insignias/Arrow of Light-insignia-CSBC.jpg";
 </script>
 
 <svelte:head>
@@ -55,7 +61,7 @@
                     </h3>
                     <p class="text-gray-700">
                         Pack meetings typically start with the Pledge of
-                        Allegiance and Scout Oath. We'll guide you through
+                        Allegiance and Scout Oath & Law. We'll guide you through
                         everything. New families are often introduced to the
                         pack.
                     </p>
@@ -386,7 +392,34 @@
                 <h3 class="text-xl font-bold text-scout-blue mb-4">
                     Communication
                 </h3>
-                <p class="text-gray-700 mb-4">Stay informed through:</p>
+                <p class="text-gray-700 mb-4">
+                    We primarily communicate through the <strong
+                        >BAND app</strong
+                    >, a group communication platform that keeps families
+                    connected with announcements, photos, and event updates.
+                </p>
+                <div class="bg-blue-50 border-l-4 border-scout-blue p-4 mb-4">
+                    <p class="font-semibold text-gray-900 mb-2">
+                        Download BAND:
+                    </p>
+                    <p class="text-gray-700 mb-2">
+                        <a
+                            href="https://band.us/"
+                            class="text-scout-blue hover:underline"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            band.us
+                        </a>
+                    </p>
+                    <p class="text-gray-700 text-sm">
+                        Once registered, you'll receive an invitation to join
+                        our Pack 118 BAND group.
+                    </p>
+                </div>
+                <p class="text-gray-700 mb-4">
+                    Additional ways to stay informed:
+                </p>
                 <ul class="space-y-2 text-gray-700">
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
@@ -395,10 +428,6 @@
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
                         <span>Our website calendar page</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-scout-blue mr-2">•</span>
-                        <span>Den-specific messaging groups</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
@@ -429,15 +458,15 @@
             Cub Scout Ranks by Grade
         </h2>
         <div class="bg-white border-2 border-gray-200 rounded-lg p-8">
-            <div class="space-y-4">
-                <div class="flex items-start">
-                    <div
-                        class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
-                    >
-                        K
-                    </div>
+            <div class="space-y-6">
+                <div class="flex items-start gap-4">
+                    <img
+                        src={lionInsignia}
+                        alt="Lion rank insignia"
+                        class="w-16 h-16 object-contain flex-shrink-0"
+                    />
                     <div>
-                        <h3 class="font-bold text-gray-900">
+                        <h3 class="font-bold text-gray-900 text-lg">
                             Lion (Kindergarten)
                         </h3>
                         <p class="text-gray-700">
@@ -446,14 +475,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div
-                        class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
-                    >
-                        1
-                    </div>
+                <div class="flex items-start gap-4">
+                    <img
+                        src={tigerInsignia}
+                        alt="Tiger rank insignia"
+                        class="w-16 h-16 object-contain flex-shrink-0"
+                    />
                     <div>
-                        <h3 class="font-bold text-gray-900">
+                        <h3 class="font-bold text-gray-900 text-lg">
                             Tiger (1st Grade)
                         </h3>
                         <p class="text-gray-700">
@@ -462,14 +491,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div
-                        class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
-                    >
-                        2
-                    </div>
+                <div class="flex items-start gap-4">
+                    <img
+                        src={wolfInsignia}
+                        alt="Wolf rank insignia"
+                        class="w-16 h-16 object-contain flex-shrink-0"
+                    />
                     <div>
-                        <h3 class="font-bold text-gray-900">
+                        <h3 class="font-bold text-gray-900 text-lg">
                             Wolf (2nd Grade)
                         </h3>
                         <p class="text-gray-700">
@@ -477,14 +506,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div
-                        class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
-                    >
-                        3
-                    </div>
+                <div class="flex items-start gap-4">
+                    <img
+                        src={bearInsignia}
+                        alt="Bear rank insignia"
+                        class="w-16 h-16 object-contain flex-shrink-0"
+                    />
                     <div>
-                        <h3 class="font-bold text-gray-900">
+                        <h3 class="font-bold text-gray-900 text-lg">
                             Bear (3rd Grade)
                         </h3>
                         <p class="text-gray-700">
@@ -493,14 +522,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div
-                        class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
-                    >
-                        4
-                    </div>
+                <div class="flex items-start gap-4">
+                    <img
+                        src={webelosInsignia}
+                        alt="Webelos rank insignia"
+                        class="w-16 h-16 object-contain flex-shrink-0"
+                    />
                     <div>
-                        <h3 class="font-bold text-gray-900">
+                        <h3 class="font-bold text-gray-900 text-lg">
                             Webelos (4th Grade)
                         </h3>
                         <p class="text-gray-700">
@@ -509,14 +538,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div
-                        class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
-                    >
-                        5
-                    </div>
+                <div class="flex items-start gap-4">
+                    <img
+                        src={arrowOfLightInsignia}
+                        alt="Arrow of Light rank insignia"
+                        class="w-16 h-16 object-contain flex-shrink-0"
+                    />
                     <div>
-                        <h3 class="font-bold text-gray-900">
+                        <h3 class="font-bold text-gray-900 text-lg">
                             Arrow of Light (5th Grade)
                         </h3>
                         <p class="text-gray-700">

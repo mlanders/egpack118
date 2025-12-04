@@ -1,4 +1,6 @@
 <script lang="ts">
+    import cubScoutsLogo from "$lib/assets/cub-scouts-logo.png";
+
     interface NavLink {
         href: string;
         label: string;
@@ -101,7 +103,7 @@
                         class="relative w-16 h-16 flex items-center justify-center"
                     >
                         <img
-                            src="/images/cub-scouts-logo.png"
+                            src={cubScoutsLogo}
                             alt="Cub Scouts Logo"
                             class="w-full h-full object-contain drop-shadow-lg group-hover:brightness-110 transition-all"
                         />
