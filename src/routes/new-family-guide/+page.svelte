@@ -85,9 +85,9 @@
                         Announcements & Closing (7:30pm)
                     </h3>
                     <p class="text-gray-700">
-                        Leaders share upcoming events and important
-                        information. After the closing ceremony, feel free to
-                        ask questions and meet other families.
+                        Leaders share upcoming events and important information.
+                        After the closing ceremony, feel free to ask questions
+                        and meet other families.
                     </p>
                 </div>
             </div>
@@ -152,8 +152,7 @@
                                 d="M5 13l4 4L19 7"
                             />
                         </svg>
-                        <span
-                            >Questions for the leaders (we love to help!)</span
+                        <span>Questions for the leaders (we love to help!)</span
                         >
                     </li>
                     <li class="flex items-start">
@@ -287,22 +286,21 @@
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
                         <span
-                            ><strong>Blue uniform shirt</strong> (short or long
-                            sleeve)</span
+                            ><strong>Blue uniform shirt</strong> (short or long sleeve)</span
                         >
                     </li>
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
                         <span
-                            ><strong>Neckerchief and slide</strong> (often
-                            provided by the pack)</span
+                            ><strong>Neckerchief and slide</strong> (often provided
+                            by the pack)</span
                         >
                     </li>
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
                         <span
-                            ><strong>Belt</strong> (official Cub Scout belt or
-                            plain navy/khaki)</span
+                            ><strong>Belt</strong> (official Cub Scout belt or plain
+                            navy/khaki)</span
                         >
                     </li>
                     <li class="flex items-start">
@@ -329,8 +327,8 @@
                 <p class="text-gray-700">
                     For regular pack and den meetings, scouts may wear a pack
                     t-shirt (if provided) or comfortable clothes appropriate for
-                    activities. Save the fancy clothes for other occasions—scouts
-                    will be active!
+                    activities. Save the fancy clothes for other
+                    occasions—scouts will be active!
                 </p>
             </div>
         </div>
@@ -369,9 +367,14 @@
                     Parent Participation
                 </h3>
                 <p class="text-gray-700 mb-4">
-                    A parent or guardian must stay during all Cub Scout
-                    activities. This is a youth protection requirement and helps
-                    create a family-oriented experience.
+                    <strong>Lion and Tiger Dens (K-1st Grade):</strong> A parent or
+                    guardian must stay during all den and pack activities. This is
+                    a youth protection requirement.
+                </p>
+                <p class="text-gray-700 mb-4">
+                    <strong>All Other Dens (2nd-5th Grade):</strong> Parent attendance
+                    is strongly encouraged at all meetings and activities to support
+                    the family-oriented experience.
                 </p>
                 <p class="text-gray-700">
                     We encourage parent involvement! Whether helping at events,
@@ -383,15 +386,11 @@
                 <h3 class="text-xl font-bold text-scout-blue mb-4">
                     Communication
                 </h3>
-                <p class="text-gray-700 mb-4">
-                    Stay informed through:
-                </p>
+                <p class="text-gray-700 mb-4">Stay informed through:</p>
                 <ul class="space-y-2 text-gray-700">
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
-                        <span
-                            >Email from pack leadership and den leaders</span
-                        >
+                        <span>Email from pack leadership and den leaders</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-scout-blue mr-2">•</span>
@@ -470,7 +469,9 @@
                         2
                     </div>
                     <div>
-                        <h3 class="font-bold text-gray-900">Wolf (2nd Grade)</h3>
+                        <h3 class="font-bold text-gray-900">
+                            Wolf (2nd Grade)
+                        </h3>
                         <p class="text-gray-700">
                             Exploring nature, community, and physical fitness.
                         </p>
@@ -483,7 +484,9 @@
                         3
                     </div>
                     <div>
-                        <h3 class="font-bold text-gray-900">Bear (3rd Grade)</h3>
+                        <h3 class="font-bold text-gray-900">
+                            Bear (3rd Grade)
+                        </h3>
                         <p class="text-gray-700">
                             Developing leadership and taking on more
                             responsibility.
@@ -494,16 +497,32 @@
                     <div
                         class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
                     >
-                        4-5
+                        4
                     </div>
                     <div>
                         <h3 class="font-bold text-gray-900">
-                            Webelos (4th-5th Grade)
+                            Webelos (4th Grade)
                         </h3>
                         <p class="text-gray-700">
-                            Preparing for Scouts BSA (middle/high school) with
-                            advanced skills and leadership opportunities. Arrow
-                            of Light is earned in 5th grade.
+                            Beginning to prepare for Scouts BSA with advanced
+                            skills and leadership opportunities.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div
+                        class="bg-scout-blue text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0 mr-4"
+                    >
+                        5
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900">
+                            Arrow of Light (5th Grade)
+                        </h3>
+                        <p class="text-gray-700">
+                            The highest rank in Cub Scouts, preparing scouts to
+                            transition to Scouts BSA (middle/high school) with
+                            advanced outdoor skills and leadership development.
                         </p>
                     </div>
                 </div>
@@ -580,7 +599,8 @@
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                     </svg>
-                    <span>Meet your den leader and get den meeting schedule</span
+                    <span
+                        >Meet your den leader and get den meeting schedule</span
                     >
                 </li>
                 <li class="flex items-start">
@@ -655,9 +675,7 @@
 
     <!-- Helpful Resources -->
     <section class="mb-16">
-        <h2 class="text-3xl font-bold text-gray-900 mb-6">
-            Helpful Resources
-        </h2>
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Helpful Resources</h2>
         <div class="grid md:grid-cols-3 gap-6">
             <a
                 href="/faq"
@@ -673,9 +691,7 @@
                 href="/calendar"
                 class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-scout-blue hover:shadow-lg transition-all"
             >
-                <h3 class="text-xl font-bold text-scout-blue mb-2">
-                    Calendar
-                </h3>
+                <h3 class="text-xl font-bold text-scout-blue mb-2">Calendar</h3>
                 <p class="text-gray-700">
                     View our meeting schedule and upcoming events.
                 </p>
