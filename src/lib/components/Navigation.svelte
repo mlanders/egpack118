@@ -123,46 +123,11 @@
 
             <!-- Desktop Navigation -->
             <div class="hidden md:flex space-x-2 items-center">
-                <a
-                    href="/"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Home</a
-                >
-                <a
-                    href="/calendar"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Calendar</a
-                >
-                <a
-                    href="/activities"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Activities</a
-                >
-                <a
-                    href="/pinewood-derby"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Pinewood Derby</a
-                >
-
-                <!-- Resources Dropdown -->
-                <div
-                    class="relative"
-                    role="group"
-                    onmouseleave={() => closeResourcesDropdown()}
-                >
-                    <button
-                        class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105 flex items-center gap-1"
-                        onmouseenter={() => openResourcesDropdown()}
-                        onclick={() => toggleResourcesDropdown()}
-                    >
-                        Resources
-                        <svg
-                            class="w-4 h-4 transition-transform {resourcesDropdownOpen
-                                ? 'rotate-180'
-                                : ''}"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
+                {#each navigationConfig as navItem}
+                    {#if navItem.type === "link"}
+                        <a
+                            href={navItem.href}
+                            class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
                         >
                             {navItem.label}
                         </a>
@@ -174,38 +139,16 @@
                                     openDropdownMenu(navItem.label)}
                                 onclick={() => toggleDropdown(navItem.label)}
                             >
-                                <a
-                                    href="/become-a-leader"
-                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                >
-                                    Become a Leader
-                                </a>
-                                <a
-                                    href="https://advancements.scouting.org/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                >
-                                    Scouting Advancements
-                                    <svg
-                                        class="inline w-3 h-3 ml-1"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                        />
-                                    </svg>
-                                </a>
-                                <a
-                                    href="https://gec-bsa.org/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
+                                {navItem.label}
+                                <svg
+                                    class="w-4 h-4 transition-transform {isDropdownOpen(
+                                        navItem.label,
+                                    )
+                                        ? 'rotate-180'
+                                        : ''}"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
                                 >
                                     <path
                                         stroke-linecap="round"
