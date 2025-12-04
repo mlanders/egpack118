@@ -1,12 +1,25 @@
 import { readFileSync } from "fs";
 import { join } from "path";
+import { dev } from "$app/environment";
 import type { PageServerLoad } from "./$types";
 import { cleanEventData } from "$lib/config/calendar-whitelist";
 
-export const load: PageServerLoad = async () => {
+export const load: PageServerLoad = async ({ fetch }) => {
   try {
-    const calendarPath = join(process.cwd(), "static/calendar.md");
-    const calendarContent = readFileSync(calendarPath, "utf-8");
+    let calendarContent: string;
+
+    if (dev) {
+      // In development, read from filesystem
+      const calendarPath = join(process.cwd(), "static/calendar.md");
+      calendarContent = readFileSync(calendarPath, "utf-8");
+    } else {
+      // In production, fetch via HTTP
+      const response = await fetch("/calendar.md");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch calendar: ${response.status}`);
+      }
+      calendarContent = await response.text();
+    }
 
     // Parse the markdown into structured data
     const events = parseCalendarMarkdown(calendarContent);
