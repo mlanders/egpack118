@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import type { PageServerLoad } from "./$types";
+import { cleanEventData } from "$lib/config/calendar-whitelist";
 
 export const load: PageServerLoad = async () => {
   try {
@@ -9,10 +10,17 @@ export const load: PageServerLoad = async () => {
 
     // Parse the markdown into structured data
     const events = parseCalendarMarkdown(calendarContent);
-    const calendarData = buildCalendarGrid(events);
+
+    // Apply whitelist filtering to events
+    const cleanedEvents = events.map((monthGroup) => ({
+      ...monthGroup,
+      events: monthGroup.events.map(cleanEventData),
+    }));
+
+    const calendarData = buildCalendarGrid(cleanedEvents);
 
     return {
-      events,
+      events: cleanedEvents,
       calendarData,
       lastUpdated: extractLastUpdated(calendarContent),
     };
