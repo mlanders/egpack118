@@ -5,6 +5,7 @@
 
     let viewMode: "list" | "calendar" = $state("list");
     let expandedEvents: Record<string, boolean> = $state({});
+    let collapsedMonths: Record<string, boolean> = $state({});
     let selectedEvent = $state<{
         title: string;
         date: string;
@@ -50,6 +51,14 @@
     function closeModal() {
         showModal = false;
         selectedEvent = null;
+    }
+
+    function toggleMonth(monthName: string) {
+        collapsedMonths[monthName] = !collapsedMonths[monthName];
+    }
+
+    function isMonthCollapsed(monthName: string): boolean {
+        return collapsedMonths[monthName] || false;
     }
 
     const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -163,65 +172,89 @@
                             class="bg-white border-2 border-gray-200 rounded-lg shadow-lg overflow-hidden"
                         >
                             <!-- Month Header -->
-                            <div class="bg-scout-blue text-white px-6 py-4">
+                            <button
+                                onclick={() => toggleMonth(monthData.month)}
+                                class="bg-scout-blue text-white px-6 py-4 w-full flex items-center justify-between hover:bg-blue-700 transition-colors"
+                            >
                                 <h2 class="text-2xl font-bold">
                                     {monthData.month}
                                 </h2>
-                            </div>
+                                <svg
+                                    class="w-6 h-6 transition-transform {isMonthCollapsed(
+                                        monthData.month,
+                                    )
+                                        ? ''
+                                        : 'rotate-180'}"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 9l-7 7-7-7"
+                                    />
+                                </svg>
+                            </button>
 
                             <!-- Calendar Grid -->
-                            <div class="p-4">
-                                <!-- Weekday Headers -->
-                                <div class="grid grid-cols-7 gap-2 mb-2">
-                                    {#each weekDays as day}
-                                        <div
-                                            class="text-center font-semibold text-gray-700 text-sm py-2"
-                                        >
-                                            {day}
-                                        </div>
-                                    {/each}
-                                </div>
-
-                                <!-- Calendar Days -->
-                                {#each monthData.weeks as week}
-                                    <div class="grid grid-cols-7 gap-2">
-                                        {#each week as day}
+                            {#if !isMonthCollapsed(monthData.month)}
+                                <div class="p-4">
+                                    <!-- Weekday Headers -->
+                                    <div class="grid grid-cols-7 gap-2 mb-2">
+                                        {#each weekDays as day}
                                             <div
-                                                class="min-h-24 border rounded p-2 {day.isCurrentMonth
-                                                    ? 'bg-white'
-                                                    : 'bg-gray-50'} {day.events
-                                                    .length > 0
-                                                    ? 'border-scout-blue border-2'
-                                                    : 'border-gray-200'}"
+                                                class="text-center font-semibold text-gray-700 text-sm py-2"
                                             >
-                                                <div
-                                                    class="text-sm font-medium {day.isCurrentMonth
-                                                        ? 'text-gray-900'
-                                                        : 'text-gray-400'}"
-                                                >
-                                                    {day.day}
-                                                </div>
-                                                {#if day.events.length > 0}
-                                                    <div class="mt-1 space-y-1">
-                                                        {#each day.events as event}
-                                                            <button
-                                                                onclick={() =>
-                                                                    openModal(
-                                                                        event,
-                                                                    )}
-                                                                class="text-xs bg-scout-blue text-white rounded px-1 py-0.5 truncate w-full text-left hover:bg-blue-700 cursor-pointer transition-colors"
-                                                                title={event.title}
-                                                            >
-                                                                {event.title}
-                                                            </button>
-                                                        {/each}
-                                                    </div>
-                                                {/if}
+                                                {day}
                                             </div>
                                         {/each}
                                     </div>
-                                {/each}
-                            </div>
+
+                                    <!-- Calendar Days -->
+                                    {#each monthData.weeks as week}
+                                        <div class="grid grid-cols-7 gap-2">
+                                            {#each week as day}
+                                                <div
+                                                    class="min-h-24 border rounded p-2 {day.isCurrentMonth
+                                                        ? 'bg-white'
+                                                        : 'bg-gray-50'} {day
+                                                        .events.length > 0
+                                                        ? 'border-scout-blue border-2'
+                                                        : 'border-gray-200'}"
+                                                >
+                                                    <div
+                                                        class="text-sm font-medium {day.isCurrentMonth
+                                                            ? 'text-gray-900'
+                                                            : 'text-gray-400'}"
+                                                    >
+                                                        {day.day}
+                                                    </div>
+                                                    {#if day.events.length > 0}
+                                                        <div
+                                                            class="mt-1 space-y-1"
+                                                        >
+                                                            {#each day.events as event}
+                                                                <button
+                                                                    onclick={() =>
+                                                                        openModal(
+                                                                            event,
+                                                                        )}
+                                                                    class="text-xs bg-scout-blue text-white rounded px-1 py-0.5 truncate w-full text-left hover:bg-blue-700 cursor-pointer transition-colors"
+                                                                    title={event.title}
+                                                                >
+                                                                    {event.title}
+                                                                </button>
+                                                            {/each}
+                                                        </div>
+                                                    {/if}
+                                                </div>
+                                            {/each}
+                                        </div>
+                                    {/each}
+                                </div>
+                            {/if}
                         </div>
                     {/each}
                 </div>
@@ -245,68 +278,57 @@
                             class="bg-white border-2 border-gray-200 rounded-lg shadow-lg overflow-hidden"
                         >
                             <!-- Month Header -->
-                            <div class="bg-scout-blue text-white px-6 py-4">
+                            <button
+                                onclick={() => toggleMonth(monthGroup.month)}
+                                class="bg-scout-blue text-white px-6 py-4 w-full flex items-center justify-between hover:bg-blue-700 transition-colors"
+                            >
                                 <h2 class="text-2xl font-bold">
                                     {monthGroup.month}
                                 </h2>
-                            </div>
+                                <svg
+                                    class="w-6 h-6 transition-transform {isMonthCollapsed(
+                                        monthGroup.month,
+                                    )
+                                        ? ''
+                                        : 'rotate-180'}"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 9l-7 7-7-7"
+                                    />
+                                </svg>
+                            </button>
 
                             <!-- Events for this month -->
-                            <div class="divide-y divide-gray-200">
-                                {#each monthGroup.events as event, eventIndex}
-                                    {@const eventId = getEventId(
-                                        monthIndex,
-                                        eventIndex,
-                                    )}
-                                    {@const expanded = isExpanded(eventId)}
-                                    {@const descriptionNeedsTruncation =
-                                        needsTruncation(event.description)}
+                            {#if !isMonthCollapsed(monthGroup.month)}
+                                <div class="divide-y divide-gray-200">
+                                    {#each monthGroup.events as event, eventIndex}
+                                        {@const eventId = getEventId(
+                                            monthIndex,
+                                            eventIndex,
+                                        )}
+                                        {@const expanded = isExpanded(eventId)}
+                                        {@const descriptionNeedsTruncation =
+                                            needsTruncation(event.description)}
 
-                                    <div
-                                        class="p-6 hover:bg-gray-50 transition-colors"
-                                    >
-                                        <!-- Event Title -->
-                                        <h3
-                                            class="text-xl font-bold text-gray-900 mb-3"
+                                        <div
+                                            class="p-6 hover:bg-gray-50 transition-colors"
                                         >
-                                            {event.title}
-                                        </h3>
+                                            <!-- Event Title -->
+                                            <h3
+                                                class="text-xl font-bold text-gray-900 mb-3"
+                                            >
+                                                {event.title}
+                                            </h3>
 
-                                        <!-- Event Details -->
-                                        <div class="space-y-2">
-                                            <!-- Date and Time -->
-                                            <div class="flex items-start">
-                                                <svg
-                                                    class="w-5 h-5 text-scout-blue mr-3 mt-0.5 flex-shrink-0"
-                                                    fill="none"
-                                                    stroke="currentColor"
-                                                    viewBox="0 0 24 24"
-                                                >
-                                                    <path
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
-                                                        stroke-width="2"
-                                                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                                                    />
-                                                </svg>
-                                                <div>
-                                                    <p
-                                                        class="text-gray-900 font-semibold"
-                                                    >
-                                                        {event.date}
-                                                    </p>
-                                                    {#if event.time}
-                                                        <p
-                                                            class="text-gray-600"
-                                                        >
-                                                            {event.time}
-                                                        </p>
-                                                    {/if}
-                                                </div>
-                                            </div>
-
-                                            <!-- Location -->
-                                            {#if event.location}
+                                            <!-- Event Details -->
+                                            <div class="space-y-2">
+                                                <!-- Date and Time -->
                                                 <div class="flex items-start">
                                                     <svg
                                                         class="w-5 h-5 text-scout-blue mr-3 mt-0.5 flex-shrink-0"
@@ -318,71 +340,108 @@
                                                             stroke-linecap="round"
                                                             stroke-linejoin="round"
                                                             stroke-width="2"
-                                                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                                                        />
-                                                        <path
-                                                            stroke-linecap="round"
-                                                            stroke-linejoin="round"
-                                                            stroke-width="2"
-                                                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                                                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                                                         />
                                                     </svg>
-                                                    <p class="text-gray-700">
-                                                        {event.location}
-                                                    </p>
-                                                </div>
-                                            {/if}
-
-                                            <!-- Description -->
-                                            {#if event.description}
-                                                <div
-                                                    class="flex items-start mt-3"
-                                                >
-                                                    <svg
-                                                        class="w-5 h-5 text-scout-blue mr-3 mt-0.5 flex-shrink-0"
-                                                        fill="none"
-                                                        stroke="currentColor"
-                                                        viewBox="0 0 24 24"
-                                                    >
-                                                        <path
-                                                            stroke-linecap="round"
-                                                            stroke-linejoin="round"
-                                                            stroke-width="2"
-                                                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                        />
-                                                    </svg>
-                                                    <div class="flex-1">
+                                                    <div>
                                                         <p
-                                                            class="text-gray-700 whitespace-pre-line"
+                                                            class="text-gray-900 font-semibold"
                                                         >
-                                                            {#if descriptionNeedsTruncation && !expanded}
-                                                                {getTruncatedText(
-                                                                    event.description,
-                                                                )}
-                                                            {:else}
-                                                                {event.description}
-                                                            {/if}
+                                                            {event.date}
                                                         </p>
-                                                        {#if descriptionNeedsTruncation}
-                                                            <button
-                                                                onclick={() =>
-                                                                    toggleExpanded(
-                                                                        eventId,
-                                                                    )}
-                                                                class="text-scout-blue hover:underline text-sm font-medium mt-2"
+                                                        {#if event.time}
+                                                            <p
+                                                                class="text-gray-600"
                                                             >
-                                                                {expanded
-                                                                    ? "Show less"
-                                                                    : "Show more"}
-                                                            </button>
+                                                                {event.time}
+                                                            </p>
                                                         {/if}
                                                     </div>
                                                 </div>
-                                            {/if}
+
+                                                <!-- Location -->
+                                                {#if event.location}
+                                                    <div
+                                                        class="flex items-start"
+                                                    >
+                                                        <svg
+                                                            class="w-5 h-5 text-scout-blue mr-3 mt-0.5 flex-shrink-0"
+                                                            fill="none"
+                                                            stroke="currentColor"
+                                                            viewBox="0 0 24 24"
+                                                        >
+                                                            <path
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                                stroke-width="2"
+                                                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                                                            />
+                                                            <path
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                                stroke-width="2"
+                                                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                                                            />
+                                                        </svg>
+                                                        <p
+                                                            class="text-gray-700"
+                                                        >
+                                                            {event.location}
+                                                        </p>
+                                                    </div>
+                                                {/if}
+
+                                                <!-- Description -->
+                                                {#if event.description}
+                                                    <div
+                                                        class="flex items-start mt-3"
+                                                    >
+                                                        <svg
+                                                            class="w-5 h-5 text-scout-blue mr-3 mt-0.5 flex-shrink-0"
+                                                            fill="none"
+                                                            stroke="currentColor"
+                                                            viewBox="0 0 24 24"
+                                                        >
+                                                            <path
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                                stroke-width="2"
+                                                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                                            />
+                                                        </svg>
+                                                        <div class="flex-1">
+                                                            <p
+                                                                class="text-gray-700 whitespace-pre-line"
+                                                            >
+                                                                {#if descriptionNeedsTruncation && !expanded}
+                                                                    {getTruncatedText(
+                                                                        event.description,
+                                                                    )}
+                                                                {:else}
+                                                                    {event.description}
+                                                                {/if}
+                                                            </p>
+                                                            {#if descriptionNeedsTruncation}
+                                                                <button
+                                                                    onclick={() =>
+                                                                        toggleExpanded(
+                                                                            eventId,
+                                                                        )}
+                                                                    class="text-scout-blue hover:underline text-sm font-medium mt-2"
+                                                                >
+                                                                    {expanded
+                                                                        ? "Show less"
+                                                                        : "Show more"}
+                                                                </button>
+                                                            {/if}
+                                                        </div>
+                                                    </div>
+                                                {/if}
+                                            </div>
                                         </div>
-                                    </div>
-                                {/each}
-                            </div>
+                                    {/each}
+                                </div>
+                            {/if}
                         </div>
                     {/each}
                 </div>
