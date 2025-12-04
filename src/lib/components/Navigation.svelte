@@ -82,11 +82,15 @@
                 >
 
                 <!-- Resources Dropdown -->
-                <div class="relative" onmouseleave={closeResourcesDropdown}>
+                <div
+                    class="relative"
+                    role="group"
+                    onmouseleave={() => closeResourcesDropdown()}
+                >
                     <button
                         class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105 flex items-center gap-1"
-                        onmouseenter={openResourcesDropdown}
-                        onclick={toggleResourcesDropdown}
+                        onmouseenter={() => openResourcesDropdown()}
+                        onclick={() => toggleResourcesDropdown()}
                     >
                         Resources
                         <svg
@@ -114,7 +118,6 @@
                                 <a
                                     href="/become-a-leader"
                                     class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                    onclick={closeResourcesDropdown}
                                 >
                                     Become a Leader
                                 </a>
@@ -123,7 +126,6 @@
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                    onclick={closeResourcesDropdown}
                                 >
                                     Scouting Advancements
                                     <svg
@@ -145,7 +147,6 @@
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                    onclick={closeResourcesDropdown}
                                 >
                                     Golden Empire Council
                                     <svg

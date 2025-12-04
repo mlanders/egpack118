@@ -1,6 +1,5 @@
 <script lang="ts">
     import "../app.css";
-    import favicon from "/static/favicon/favicon.svg";
     import Navigation from "$lib/components/Navigation.svelte";
     import Footer from "$lib/components/Footer.svelte";
 
@@ -8,7 +7,7 @@
 </script>
 
 <svelte:head>
-    <link rel="icon" href={favicon} />
+    <link rel="icon" href="/favicon/favicon.svg" />
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">
