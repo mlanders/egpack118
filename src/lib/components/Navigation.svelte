@@ -80,6 +80,16 @@
                     class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
                     >Pinewood Derby</a
                 >
+                <a
+                    href="/new-family-guide"
+                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
+                    >New Families</a
+                >
+                <a
+                    href="/faq"
+                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
+                    >FAQ</a
+                >
 
                 <!-- Resources Dropdown -->
                 <div class="relative" onmouseleave={closeResourcesDropdown}>
@@ -230,6 +240,16 @@
                     href="/pinewood-derby"
                     class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
                     onclick={closeMobileMenu}>Pinewood Derby</a
+                >
+                <a
+                    href="/new-family-guide"
+                    class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
+                    onclick={closeMobileMenu}>New Families</a
+                >
+                <a
+                    href="/faq"
+                    class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
+                    onclick={closeMobileMenu}>FAQ</a
                 >
 
                 <!-- Resources Section (Mobile) -->
