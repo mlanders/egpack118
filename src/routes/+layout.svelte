@@ -6,6 +6,10 @@
     let { children } = $props();
 </script>
 
+<svelte:head>
+    <link rel="icon" href="/favicon/favicon.svg" />
+</svelte:head>
+
 <div class="min-h-screen flex flex-col">
     <Navigation />
     <main class="grow">
