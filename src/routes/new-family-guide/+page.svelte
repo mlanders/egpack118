@@ -1,11 +1,17 @@
 <script>
     import scouts1 from "$lib/assets/scouts1.webp";
+    import uniformCombined from "$lib/assets/cs-uniform-combined4.webp";
     import lionInsignia from "$lib/assets/den_insignias/Lion-insignia-CSBC.jpg";
     import tigerInsignia from "$lib/assets/den_insignias/TIGER-color-insignia-CSBC.jpg";
     import wolfInsignia from "$lib/assets/den_insignias/Wolf rank-color-insignia-CSBC.jpg";
     import bearInsignia from "$lib/assets/den_insignias/CS_bear-insignia-CSBC.jpg";
     import webelosInsignia from "$lib/assets/den_insignias/Webelos Oval-color-insignia-CSBC.jpg";
     import arrowOfLightInsignia from "$lib/assets/den_insignias/Arrow of Light-insignia-CSBC.jpg";
+
+    import SectionCard from "$lib/components/guide/SectionCard.svelte";
+    import ChecklistItem from "$lib/components/guide/ChecklistItem.svelte";
+    import InfoBox from "$lib/components/guide/InfoBox.svelte";
+    import RankItem from "$lib/components/guide/RankItem.svelte";
 </script>
 
 <svelte:head>
@@ -25,8 +31,7 @@
 
     <!-- Welcome Section -->
     <section class="mb-16">
-        <div class="bg-scout-blue text-white rounded-lg p-8">
-            <h2 class="text-3xl font-bold mb-4">Welcome to Pack 118!</h2>
+        <SectionCard title="Welcome to Pack 118!" variant="highlight">
             <p class="text-lg leading-relaxed">
                 We're excited to have you and your scout join our pack family!
                 This guide will help you prepare for your first meeting and
@@ -34,7 +39,7 @@
                 everything seems new—we're here to help you every step of the
                 way.
             </p>
-        </div>
+        </SectionCard>
     </section>
 
     <!-- What to Expect at Your First Meeting -->
@@ -104,158 +109,40 @@
     <section class="mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-6">What to Bring</h2>
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white border-2 border-gray-200 rounded-lg p-6">
-                <h3 class="text-xl font-bold text-scout-blue mb-4">
-                    First Meeting
-                </h3>
+            <SectionCard title="First Meeting">
                 <ul class="space-y-3 text-gray-700">
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span>Your enthusiasm and an open mind!</span>
-                    </li>
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span
-                            >Water bottle (meetings can be active and scouts get
-                            thirsty)</span
-                        >
-                    </li>
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span>Questions for the leaders (we love to help!)</span
-                        >
-                    </li>
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span>Parent/guardian must stay during the meeting</span
-                        >
-                    </li>
+                    <ChecklistItem
+                        >Your enthusiasm and an open mind!</ChecklistItem
+                    >
+                    <ChecklistItem
+                        >Water bottle (meetings can be active and scouts get
+                        thirsty)</ChecklistItem
+                    >
+                    <ChecklistItem
+                        >Questions for the leaders (we love to help!)</ChecklistItem
+                    >
+                    <ChecklistItem
+                        >Parent/guardian must stay during the meeting</ChecklistItem
+                    >
                 </ul>
-            </div>
-            <div class="bg-white border-2 border-gray-200 rounded-lg p-6">
-                <h3 class="text-xl font-bold text-scout-blue mb-4">
-                    Once Registered
-                </h3>
+            </SectionCard>
+            <SectionCard title="Once Registered">
                 <ul class="space-y-3 text-gray-700">
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span
-                            >Scout handbook (provided at registration or by den
-                            leader)</span
-                        >
-                    </li>
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span>Pencil or pen for handbook activities</span>
-                    </li>
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span>Small backpack to carry supplies</span>
-                    </li>
-                    <li class="flex items-start">
-                        <svg
-                            class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M5 13l4 4L19 7"
-                            />
-                        </svg>
-                        <span
-                            >Uniform (when available—not required immediately)</span
-                        >
-                    </li>
+                    <ChecklistItem
+                        >Scout handbook (provided at registration or by den
+                        leader)</ChecklistItem
+                    >
+                    <ChecklistItem
+                        >Pencil or pen for handbook activities</ChecklistItem
+                    >
+                    <ChecklistItem
+                        >Small backpack to carry supplies</ChecklistItem
+                    >
+                    <ChecklistItem
+                        >Uniform (when available—not required immediately)</ChecklistItem
+                    >
                 </ul>
-            </div>
+            </SectionCard>
         </div>
     </section>
 
@@ -272,10 +159,7 @@
                     and when requested by leaders. While not mandatory
                     immediately, it helps build pride and belonging.
                 </p>
-                <div class="bg-blue-50 border-l-4 border-scout-blue p-4 mb-4">
-                    <p class="font-semibold text-gray-900 mb-2">
-                        Where to Purchase:
-                    </p>
+                <InfoBox title="Where to Purchase:">
                     <ul class="text-gray-700 space-y-1">
                         <li>• Official Scout Shop (online or in-store)</li>
                         <li>
@@ -286,7 +170,7 @@
                             leader)
                         </li>
                     </ul>
-                </div>
+                </InfoBox>
                 <p class="font-semibold text-gray-900 mb-2">Components:</p>
                 <ul class="space-y-2 text-gray-700">
                     <li class="flex items-start">
@@ -325,6 +209,13 @@
                         >
                     </li>
                 </ul>
+                <div class="mt-6 flex justify-center">
+                    <img
+                        src={uniformCombined}
+                        alt="Cub Scout Class A Uniform Guide"
+                        class="max-w-full md:max-w-2xl rounded-lg shadow-md"
+                    />
+                </div>
             </div>
             <div>
                 <h3 class="text-xl font-bold text-scout-blue mb-3">
@@ -346,10 +237,7 @@
             Important Information
         </h2>
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white border-2 border-gray-200 rounded-lg p-6">
-                <h3 class="text-xl font-bold text-scout-blue mb-4">
-                    Meeting Locations
-                </h3>
+            <SectionCard title="Meeting Locations">
                 <p class="font-semibold text-gray-900 mb-2">Pack Meetings:</p>
                 <p class="text-gray-700 mb-4">
                     United Methodist Church<br />
@@ -367,11 +255,8 @@
                     Location varies by den. Your den leader will provide
                     specific details and schedule.
                 </p>
-            </div>
-            <div class="bg-white border-2 border-gray-200 rounded-lg p-6">
-                <h3 class="text-xl font-bold text-scout-blue mb-4">
-                    Parent Participation
-                </h3>
+            </SectionCard>
+            <SectionCard title="Parent Participation">
                 <p class="text-gray-700 mb-4">
                     <strong>Lion and Tiger Dens (K-1st Grade):</strong> A parent or
                     guardian must stay during all den and pack activities. This is
@@ -387,21 +272,15 @@
                     serving as a den leader, or simply being present—your
                     participation makes Pack 118 strong.
                 </p>
-            </div>
-            <div class="bg-white border-2 border-gray-200 rounded-lg p-6">
-                <h3 class="text-xl font-bold text-scout-blue mb-4">
-                    Communication
-                </h3>
+            </SectionCard>
+            <SectionCard title="Communication">
                 <p class="text-gray-700 mb-4">
                     We primarily communicate through the <strong
                         >BAND app</strong
                     >, a group communication platform that keeps families
                     connected with announcements, photos, and event updates.
                 </p>
-                <div class="bg-blue-50 border-l-4 border-scout-blue p-4 mb-4">
-                    <p class="font-semibold text-gray-900 mb-2">
-                        Download BAND:
-                    </p>
+                <InfoBox title="Download BAND:">
                     <p class="text-gray-700 mb-2">
                         <a
                             href="https://band.us/"
@@ -416,7 +295,7 @@
                         Once registered, you'll receive an invitation to join
                         our Pack 118 BAND group.
                     </p>
-                </div>
+                </InfoBox>
                 <p class="text-gray-700 mb-4">
                     Additional ways to stay informed:
                 </p>
@@ -434,12 +313,10 @@
                         <span>Announcements at pack meetings</span>
                     </li>
                 </ul>
-            </div>
-            <div class="bg-white border-2 border-gray-200 rounded-lg p-6">
-                <h3 class="text-xl font-bold text-scout-blue mb-4">
-                    Costs & Fees
-                </h3>
+            </SectionCard>
+            <SectionCard title="Costs & Fees">
                 <p class="text-gray-700 mb-4">
+                    Annual fees (per scouting year):<br />
                     <strong>Registration:</strong> $165 (Scouting America)<br />
                     <strong>Pack Fee:</strong> $100 (Pack 118)
                 </p>
@@ -448,7 +325,7 @@
                     trips, and special events. Fundraising opportunities help
                     offset some expenses.
                 </p>
-            </div>
+            </SectionCard>
         </div>
     </section>
 
@@ -457,106 +334,46 @@
         <h2 class="text-3xl font-bold text-gray-900 mb-6">
             Cub Scout Ranks by Grade
         </h2>
-        <div class="bg-white border-2 border-gray-200 rounded-lg p-8">
+        <SectionCard variant="border">
             <div class="space-y-6">
-                <div class="flex items-start gap-4">
-                    <img
-                        src={lionInsignia}
-                        alt="Lion rank insignia"
-                        class="w-16 h-16 object-contain flex-shrink-0"
-                    />
-                    <div>
-                        <h3 class="font-bold text-gray-900 text-lg">
-                            Lion (Kindergarten)
-                        </h3>
-                        <p class="text-gray-700">
-                            Introduction to Scouting with parent-led adventures
-                            and fun activities.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4">
-                    <img
-                        src={tigerInsignia}
-                        alt="Tiger rank insignia"
-                        class="w-16 h-16 object-contain flex-shrink-0"
-                    />
-                    <div>
-                        <h3 class="font-bold text-gray-900 text-lg">
-                            Tiger (1st Grade)
-                        </h3>
-                        <p class="text-gray-700">
-                            Building friendships and learning basic Scout
-                            skills.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4">
-                    <img
-                        src={wolfInsignia}
-                        alt="Wolf rank insignia"
-                        class="w-16 h-16 object-contain flex-shrink-0"
-                    />
-                    <div>
-                        <h3 class="font-bold text-gray-900 text-lg">
-                            Wolf (2nd Grade)
-                        </h3>
-                        <p class="text-gray-700">
-                            Exploring nature, community, and physical fitness.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4">
-                    <img
-                        src={bearInsignia}
-                        alt="Bear rank insignia"
-                        class="w-16 h-16 object-contain flex-shrink-0"
-                    />
-                    <div>
-                        <h3 class="font-bold text-gray-900 text-lg">
-                            Bear (3rd Grade)
-                        </h3>
-                        <p class="text-gray-700">
-                            Developing leadership and taking on more
-                            responsibility.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4">
-                    <img
-                        src={webelosInsignia}
-                        alt="Webelos rank insignia"
-                        class="w-16 h-16 object-contain flex-shrink-0"
-                    />
-                    <div>
-                        <h3 class="font-bold text-gray-900 text-lg">
-                            Webelos (4th Grade)
-                        </h3>
-                        <p class="text-gray-700">
-                            Beginning to prepare for Scouts BSA with advanced
-                            skills and leadership opportunities.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4">
-                    <img
-                        src={arrowOfLightInsignia}
-                        alt="Arrow of Light rank insignia"
-                        class="w-16 h-16 object-contain flex-shrink-0"
-                    />
-                    <div>
-                        <h3 class="font-bold text-gray-900 text-lg">
-                            Arrow of Light (5th Grade)
-                        </h3>
-                        <p class="text-gray-700">
-                            The highest rank in Cub Scouts, preparing scouts to
-                            transition to Scouts BSA (middle/high school) with
-                            advanced outdoor skills and leadership development.
-                        </p>
-                    </div>
-                </div>
+                <RankItem
+                    insignia={lionInsignia}
+                    rank="Lion"
+                    grade="Kindergarten"
+                    description="Introduction to Scouting with parent-led adventures and fun activities."
+                />
+                <RankItem
+                    insignia={tigerInsignia}
+                    rank="Tiger"
+                    grade="1st Grade"
+                    description="Building friendships and learning basic Scout skills."
+                />
+                <RankItem
+                    insignia={wolfInsignia}
+                    rank="Wolf"
+                    grade="2nd Grade"
+                    description="Exploring nature, community, and physical fitness."
+                />
+                <RankItem
+                    insignia={bearInsignia}
+                    rank="Bear"
+                    grade="3rd Grade"
+                    description="Developing leadership and taking on more responsibility."
+                />
+                <RankItem
+                    insignia={webelosInsignia}
+                    rank="Webelos"
+                    grade="4th Grade"
+                    description="Beginning to prepare for Scouts BSA with advanced skills and leadership opportunities."
+                />
+                <RankItem
+                    insignia={arrowOfLightInsignia}
+                    rank="Arrow of Light"
+                    grade="5th Grade"
+                    description="The highest rank in Cub Scouts, preparing scouts to transition to Scouts BSA (middle/high school) with advanced outdoor skills and leadership development."
+                />
             </div>
-        </div>
+        </SectionCard>
     </section>
 
     <!-- Quick Checklist -->
@@ -564,142 +381,34 @@
         <h2 class="text-3xl font-bold text-gray-900 mb-6">
             Your First Month Checklist
         </h2>
-        <div class="bg-white border-2 border-gray-200 rounded-lg p-8">
+        <SectionCard variant="border">
             <ul class="space-y-3 text-gray-700">
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span>Attend a pack meeting (2nd Tuesday at 6:15pm)</span>
-                </li>
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span>Complete registration and pay fees</span>
-                </li>
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span>Get your scout's handbook</span>
-                </li>
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span
-                        >Meet your den leader and get den meeting schedule</span
-                    >
-                </li>
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span>Attend your first den meeting</span>
-                </li>
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span
-                        >Provide contact information for pack communications</span
-                    >
-                </li>
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span>Check our calendar for upcoming events</span>
-                </li>
-                <li class="flex items-start">
-                    <svg
-                        class="w-6 h-6 text-scout-blue mr-2 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                    <span>Order a uniform (when ready)</span>
-                </li>
+                <ChecklistItem type="circle"
+                    >Attend a pack meeting (2nd Tuesday at 6:15pm)</ChecklistItem
+                >
+                <ChecklistItem type="circle"
+                    >Complete registration and pay fees</ChecklistItem
+                >
+                <ChecklistItem type="circle"
+                    >Get your scout's handbook</ChecklistItem
+                >
+                <ChecklistItem type="circle"
+                    >Meet your den leader and get den meeting schedule</ChecklistItem
+                >
+                <ChecklistItem type="circle"
+                    >Attend your first den meeting</ChecklistItem
+                >
+                <ChecklistItem type="circle"
+                    >Provide contact information for pack communications</ChecklistItem
+                >
+                <ChecklistItem type="circle"
+                    >Check our calendar for upcoming events</ChecklistItem
+                >
+                <ChecklistItem type="circle"
+                    >Order a uniform (when ready)</ChecklistItem
+                >
             </ul>
-        </div>
+        </SectionCard>
     </section>
 
     <!-- Helpful Resources -->
