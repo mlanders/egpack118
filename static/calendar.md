@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 12/4/2025, 4:39:30 PM*
+*Last updated: 12/4/2025, 7:57:36 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -8,7 +8,7 @@
 
 #### Pack Meeting
 
-**Date:** Tuesday, December 9, 2025 at 10:15 AM - 11:30 AM
+**Date:** Tuesday, December 9, 2025 at 6:15 PM - 7:30 PM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -20,7 +20,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Nimbus Fish Hatchery - Salmon Peak Season Guided Tour (FREE)
 
-**Date:** Saturday, December 13, 2025 at 9:15 AM - 11:00 AM
+**Date:** Saturday, December 13, 2025 at 5:15 PM - 7:00 PM
 
 **Location:** 2001 Nimbus Rd
 2101 Nimbus Rd, Gold River, CA 95670, USA
@@ -54,7 +54,7 @@ You can see the RSVP status of thisevent in BAND.
 
 #### Sign-up Event for Scout Expo: Option 3 of 3 ***Please RSVP if attending***
 
-**Date:** Sunday, December 14, 2025 at 2:00 PM - 3:00 PM
+**Date:** Sunday, December 14, 2025 at 10:00 PM - 11:00 PM
 
 **Location:** 9810 Collie Way, Elk Grove, CA 95757, USA
 
@@ -71,7 +71,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Wolf Den Meeting [2nd Grade] - Potential make-up/catch-up day
 
-**Date:** Tuesday, December 16, 2025 at 6:15 PM - 7:30 PM
+**Date:** Wednesday, December 17, 2025 at 2:15 AM - 3:30 AM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -88,7 +88,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Parent Meeting
 
-**Date:** Tuesday, January 6, 2026 at 10:30 AM - 11:30 AM
+**Date:** Tuesday, January 6, 2026 at 6:30 PM - 7:30 PM
 
 Zoom: https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
 
@@ -99,7 +99,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Wolf Den Meeting [2nd Grade] - Council Fire (Citizenship)
 
-**Date:** Tuesday, January 20, 2026 at 6:15 PM - 7:30 PM
+**Date:** Wednesday, January 21, 2026 at 2:15 AM - 3:30 AM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -131,7 +131,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Cub Leader Basic Training (Details TBA)
 
-**Date:** Saturday, February 7, 2026 at 9:00 AM - 4:00 PM
+**Date:** Saturday, February 7, 2026 at 5:00 PM - 12:00 AM
 
 https://scoutingevent.com/047-104534
 
@@ -158,7 +158,7 @@ Pack Committee Chair or Committee Member
 
 #### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing (Part 1 of 2)
 
-**Date:** Tuesday, February 17, 2026 at 6:15 PM - 7:30 PM
+**Date:** Wednesday, February 18, 2026 at 2:15 AM - 3:30 AM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -184,7 +184,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pinewood Derby / Blue & Gold Banquet
 
-**Date:** Saturday, February 21, 2026 at 1:00 PM - 4:00 PM
+**Date:** Saturday, February 21, 2026 at 9:00 PM - 12:00 AM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -197,7 +197,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Scouting for Food - Flyer Distribution
 
-**Date:** Saturday, March 7, 2026 at 9:00 AM - 11:00 AM
+**Date:** Saturday, March 7, 2026 at 5:00 PM - 7:00 PM
 
 **Location:** Zehnder Ranch Elementary School - EGUSD
 9880 Denali Cir, Elk Grove, CA 95757, USA
@@ -208,7 +208,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pack Meeting: Arrow of Light Crossover
 
-**Date:** Tuesday, March 10, 2026 at 6:15 PM - 7:00 PM
+**Date:** Wednesday, March 11, 2026 at 1:15 AM - 2:00 AM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -220,7 +220,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Scouting for Food - Food Pickup
 
-**Date:** Saturday, March 14, 2026 at 9:00 AM - 11:00 AM
+**Date:** Saturday, March 14, 2026 at 4:00 PM - 6:00 PM
 
 **Location:** Zehnder Ranch Elementary School - EGUSD
 9880 Denali Cir, Elk Grove, CA 95757, USA
@@ -231,7 +231,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing (Part 2 of 2)
 
-**Date:** Tuesday, March 17, 2026 at 6:15 PM - 7:30 PM
+**Date:** Wednesday, March 18, 2026 at 1:15 AM - 2:30 AM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -258,7 +258,7 @@ You cansee the RSVP status of this event in BAND.
 
 #### University of Scouting (Save the Date) - Adult/Leader Training
 
-**Date:** Saturday, March 21, 2026 at 1:00 AM - 10:00 AM
+**Date:** Saturday, March 21, 2026 at 8:00 AM - 5:00 PM
 
 (Stephanie Landers added)
 
@@ -289,7 +289,7 @@ The Golden Empire Council is giving Scouts of all ages a chanceto try Scouting l
 
 #### Wolf Den Meeting [2nd Grade] - Cubs Who Care
 
-**Date:** Tuesday, April 21, 2026 at 6:15 PM - 7:30 PM
+**Date:** Wednesday, April 22, 2026 at 1:15 AM - 2:30 AM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -324,7 +324,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Bridging Ceremony / End-of-Year Party
 
-**Date:** Tuesday, May 12, 2026 at 5:00 PM - 7:30 PM
+**Date:** Wednesday, May 13, 2026 at 12:00 AM - 2:30 AM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -336,7 +336,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Cub Leader Basic Training (Save the Date)
 
-**Date:** Saturday, May 16, 2026 at 9:00 AM - 4:00 PM
+**Date:** Saturday, May 16, 2026 at 4:00 PM - 11:00 PM
 
 https://scoutingevent.com/047-104535
 
