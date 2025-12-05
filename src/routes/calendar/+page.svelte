@@ -1,3 +1,57 @@
+<script lang="ts">
+    import type { PageData } from "./$types";
+    import ViewToggle from "$lib/components/calendar/ViewToggle.svelte";
+    import EventModal from "$lib/components/calendar/EventModal.svelte";
+    import MonthCalendarGrid from "$lib/components/calendar/MonthCalendarGrid.svelte";
+    import MonthEventList from "$lib/components/calendar/MonthEventList.svelte";
+
+    let { data }: { data: PageData } = $props();
+
+    let viewMode = $state<"list" | "calendar">("list");
+    let expandedEvents = $state<Record<string, boolean>>({});
+    let collapsedMonths = $state<Record<string, boolean>>({});
+    let selectedEvent = $state<{
+        title: string;
+        date: string;
+        time?: string;
+        location?: string;
+        description?: string;
+    } | null>(null);
+    let showModal = $state(false);
+
+    function toggleExpanded(eventId: string) {
+        expandedEvents[eventId] = !expandedEvents[eventId];
+    }
+
+    function openModal(event: {
+        title: string;
+        date: string;
+        time?: string;
+        location?: string;
+        description?: string;
+    }) {
+        selectedEvent = event;
+        showModal = true;
+    }
+
+    function closeModal() {
+        showModal = false;
+        selectedEvent = null;
+    }
+
+    function toggleMonth(monthName: string) {
+        collapsedMonths[monthName] = !collapsedMonths[monthName];
+    }
+
+    function isMonthCollapsed(monthName: string): boolean {
+        return collapsedMonths[monthName] || false;
+    }
+
+    function setViewMode(mode: "list" | "calendar") {
+        viewMode = mode;
+    }
+</script>
+
 <svelte:head>
     <title>Calendar - Cub Scout Pack 118</title>
 </svelte:head>
@@ -37,19 +91,70 @@
             </a>
         </div>
 
-        <!-- Calendar Embed -->
-        <div
-            class="bg-white border-2 border-gray-200 rounded-lg overflow-hidden shadow-lg"
-        >
-            <div class="aspect-4/3 w-full">
-                <iframe
-                    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&src=ZWxrZ3JvdmVwYWNrMTE4QGdtYWlsLmNvbQ&src=MDhiNWNjZmY4OTk4ZGU2YTk1MTMwNDA4Y2JmNWViMGZhNmEyOGE3NTAxZmI3MTBhYWJkMjVkMTA5ZTJhY2VmZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bGQyYzcwZTIwa290NXBhbG5pMnNrZDYxYmpscjcxczZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039be5&color=%23f09300&color=%230b8043&color=%23f6bf26"
-                    class="w-full h-full border border-gray-300"
-                    frameborder="0"
-                    scrolling="no"
-                    title="Pack 118 Calendar"
-                ></iframe>
-            </div>
+        <!-- View Toggle and Last Updated -->
+        <div class="flex justify-between items-center mb-6">
+            <ViewToggle {viewMode} onToggle={setViewMode} />
+
+            {#if data.lastUpdated}
+                <div class="text-sm text-gray-500">
+                    Last updated: {data.lastUpdated as string}
+                </div>
+            {/if}
         </div>
+
+        <!-- Calendar Grid View -->
+        {#if viewMode === "calendar"}
+            {#if data.calendarData.length > 0}
+                <div class="space-y-8">
+                    {#each data.calendarData as monthData}
+                        <MonthCalendarGrid
+                            {monthData}
+                            isCollapsed={isMonthCollapsed(monthData.month)}
+                            onToggleCollapse={() =>
+                                toggleMonth(monthData.month)}
+                            onEventClick={openModal}
+                        />
+                    {/each}
+                </div>
+            {:else}
+                <div
+                    class="bg-white border-2 border-gray-200 rounded-lg shadow-lg p-12 text-center text-gray-500"
+                >
+                    <p class="text-lg">
+                        No upcoming events scheduled at this time.
+                    </p>
+                </div>
+            {/if}
+        {/if}
+
+        <!-- List View -->
+        {#if viewMode === "list"}
+            {#if data.events.length > 0}
+                <div class="space-y-8">
+                    {#each data.events as monthGroup, monthIndex}
+                        <MonthEventList
+                            {monthGroup}
+                            {monthIndex}
+                            isCollapsed={isMonthCollapsed(monthGroup.month)}
+                            {expandedEvents}
+                            onToggleCollapse={() =>
+                                toggleMonth(monthGroup.month)}
+                            onToggleEventExpand={toggleExpanded}
+                        />
+                    {/each}
+                </div>
+            {:else}
+                <div
+                    class="bg-white border-2 border-gray-200 rounded-lg shadow-lg p-12 text-center text-gray-500"
+                >
+                    <p class="text-lg">
+                        No upcoming events scheduled at this time.
+                    </p>
+                </div>
+            {/if}
+        {/if}
     </div>
 </div>
+
+<!-- Event Details Modal -->
+<EventModal show={showModal} event={selectedEvent} onClose={closeModal} />
