@@ -1,26 +1,91 @@
 <script lang="ts">
-    let mobileMenuOpen = $state(false);
-    let resourcesDropdownOpen = $state(false);
+    import cubScoutsLogo from "$lib/assets/cub-scouts-logo.png";
 
-    function toggleMobileMenu() {
+    interface NavLink {
+        href: string;
+        label: string;
+        external?: boolean;
+    }
+
+    interface NavSection {
+        type: "link" | "dropdown";
+        label: string;
+        href?: string;
+        items?: NavLink[];
+    }
+
+    // Navigation configuration - single source of truth
+    const navigationConfig: NavSection[] = [
+        { type: "link", label: "Home", href: "/" },
+        { type: "link", label: "Calendar", href: "/calendar" },
+        {
+            type: "dropdown",
+            label: "Activities",
+            items: [
+                { href: "/activities", label: "Activities Overview" },
+                { href: "/pinewood-derby", label: "Pinewood Derby" },
+            ],
+        },
+        {
+            type: "dropdown",
+            label: "For Families",
+            items: [
+                { href: "/new-family-guide", label: "New Family Guide" },
+                { href: "/faq", label: "FAQ" },
+            ],
+        },
+        {
+            type: "dropdown",
+            label: "Resources",
+            items: [
+                { href: "/become-a-leader", label: "Become a Leader" },
+                {
+                    href: "https://advancements.scouting.org/",
+                    label: "Scouting Advancements",
+                    external: true,
+                },
+                {
+                    href: "https://gec-bsa.org/",
+                    label: "Golden Empire Council",
+                    external: true,
+                },
+            ],
+        },
+    ];
+
+    // State management for dropdowns - track which dropdown is open
+    let mobileMenuOpen = $state(false);
+    let openDropdown = $state<string | null>(null);
+
+    function toggleMobileMenu(): void {
         mobileMenuOpen = !mobileMenuOpen;
     }
 
-    function closeMobileMenu() {
+    function closeMobileMenu(): void {
         mobileMenuOpen = false;
+        openDropdown = null;
     }
 
-    function toggleResourcesDropdown() {
-        resourcesDropdownOpen = !resourcesDropdownOpen;
+    function toggleDropdown(label: string): void {
+        openDropdown = openDropdown === label ? null : label;
     }
 
-    function openResourcesDropdown() {
-        resourcesDropdownOpen = true;
+    function openDropdownMenu(label: string): void {
+        openDropdown = label;
     }
 
-    function closeResourcesDropdown() {
-        resourcesDropdownOpen = false;
+    function closeDropdown(): void {
+        openDropdown = null;
     }
+
+    function isDropdownOpen(label: string): boolean {
+        return openDropdown === label;
+    }
+
+    // External link icon SVG
+    const externalLinkIcon = `<svg class="inline w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+    </svg>`;
 </script>
 
 <nav class="bg-white shadow-lg sticky top-0 z-50">
@@ -38,7 +103,7 @@
                         class="relative w-16 h-16 flex items-center justify-center"
                     >
                         <img
-                            src="/images/cub-scouts-logo.png"
+                            src={cubScoutsLogo}
                             alt="Cub Scouts Logo"
                             class="w-full h-full object-contain drop-shadow-lg group-hover:brightness-110 transition-all"
                         />
@@ -60,113 +125,71 @@
 
             <!-- Desktop Navigation -->
             <div class="hidden md:flex space-x-2 items-center">
-                <a
-                    href="/"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Home</a
-                >
-                <a
-                    href="/calendar"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Calendar</a
-                >
-                <a
-                    href="/activities"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Activities</a
-                >
-                <a
-                    href="/pinewood-derby"
-                    class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
-                    >Pinewood Derby</a
-                >
-
-                <!-- Resources Dropdown -->
-                <div
-                    class="relative"
-                    role="group"
-                    onmouseleave={() => closeResourcesDropdown()}
-                >
-                    <button
-                        class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105 flex items-center gap-1"
-                        onmouseenter={() => openResourcesDropdown()}
-                        onclick={() => toggleResourcesDropdown()}
-                    >
-                        Resources
-                        <svg
-                            class="w-4 h-4 transition-transform {resourcesDropdownOpen
-                                ? 'rotate-180'
-                                : ''}"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
+                {#each navigationConfig as navItem}
+                    {#if navItem.type === "link"}
+                        <a
+                            href={navItem.href}
+                            class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
                         >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M19 9l-7 7-7-7"
-                            />
-                        </svg>
-                    </button>
-
-                    {#if resourcesDropdownOpen}
-                        <div class="absolute right-0 mt-0 pt-2 w-64">
-                            <div
-                                class="bg-white rounded-lg shadow-lg border border-gray-200 py-2"
+                            {navItem.label}
+                        </a>
+                    {:else if navItem.type === "dropdown"}
+                        <div class="relative" onmouseleave={closeDropdown}>
+                            <button
+                                class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105 flex items-center gap-1"
+                                onmouseenter={() =>
+                                    openDropdownMenu(navItem.label)}
+                                onclick={() => toggleDropdown(navItem.label)}
                             >
-                                <a
-                                    href="/become-a-leader"
-                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
+                                {navItem.label}
+                                <svg
+                                    class="w-4 h-4 transition-transform {isDropdownOpen(
+                                        navItem.label,
+                                    )
+                                        ? 'rotate-180'
+                                        : ''}"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
                                 >
-                                    Become a Leader
-                                </a>
-                                <a
-                                    href="https://advancements.scouting.org/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                >
-                                    Scouting Advancements
-                                    <svg
-                                        class="inline w-3 h-3 ml-1"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 9l-7 7-7-7"
+                                    />
+                                </svg>
+                            </button>
+
+                            {#if isDropdownOpen(navItem.label)}
+                                <div class="absolute right-0 mt-0 pt-2 w-64">
+                                    <div
+                                        class="bg-white rounded-lg shadow-lg border border-gray-200 py-2"
                                     >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                        />
-                                    </svg>
-                                </a>
-                                <a
-                                    href="https://gec-bsa.org/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
-                                >
-                                    Golden Empire Council
-                                    <svg
-                                        class="inline w-3 h-3 ml-1"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                        />
-                                    </svg>
-                                </a>
-                            </div>
+                                        {#each navItem.items ?? [] as item}
+                                            <a
+                                                href={item.href}
+                                                target={item.external
+                                                    ? "_blank"
+                                                    : undefined}
+                                                rel={item.external
+                                                    ? "noopener noreferrer"
+                                                    : undefined}
+                                                class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 transition-all"
+                                                onclick={closeDropdown}
+                                            >
+                                                {item.label}
+                                                {#if item.external}
+                                                    {@html externalLinkIcon}
+                                                {/if}
+                                            </a>
+                                        {/each}
+                                    </div>
+                                </div>
+                            {/if}
                         </div>
                     {/if}
-                </div>
+                {/each}
             </div>
 
             <!-- Mobile Menu Button -->
@@ -212,105 +235,66 @@
     {#if mobileMenuOpen}
         <div class="md:hidden border-t border-scout-blue/20 bg-white">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a
-                    href="/"
-                    class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
-                    onclick={closeMobileMenu}>Home</a
-                >
-                <a
-                    href="/calendar"
-                    class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
-                    onclick={closeMobileMenu}>Calendar</a
-                >
-                <a
-                    href="/activities"
-                    class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
-                    onclick={closeMobileMenu}>Activities</a
-                >
-                <a
-                    href="/pinewood-derby"
-                    class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
-                    onclick={closeMobileMenu}>Pinewood Derby</a
-                >
-
-                <!-- Resources Section (Mobile) -->
-                <div class="space-y-1">
-                    <button
-                        class="w-full text-left px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all flex items-center justify-between"
-                        onclick={toggleResourcesDropdown}
-                    >
-                        Resources
-                        <svg
-                            class="w-4 h-4 transition-transform {resourcesDropdownOpen
-                                ? 'rotate-180'
-                                : ''}"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
+                {#each navigationConfig as navItem}
+                    {#if navItem.type === "link"}
+                        <a
+                            href={navItem.href}
+                            class="block px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
+                            onclick={closeMobileMenu}
                         >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M19 9l-7 7-7-7"
-                            />
-                        </svg>
-                    </button>
+                            {navItem.label}
+                        </a>
+                    {:else if navItem.type === "dropdown"}
+                        <div class="space-y-1">
+                            <button
+                                class="w-full text-left px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all flex items-center justify-between"
+                                onclick={() => toggleDropdown(navItem.label)}
+                            >
+                                {navItem.label}
+                                <svg
+                                    class="w-4 h-4 transition-transform {isDropdownOpen(
+                                        navItem.label,
+                                    )
+                                        ? 'rotate-180'
+                                        : ''}"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 9l-7 7-7-7"
+                                    />
+                                </svg>
+                            </button>
 
-                    {#if resourcesDropdownOpen}
-                        <div class="pl-4 space-y-1">
-                            <a
-                                href="/become-a-leader"
-                                class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
-                                onclick={closeMobileMenu}>Become a Leader</a
-                            >
-                            <a
-                                href="https://advancements.scouting.org/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
-                                onclick={closeMobileMenu}
-                            >
-                                Scouting Advancements
-                                <svg
-                                    class="inline w-3 h-3 ml-1"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                    />
-                                </svg>
-                            </a>
-                            <a
-                                href="https://gec-bsa.org/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
-                                onclick={closeMobileMenu}
-                            >
-                                Golden Empire Council
-                                <svg
-                                    class="inline w-3 h-3 ml-1"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                    />
-                                </svg>
-                            </a>
+                            {#if isDropdownOpen(navItem.label)}
+                                <div class="pl-4 space-y-1">
+                                    {#each navItem.items ?? [] as item}
+                                        <a
+                                            href={item.href}
+                                            target={item.external
+                                                ? "_blank"
+                                                : undefined}
+                                            rel={item.external
+                                                ? "noopener noreferrer"
+                                                : undefined}
+                                            class="block px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
+                                            onclick={closeMobileMenu}
+                                        >
+                                            {item.label}
+                                            {#if item.external}
+                                                {@html externalLinkIcon}
+                                            {/if}
+                                        </a>
+                                    {/each}
+                                </div>
+                            {/if}
                         </div>
                     {/if}
-                </div>
+                {/each}
             </div>
         </div>
     {/if}

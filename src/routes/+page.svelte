@@ -113,6 +113,9 @@
 <!-- Costs Section -->
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Costs</h2>
+    <p class="text-gray-700 mb-6 text-lg">
+        The following fees are paid annually (per scouting year):
+    </p>
     <div class="grid md:grid-cols-2 gap-8">
         <div class="bg-white border-2 border-gray-200 rounded-lg p-8">
             <h3 class="text-2xl font-bold text-scout-blue mb-4">
