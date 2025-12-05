@@ -97,7 +97,7 @@
 
             {#if data.lastUpdated}
                 <div class="text-sm text-gray-500">
-                    Last updated: {data.lastUpdated}
+                    Last updated: {data.lastUpdated as string}
                 </div>
             {/if}
         </div>

@@ -167,7 +167,7 @@
 
     <!-- Call to Action -->
     <div
-        class="mt-16 bg-gradient-to-r from-scout-blue to-blue-600 text-white rounded-lg p-8 text-center"
+        class="mt-16 bg-linear-to-r from-scout-blue to-blue-600 text-white rounded-lg p-8 text-center"
     >
         <h2 class="text-3xl font-bold mb-4">Ready to Join the Adventure?</h2>
         <p class="text-xl mb-6">
