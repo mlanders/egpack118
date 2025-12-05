@@ -120,7 +120,7 @@ function generateMarkdown(events) {
     .sort((a, b) => a.startDate - b.startDate);
 
   let markdown = `# Pack 118 Calendar\n\n`;
-  markdown += `*Last updated: ${now.toLocaleString("en-US", { timeZone: "America/New_York" })}*\n\n`;
+  markdown += `*Last updated: ${now.toLocaleString("en-US", { timeZone: "America/Los_Angeles" })}*\n\n`;
   markdown += `## Upcoming Events (Next 6 Months)\n\n`;
 
   if (filteredEvents.length === 0) {
