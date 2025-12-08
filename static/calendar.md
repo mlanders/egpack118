@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 12/7/2025, 10:28:21 AM*
+*Last updated: 12/7/2025, 5:45:36 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -358,6 +358,16 @@ Pack Committee Chair or Committee Member
  
 
 Council Vice President TrainingKim Perry-Reed kperryr@gmail.com or 916-203-5711
+
+(Stephanie Landers added)
+
+---
+
+### June 2026
+
+#### GEC Cub Scout Twighlight Camp (evenings only)
+
+**Date:** Monday, June 8, 2026
 
 (Stephanie Landers added)
 
