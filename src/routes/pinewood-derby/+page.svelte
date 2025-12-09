@@ -1,5 +1,26 @@
 <script>
     import pinewood_derby from "/src/lib/assets/activities/pinewood_derby.webp";
+    import derby_templates_1 from "/src/lib/assets/pinewood_derby_templates/derby_templates_1.pdf";
+    import derby_templates_2 from "/src/lib/assets/pinewood_derby_templates/derby_templates_2.pdf";
+    import derby_templates_3 from "/src/lib/assets/pinewood_derby_templates/derby_templates_3.pdf";
+    import derby_templates_4 from "/src/lib/assets/pinewood_derby_templates/derby_templates_4.pdf";
+    import derby_templates_5 from "/src/lib/assets/pinewood_derby_templates/derby_templates_5.pdf";
+    import derby_templates_6 from "/src/lib/assets/pinewood_derby_templates/derby_templates_6.pdf";
+    import derby_templates_7 from "/src/lib/assets/pinewood_derby_templates/derby_templates_7.pdf";
+    import derby_templates_8 from "/src/lib/assets/pinewood_derby_templates/derby_templates_8.pdf";
+    import pwdtemplate from "/src/lib/assets/pinewood_derby_templates/pwdtemplate.pdf";
+
+    const templates = [
+        { name: "Main PWD Template", file: pwdtemplate },
+        { name: "Car Template 1", file: derby_templates_1 },
+        { name: "Car Template 2", file: derby_templates_2 },
+        { name: "Car Template 3", file: derby_templates_3 },
+        { name: "Car Template 4", file: derby_templates_4 },
+        { name: "Car Template 5", file: derby_templates_5 },
+        { name: "Car Template 6", file: derby_templates_6 },
+        { name: "Car Template 7", file: derby_templates_7 },
+        { name: "Car Template 8", file: derby_templates_8 },
+    ];
 </script>
 
 <svelte:head>
@@ -40,7 +61,7 @@
     </div>
 
     <!-- Rules Section -->
-    <div class="bg-white border-2 border-gray-200 rounded-lg p-8">
+    <div class="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
         <h2 class="text-3xl font-bold text-gray-900 mb-6">
             Pinewood Derby Rules
         </h2>
@@ -112,6 +133,57 @@
                     Cub Scout with minimal adult assistance for safety purposes.
                 </li>
             </ol>
+        </div>
+    </div>
+
+    <!-- Templates Section -->
+    <div class="bg-white border-2 border-gray-200 rounded-lg p-8 mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">
+            Car Design Templates
+        </h2>
+        <p class="text-gray-600 mb-6">
+            Click on any template to download the PDF.
+        </p>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {#each templates as template}
+                <a
+                    href={template.file}
+                    download
+                    class="block border-2 border-gray-200 rounded-lg hover:border-scout-blue transition-all group overflow-hidden"
+                >
+                    <div
+                        class="bg-gray-100 aspect-[8.5/11] flex items-center justify-center"
+                    >
+                        <embed
+                            src={template.file}
+                            type="application/pdf"
+                            class="w-full h-full pointer-events-none"
+                        />
+                    </div>
+                    <div
+                        class="p-3 bg-white group-hover:bg-blue-50 flex items-center justify-between"
+                    >
+                        <span class="font-medium text-gray-900 text-sm"
+                            >{template.name}</span
+                        >
+                        <svg
+                            class="w-4 h-4 text-gray-400 group-hover:text-scout-blue flex-shrink-0 ml-2"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                            />
+                        </svg>
+                    </div>
+                </a>
+            {/each}
         </div>
     </div>
 
