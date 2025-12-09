@@ -1,22 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 12/9/2025, 8:11:49 AM*
+*Last updated: 12/9/2025, 10:29:37 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### December 2025
-
-#### Pack Meeting
-
-**Date:** Tuesday, December 9, 2025 at 6:15 PM - 7:30 PM
-
-**Location:** Point Pleasant United Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
-
----
 
 #### Nimbus Fish Hatchery - Salmon Peak Season Guided Tour (FREE)
 
