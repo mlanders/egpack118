@@ -13,6 +13,7 @@ export const WHITELIST = {
    */
   blockedLocations: [
     "9810 Collie Way",
+    "8549 Amares Cir",
     // Add more private addresses here
   ],
 
