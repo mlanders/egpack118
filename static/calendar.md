@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 12/9/2025, 10:29:37 AM*
+*Last updated: 12/9/2025, 5:46:42 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -85,6 +85,15 @@ Reach out tous if any questions
 
 You can see the RSVP status of this event in BAND.
 (Liliana Garcia added)
+
+---
+
+#### Webelos-4th Grade Den Meeting
+
+**Date:** Sunday, December 28, 2025 at 10:00 PM - 11:30 PM
+
+You can see the RSVP status of this event in BAND.
+(John Fraser added)
 
 ---
 
