@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 12/10/2025, 10:32:36 AM*
+*Last updated: 12/10/2025, 5:47:46 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -106,6 +106,27 @@ You can see the RSVP status of this event in BAND.
 Zoom: https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
 
 You can see the RSVP status of this event in BAND.
+(Michael Landers added)
+
+---
+
+#### Sacramento Kings Scout Night
+
+**Date:** Monday, January 19, 2026 at 2:00 AM
+
+**Location:** Golden 1 Center
+500 David J Stern Walk, Sacramento, CA 95814,USA
+
+Sacramento Kings Scout Night is the perfect chance to unite asa Scouting community while enjoying an exciting NBA game. Bring your Troop, Pack, or family for a night to remember!
+
+🏀 Everyone who purchases aticket off this link will be able to shoot a free throw after the game!
+
+Prices vary from $60 to $177 per ticket (Includes all fees)
+
+https://kings.spinzo.com/trail-blazers-vs-kings-2026-01-18-DAYWW?group=golden-empire-fmf6
+
+
+
 (Michael Landers added)
 
 ---
