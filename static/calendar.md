@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 12/12/2025, 10:34:05 AM*
+*Last updated: 12/12/2025, 5:41:22 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -37,6 +37,17 @@ This outing has been planned for the Wolf Den [2nd Grade] toward the “A Wolf G
 
 You can see the RSVP status of thisevent in BAND.
 (Stephanie Landers added)
+
+---
+
+#### 5th Grade - Den Meeting
+
+**Date:** Saturday, December 13, 2025 at 9:00 PM - 10:30 PM
+
+**Location:** 7217 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+You can see the RSVP status of this event in BAND.
+(Robert Rollins added)
 
 ---
 
