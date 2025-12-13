@@ -1,44 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 12/13/2025, 4:40:43 AM*
+*Last updated: 12/13/2025, 10:28:16 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### December 2025
-
-#### Nimbus Fish Hatchery - Salmon Peak Season Guided Tour (FREE)
-
-**Date:** Saturday, December 13, 2025 at 5:15 PM - 7:00 PM
-
-**Location:** 2001 Nimbus Rd
-2101 Nimbus Rd, Gold River, CA 95670, USA
-
-**RSVP REQUIRED** Must have at least 15 participants but no more than 35.
-
-Dive into the science of Chinook Salmon! Join one of our naturalists for a free, guided tour at the Nimbus Fish Hatchery to learn moreabout salmon, steelhead, and the amazing American River! We will explorethe Nimbus Visitor Center, the American River Discovery Trail, and the hatchery raceways. During the tour, we will cover the life cycle and biologyof steelhead trout, their habitat needs, and human impact on riparian ecosystems. 
-
-November and December are peak season months for Chinook salmon. During this time, the fish ladder is open, and you can expect to seeadult salmon in both the ladder and viewing windows. 
-
-Field Trip Guidelines: https://bit.ly/NimbusFieldTripGuidelines 
-
-Chaperone Tips: https://bit.ly/NimbusChaperoneTips 
-
-SUGGESTED ATTIRE: 
-- Pack 118 T-Shirt
-- Close-toed shoes
-- Appropriate outdoor attire/jackets
-
-MEETING INFORMATION:
-- Meet between 9:15-9:30 at the group meeting area (top right of attached screenshot) the tour will start at 9:30AM and lasts approximately 90 minutes.
-- No food should be brought into the visitor center or hatchery. Youmay eat snacks at the picnic table outside after the tour, if you would like.
-
-ADVANCEMENTS:
-This outing has been planned for the Wolf Den [2nd Grade] toward the “A Wolf Goes Fishing” elective (Req 1), but all Pack 118 families are invited to join. Refer to your Cub’s rank for possible advancement opportunities with this outing.
-
-You can see the RSVP status of thisevent in BAND.
-(Stephanie Landers added)
-
----
 
 #### 5th Grade - Den Meeting
 
