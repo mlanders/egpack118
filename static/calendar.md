@@ -1,21 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 12/13/2025, 10:28:16 AM*
+*Last updated: 12/13/2025, 5:52:51 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### December 2025
-
-#### 5th Grade - Den Meeting
-
-**Date:** Saturday, December 13, 2025 at 9:00 PM - 10:30 PM
-
-**Location:** 7217 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-You can see the RSVP status of this event in BAND.
-(Robert Rollins added)
-
----
 
 #### Sign-up Event for Scout Expo: Option 3 of 3 ***Please RSVP if attending***
 
@@ -381,6 +370,15 @@ Council Vice President TrainingKim Perry-Reed kperryr@gmail.com or 916-203-5711
 **Date:** Monday, June 8, 2026
 
 (Stephanie Landers added)
+
+---
+
+#### Annual Planning Meeting – All parents welcome
+
+**Date:** Saturday, June 13, 2026 at 10:00 PM - 12:00 AM
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
 
 ---
 
