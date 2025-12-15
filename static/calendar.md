@@ -1,27 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 12/14/2025, 10:29:33 AM*
+*Last updated: 12/14/2025, 5:50:44 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### December 2025
-
-#### Sign-up Event for Scout Expo: Option 3 of 3 ***Please RSVP if attending***
-
-**Date:** Sunday, December 14, 2025 at 10:00 PM - 11:00 PM
-
-**Location:** 9810 Collie Way, Elk Grove, CA 95757, USA
-
-Scout Expo is a huge event put on by The Golden Empire Council.Full details of the event here: https://www.gec-bsa.org/programs
-
-This is like having the jamboree come to us!
-
-Since this is held on an Air Force Base, there is lots of paperwork to complete to be cleared. CM Mike is hosting three options to walk through the paperwork for those planning to attend Scout Expo in April 2026. These sign-up meetings are IN-PERSON ONLY sohe can collect all the necessary forms. Bring your checkbook and your Driver's License.
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Wolf Den Meeting [2nd Grade] - Potential make-up/catch-up day
 
