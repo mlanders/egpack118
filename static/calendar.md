@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 12/17/2025, 4:48:29 AM*
+*Last updated: 12/17/2025, 10:34:33 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -51,7 +51,7 @@ Passcode: BY8NXk
 
 #### Webelos-4th Grade Den Meeting
 
-**Date:** Sunday, December 28, 2025 at 10:00 PM - 11:30 PM
+**Date:** Sunday, December 28, 2025 at 11:00 PM - 12:30 AM
 
 You can see the RSVP status of this event in BAND.
 (John Fraser added)
