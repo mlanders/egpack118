@@ -1,38 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 12/16/2025, 5:43:26 PM*
+*Last updated: 12/16/2025, 10:35:25 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### December 2025
-
-#### Wolf Den Meeting [2nd Grade] - Outdoor Code & LNT Books; Bobcat Wrap-up
-
-**Date:** Wednesday, December 17, 2025 at 2:15 AM - 3:30 AM
-
-**Location:** 9810 Collie Way
-9810 Collie Way, Elk Grove, CA 95757, USA
-
-ADVENTURE FOCUS: 
-Paws on the Path (https://www.scouting.org/cub-scout-adventures/paws-on-the-path/)
-
-ATTIRE & MATERIALS
-Cub Scout Uniform
-Wolf handbook (if they have one)
-
-AGENDA
-- 6:15-6:30pm - Gatheringtime - work on Emoji Scout Law and/or Sketchy Weather Wardrobe worksheet
-- 6:30pm - Opening (Oath, Law), awards
-- 6:35pm -  Overview activities
-- 6:40pm - Make Outdoor Code & Leave No Trace Booklets (https://www.scouting.org/cub-scout-activities/outdoor-code-and-leave-no-trace-booklet/)
-- 7pm- Six Essentials game, Buddy game
-- 7:15pm - Decorate sugar cookies
-- 7:25pm - Closing
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Bear Dean Meeting
 
