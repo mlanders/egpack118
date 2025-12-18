@@ -1,26 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 12/17/2025, 5:43:33 PM*
+*Last updated: 12/17/2025, 10:35:20 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### December 2025
-
-#### Bear Dean Meeting
-
-**Date:** Thursday, December 18, 2025 at 2:15 AM - 3:15 AM
-
-**Location:** 8549 Amares Cir, Elk Grove, CA 95757, USA
-
-Hello Bear Dean Families. We hope to meet all our families andcubs again. This next meeting is our first meeting as Den leaders and we are very excited to meet you all at our house. This meeting will focus to getto know new member of the den and complete some of the remaining requirements for Bear Habitat (Outdoors). For new members, we will work on Bobcat adventure as we get to know each other. if you are a new member and haven'tcomplete the requirement #8 of Bobcat, please complete before our meeting.https://www.scouting.org/cub-scout-activities/child-abuse-protection-review-bear/
-Our Denner for this meeting is our Cub Scout Dominic.
-Reach out tous if any questions
-
-
-You can see the RSVP status of this event in BAND.
-(Liliana Garcia added)
-
----
 
 #### Scout Expo – Critical FAQs [Zoom - hosted by GEC]
 
