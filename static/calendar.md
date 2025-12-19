@@ -1,37 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 12/18/2025, 5:47:06 PM*
+*Last updated: 12/18/2025, 10:33:59 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### December 2025
-
-#### Scout Expo – Critical FAQs [Zoom - hosted by GEC]
-
-**Date:** Friday, December 19, 2025 at 3:00 AM
-
-Message from Scout Expo Director: 
-
-We are now less than fourmonths away from Scout Expo 2026, and the energy is incredible! The success of this monumental event rests on the commitment and preparedness of every single one of us.
-
-To ensure we are all aligned for a flawless execution, The Scout Expo 2026 Planning Committee is hosting a virtual FAQ Nightto review important logistical updates and answer all your remaining questions regarding the upcoming event.
-
-To help us maximize our time togetherand focus on the most pressing issues, please submit any questions you have in advance by sending them to GECScoutexpo@gmail.com 
-
-Date: Thursday,December 18th, 2025
-Time: 7:00 PM (PST - Adjust time zone as needed)
-Location: Zoom Meeting
-Zoom Link:   Join Zoom Meeting
-https://us02web.zoom.us/j/82750539898?pwd=F209ddv8KM1M6pR0LNlhtxhDWuUAyp.1 
-
-Meeting ID: 827 5053 9898
-Passcode: BY8NXk
-
-
-
-(Stephanie Landers added)
-
----
 
 #### Webelos-4th Grade Den Meeting
 
