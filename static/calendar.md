@@ -1,21 +1,19 @@
 # Pack 118 Calendar
 
-*Last updated: 12/24/2025, 5:48:13 PM*
+*Last updated: 12/24/2025, 10:35:25 PM*
 
 ## Upcoming Events (Next 6 Months)
 
-### December 2025
+### January 2026
 
 #### Webelos-4th Grade Den Meeting
 
-**Date:** Sunday, December 28, 2025 at 11:00 PM - 12:30 AM
+**Date:** Sunday, January 4, 2026 at 11:00 PM - 12:30 AM
 
 You can see the RSVP status of this event in BAND.
 (John Fraser added)
 
 ---
-
-### January 2026
 
 #### Parent Meeting
 
