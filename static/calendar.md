@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/1/2026, 5:50:21 PM*
+*Last updated: 1/1/2026, 10:35:36 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -23,6 +23,24 @@ Zoom: https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
 
 You can see the RSVP status of this event in BAND.
 (Michael Landers added)
+
+---
+
+#### Bear Dean Meeting January
+
+**Date:** Thursday, January 15, 2026 at 2:30 AM - 3:30 AM
+
+**Location:** 8548 Amares Cir, Elk Grove, CA 95757, USA
+
+Happy New Year Bear Families! We are getting ready for our nextden meeting in January. We aim to complete some items left from our Adventure Paws of Action and move into the next Adventure Standing Tall. This Adventure will focus on personal safety and this include sensitive topics thatare encourage to be discussed at home.  The first requirement is to have families watch the video at home. See link attached. Parents, before watching the video with your kids, We recommend to read the Parent Notificationand sign the form and bring to our meeting.  (see PDF attached) 
+https://vimeo.com/325064786.
+If any questions, please let us know. This is recommended to be completed at home before the Den Meeting.
+Noah and Reylee's parents, We will send a separate message to coordinate an early starting timewith you both to get kids caught up.
+Thank you again and looking forwardto see everyone.
+PD. Our Next Denner is Noah.
+
+You can see the RSVP status of this event in BAND.
+(Liliana Garcia added)
 
 ---
 
