@@ -1,21 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 1/6/2026, 4:48:15 AM*
+*Last updated: 1/6/2026, 10:34:03 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
-
-#### Parent Meeting
-
-**Date:** Tuesday, January 6, 2026 at 6:30 PM - 7:30 PM
-
-Zoom: https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
-
-You can see the RSVP status of this event in BAND.
-(Michael Landers added)
-
----
 
 #### Bear Dean Meeting January
 
