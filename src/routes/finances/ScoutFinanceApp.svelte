@@ -13,6 +13,10 @@
     import Transactions from "./components/Transactions.svelte";
     import Reconciliation from "./components/Reconciliation.svelte";
     import YearSummary from "./components/YearSummary.svelte";
+    import AddScoutModal from "./components/AddScoutModal.svelte";
+    import AddTransactionModal from "./components/AddTransactionModal.svelte";
+    import AddPackTransactionModal from "./components/AddPackTransactionModal.svelte";
+    import NewFiscalYearModal from "./components/NewFiscalYearModal.svelte";
 
     // Types
     interface Scout {
@@ -894,383 +898,50 @@
 </div>
 
 <!-- Add Scout Modal -->
-{#if showAddScoutModal}
-    <div
-        class="modal active"
-        onclick={(e) => {
-            if (e.target === e.currentTarget) showAddScoutModal = false;
-        }}
-    >
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Add New Scout</h2>
-                <span class="close" onclick={() => (showAddScoutModal = false)}
-                    >&times;</span
-                >
-            </div>
-            <form
-                onsubmit={(e) => {
-                    e.preventDefault();
-                    addScout();
-                }}
-            >
-                <div class="form-group">
-                    <label for="scout-name">Scout Name *</label>
-                    <input
-                        type="text"
-                        id="scout-name"
-                        bind:value={scoutForm.name}
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="beginning-balance">Beginning Balance</label>
-                    <input
-                        type="number"
-                        id="beginning-balance"
-                        step="0.01"
-                        bind:value={scoutForm.beginningBalance}
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="scout-notes">Notes</label>
-                    <textarea id="scout-notes" bind:value={scoutForm.notes}
-                    ></textarea>
-                </div>
-                <div class="form-actions">
-                    <button
-                        type="button"
-                        class="btn btn-secondary"
-                        onclick={() => (showAddScoutModal = false)}
-                        >Cancel</button
-                    >
-                    <button type="submit" class="btn btn-primary"
-                        >Add Scout</button
-                    >
-                </div>
-            </form>
-        </div>
-    </div>
-{/if}
+<AddScoutModal
+    show={showAddScoutModal}
+    {scoutForm}
+    onClose={() => (showAddScoutModal = false)}
+    onSubmit={addScout}
+    onUpdateForm={(field, value) => {
+        scoutForm = { ...scoutForm, [field]: value };
+    }}
+/>
 
 <!-- Add Transaction Modal -->
-{#if showAddTransactionModal}
-    <div
-        class="modal active"
-        onclick={(e) => {
-            if (e.target === e.currentTarget) showAddTransactionModal = false;
-        }}
-    >
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Add New Transaction</h2>
-                <span
-                    class="close"
-                    onclick={() => (showAddTransactionModal = false)}
-                    >&times;</span
-                >
-            </div>
-            <form
-                onsubmit={(e) => {
-                    e.preventDefault();
-                    addTransaction();
-                }}
-            >
-                <div class="form-group">
-                    <label for="transaction-date">Date *</label>
-                    <input
-                        type="date"
-                        id="transaction-date"
-                        bind:value={transactionForm.date}
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="transaction-scout">Scout Name *</label>
-                    <select
-                        id="transaction-scout"
-                        bind:value={transactionForm.scoutName}
-                        required
-                    >
-                        <option value="">Select a scout...</option>
-                        {#each scouts.filter((s) => s.active) as scout}
-                            <option value={scout.name}>{scout.name}</option>
-                        {/each}
-                        {#if scouts.filter((s) => !s.active).length > 0}
-                            <optgroup label="Inactive Scouts">
-                                {#each scouts.filter((s) => !s.active) as scout}
-                                    <option value={scout.name}
-                                        >{scout.name}</option
-                                    >
-                                {/each}
-                            </optgroup>
-                        {/if}
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="transaction-description">Description *</label>
-                    <input
-                        type="text"
-                        id="transaction-description"
-                        bind:value={transactionForm.description}
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="transaction-type">Type *</label>
-                    <select
-                        id="transaction-type"
-                        bind:value={transactionForm.type}
-                        required
-                    >
-                        <option value="Deposit">Deposit (Fundraising)</option>
-                        <option value="Withdrawal"
-                            >Withdrawal (Fees/Expenses)</option
-                        >
-                        <option value="Pack Dues Paid"
-                            >Pack Dues Paid (Family Cash)</option
-                        >
-                        <option value="Reimbursement">Reimbursement</option>
-                        <option value="Transfer to Pack"
-                            >Transfer to Pack</option
-                        >
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="transaction-amount">Amount *</label>
-                    <input
-                        type="number"
-                        id="transaction-amount"
-                        step="0.01"
-                        bind:value={transactionForm.amount}
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="transaction-notes">Notes</label>
-                    <textarea
-                        id="transaction-notes"
-                        bind:value={transactionForm.notes}
-                    ></textarea>
-                </div>
-                <div class="form-actions">
-                    <button
-                        type="button"
-                        class="btn btn-secondary"
-                        onclick={() => (showAddTransactionModal = false)}
-                        >Cancel</button
-                    >
-                    <button type="submit" class="btn btn-primary"
-                        >Add Transaction</button
-                    >
-                </div>
-            </form>
-        </div>
-    </div>
-{/if}
+<AddTransactionModal
+    show={showAddTransactionModal}
+    {scouts}
+    {transactionForm}
+    onClose={() => (showAddTransactionModal = false)}
+    onSubmit={addTransaction}
+    onUpdateForm={(field, value) => {
+        transactionForm = { ...transactionForm, [field]: value };
+    }}
+/>
 
 <!-- Add Pack Transaction Modal -->
-{#if showAddPackTransactionModal}
-    <div
-        class="modal active"
-        onclick={(e) => {
-            if (e.target === e.currentTarget)
-                showAddPackTransactionModal = false;
-        }}
-    >
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Add Pack Transaction</h2>
-                <span
-                    class="close"
-                    onclick={() => (showAddPackTransactionModal = false)}
-                    >&times;</span
-                >
-            </div>
-            <form
-                onsubmit={(e) => {
-                    e.preventDefault();
-                    addPackTransaction();
-                }}
-            >
-                <div class="form-group">
-                    <label for="pack-transaction-date">Date *</label>
-                    <input
-                        type="date"
-                        id="pack-transaction-date"
-                        bind:value={packTransactionForm.date}
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="pack-transaction-description"
-                        >Description *</label
-                    >
-                    <input
-                        type="text"
-                        id="pack-transaction-description"
-                        bind:value={packTransactionForm.description}
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="pack-transaction-type">Type *</label>
-                    <select
-                        id="pack-transaction-type"
-                        bind:value={packTransactionForm.type}
-                        required
-                    >
-                        <option value="Income">Income</option>
-                        <option value="Expense">Expense</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="pack-transaction-amount">Amount *</label>
-                    <input
-                        type="number"
-                        id="pack-transaction-amount"
-                        step="0.01"
-                        bind:value={packTransactionForm.amount}
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="pack-transaction-category">Category</label>
-                    <input
-                        type="text"
-                        id="pack-transaction-category"
-                        placeholder="e.g., Registration, Awards, Events, Donation"
-                        bind:value={packTransactionForm.category}
-                    />
-                </div>
-                <div class="form-group">
-                    <label for="pack-transaction-notes">Notes</label>
-                    <textarea
-                        id="pack-transaction-notes"
-                        bind:value={packTransactionForm.notes}
-                    ></textarea>
-                </div>
-                <div class="form-actions">
-                    <button
-                        type="button"
-                        class="btn btn-secondary"
-                        onclick={() => (showAddPackTransactionModal = false)}
-                        >Cancel</button
-                    >
-                    <button type="submit" class="btn btn-primary"
-                        >Add Transaction</button
-                    >
-                </div>
-            </form>
-        </div>
-    </div>
-{/if}
+<AddPackTransactionModal
+    show={showAddPackTransactionModal}
+    {packTransactionForm}
+    onClose={() => (showAddPackTransactionModal = false)}
+    onSubmit={addPackTransaction}
+    onUpdateForm={(field, value) => {
+        packTransactionForm = { ...packTransactionForm, [field]: value };
+    }}
+/>
 
 <!-- New Fiscal Year Modal -->
-{#if showNewFiscalYearModal}
-    <div
-        class="modal active"
-        onclick={(e) => {
-            if (e.target === e.currentTarget) showNewFiscalYearModal = false;
-        }}
-    >
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Create New Fiscal Year</h2>
-                <span
-                    class="close"
-                    onclick={() => (showNewFiscalYearModal = false)}
-                    >&times;</span
-                >
-            </div>
-            <form
-                onsubmit={(e) => {
-                    e.preventDefault();
-                    createNewFiscalYear();
-                }}
-            >
-                <div class="info-box" style="margin-bottom: 1.5rem;">
-                    <p>
-                        <strong
-                            >This will create a new fiscal year starting July
-                            1st.</strong
-                        >
-                    </p>
-                    <p>
-                        The new fiscal year will be based on the current fiscal
-                        year: {getCurrentFiscalYear()}
-                    </p>
-                    <p>
-                        New fiscal year: <strong
-                            >{parseInt(
-                                getCurrentFiscalYear().split("-")[1],
-                            )}-{parseInt(getCurrentFiscalYear().split("-")[1]) +
-                                1}</strong
-                        >
-                    </p>
-                </div>
-
-                <div class="form-group">
-                    <label
-                        style="display: flex; align-items: center; gap: 0.5rem;"
-                    >
-                        <input
-                            type="checkbox"
-                            bind:checked={
-                                newFiscalYearOptions.carryForwardBalances
-                            }
-                        />
-                        <strong>Carry Forward Scout Balances</strong>
-                    </label>
-                    <p
-                        style="margin-left: 1.5rem; margin-top: 0.5rem; color: #666;"
-                    >
-                        Create new scout records in the new fiscal year with
-                        their current balances as beginning balances.
-                    </p>
-                </div>
-
-                <div class="form-group">
-                    <label
-                        style="display: flex; align-items: center; gap: 0.5rem;"
-                    >
-                        <input
-                            type="checkbox"
-                            bind:checked={
-                                newFiscalYearOptions.markPreviousInactive
-                            }
-                        />
-                        <strong>Mark Scouts in Previous Year as Inactive</strong
-                        >
-                    </label>
-                    <p
-                        style="margin-left: 1.5rem; margin-top: 0.5rem; color: #666;"
-                    >
-                        Mark all scout records from the current fiscal year as
-                        inactive. This keeps them separate from the new year.
-                    </p>
-                </div>
-
-                <div class="warning-box" style="margin-top: 1.5rem;">
-                    <strong>Important:</strong> This action cannot be undone easily.
-                    Make sure you understand the options above before proceeding.
-                </div>
-
-                <div class="form-actions">
-                    <button
-                        type="button"
-                        class="btn btn-secondary"
-                        onclick={() => (showNewFiscalYearModal = false)}
-                        >Cancel</button
-                    >
-                    <button type="submit" class="btn btn-primary"
-                        >Create New Fiscal Year</button
-                    >
-                </div>
-            </form>
-        </div>
-    </div>
-{/if}
+<NewFiscalYearModal
+    show={showNewFiscalYearModal}
+    {getCurrentFiscalYear}
+    {newFiscalYearOptions}
+    onClose={() => (showNewFiscalYearModal = false)}
+    onSubmit={createNewFiscalYear}
+    onUpdateOptions={(field, value) => {
+        newFiscalYearOptions = { ...newFiscalYearOptions, [field]: value };
+    }}
+/>
 
 <style>
     .inactive-row {
