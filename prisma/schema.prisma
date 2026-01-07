@@ -1,0 +1,67 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Scout {
+  id               Int      @id @default(autoincrement())
+  name             String
+  beginningBalance Float    @map("beginning_balance")
+  notes            String   @default("")
+  active           Boolean  @default(true)
+  createdAt        DateTime @default(now()) @map("created_at")
+  fiscalYear       String   @map("fiscal_year")
+
+  @@index([fiscalYear])
+  @@index([active])
+  @@map("scouts")
+}
+
+model Transaction {
+  id          Int             @id @default(autoincrement())
+  date        DateTime
+  scoutName   String          @map("scout_name")
+  description String
+  type        TransactionType
+  amount      Float
+  notes       String          @default("")
+  createdAt   DateTime        @default(now()) @map("created_at")
+  fiscalYear  String          @map("fiscal_year")
+
+  @@index([scoutName])
+  @@index([fiscalYear])
+  @@index([type])
+  @@map("transactions")
+}
+
+model PackTransaction {
+  id          Int                 @id @default(autoincrement())
+  date        DateTime
+  description String
+  type        PackTransactionType
+  amount      Float
+  category    String              @default("")
+  notes       String              @default("")
+  createdAt   DateTime            @default(now()) @map("created_at")
+  fiscalYear  String              @map("fiscal_year")
+
+  @@index([fiscalYear])
+  @@index([type])
+  @@map("pack_transactions")
+}
+
+enum TransactionType {
+  Deposit
+  Withdrawal
+  PackDuesPaid      @map("Pack Dues Paid")
+  Reimbursement
+  TransferToPack    @map("Transfer to Pack")
+}
+
+enum PackTransactionType {
+  Income
+  Expense
+}

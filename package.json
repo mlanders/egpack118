@@ -16,12 +16,21 @@
 		"@sveltejs/kit": "^2.48.5",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@tailwindcss/postcss": "^4.1.17",
+		"@types/pg": "^8.16.0",
 		"autoprefixer": "^10.4.22",
 		"postcss": "^8.5.6",
+		"prisma": "^7.2.0",
 		"svelte": "^5.43.8",
 		"svelte-check": "^4.3.4",
 		"tailwindcss": "^4.1.17",
+		"tsx": "^4.21.0",
 		"typescript": "^5.9.3",
 		"vite": "^7.2.2"
+	},
+	"dependencies": {
+		"@prisma/adapter-pg": "^7.2.0",
+		"@prisma/client": "^7.2.0",
+		"pg": "^8.16.3",
+		"zod": "^4.3.5"
 	}
 }
