@@ -1,27 +1,59 @@
 # Pack 118 Calendar
 
-*Last updated: 1/4/2026, 10:30:38 AM*
+*Last updated: 1/7/2026, 4:49:40 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
 
-#### Webelos-4th Grade Den Meeting
+#### Camp Card Sales Training
 
-**Date:** Sunday, January 4, 2026 at 11:00 PM - 12:30 AM
+**Date:** Thursday, January 8, 2026 at 3:00 AM - 4:00 AM
 
-You can see the RSVP status of this event in BAND.
-(John Fraser added)
+**Location:** 3851 N Freeway Blvd #100
+3851 N Freeway Blvd, Sacramento, CA 95834, USA
+
+Curious about how the Camp Card Sale works? Learn more at our free training event! If you’re already signed up to sell (Pack 118 is registered to sell), be sure to attend so you have all the information you need.Even if you’re not signed up to sell yet, you’re still welcome to attend!Don’t miss the new updates we’ve rolled out this year! We’ll cover sales techniques, incentives, resources and more.
+
+Zoom Option: Available (link will be sent after person registers a couple hours before the meeting) 
+
+Sign-up Here: https://scoutingevent.com/047-108502
+
+(Michael Landers added)
 
 ---
 
-#### Parent Meeting
+#### One mile walk this Saturday
 
-**Date:** Tuesday, January 6, 2026 at 6:30 PM - 7:30 PM
+**Date:** Saturday, January 10, 2026 at 9:00 PM - 10:00 PM
 
-Zoom: https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
+**Location:** Del Meyer Park
+Del Meyer Park, 9265 Elk Grove Florin Rd, Elk Grove, CA 95624, USA
+
+Bears want to go outside. Join us this Saturday for another 1 mile walk. Weather looks great to be outdoors. This is a great opportunity for the scouts that need to complete Adventure Bear Habitat and last requirement Leave what you Find. Bring your 6 essentials and a camera or notepad to draw 5 things that we encounter on our hike. If you already complete thisactivity you are welcome to join us for a fun walk. Because the rain expect muddy conditions. 
 
 You can see the RSVP status of this event in BAND.
+(Liliana Garcia added)
+
+---
+
+#### International Sportsman Expo (ISE)
+
+**Date:** Thursday, January 15, 2026
+
+**Location:** 1600 Exposition Blvd
+1600 Exposition Blvd, Sacramento, CA 95815, USA
+
+Scouts wearing a uniform get into the event FREE. Parking is $20.
+
+Golden Empire Council will be there with the Climbing Wall, PinewoodDerby, Scout Games, Cub Scout Crafts, Fishing POND, STEM, and Shooting Sports (Archery and BB Guns).
+
+Hours
+Thurs Jan. 15 - 11:00 AM - 8:00 PM
+Fri Jan. 16 - 11:00 AM - 8:00 PM
+Sat Jan. 17 - 10:00 AM - 7:00 PM
+SunJan. 18 - 10:00 AM - 4:00 PM
+
 (Michael Landers added)
 
 ---
