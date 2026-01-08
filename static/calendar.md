@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/7/2026, 10:35:37 AM*
+*Last updated: 1/7/2026, 5:21:57 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -16,6 +16,8 @@
 Curious about how the Camp Card Sale works? Learn more at our free training event! If you’re already signed up to sell (Pack 118 is registered to sell), be sure to attend so you have all the information you need.Even if you’re not signed up to sell yet, you’re still welcome to attend!Don’t miss the new updates we’ve rolled out this year! We’ll cover sales techniques, incentives, resources and more.
 
 Zoom Option: Available (link will be sent after person registers a couple hours before the meeting) 
+
+Zoom: https://us02web.zoom.us/j/87157325219?pwd=N61aPnfppj4DQKjmRotL1aBXh73xPB.1
 
 Sign-up Here: https://scoutingevent.com/047-108502
 
