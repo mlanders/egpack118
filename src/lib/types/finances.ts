@@ -25,6 +25,7 @@ export interface Transaction {
   notes: string;
   createdAt: string; // ISO string
   fiscalYear: string;
+  linkedPackTxId: number | null;
 }
 
 export interface PackTransaction {
@@ -37,6 +38,7 @@ export interface PackTransaction {
   notes: string;
   createdAt: string; // ISO string
   fiscalYear: string;
+  linkedScoutTxId: number | null;
 }
 
 // Input types for creating (without id, createdAt)

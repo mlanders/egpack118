@@ -224,16 +224,6 @@
         return "";
     }
 
-    function getPackShare(transaction: Transaction): number {
-        if (
-            transaction.type === "Deposit" ||
-            transaction.type === "Reimbursement"
-        ) {
-            return transaction.amount * 0.25;
-        }
-        return 0;
-    }
-
     $effect(() => {
         packFinances;
     });
@@ -248,9 +238,14 @@
             filteredTransactions().filter((t) => t.type === "Pack Dues Paid")
                 .length * 100;
 
-        const fundraisingShare = filteredTransactions()
-            .filter((t) => t.type === "Deposit" || t.type === "Reimbursement")
-            .reduce((sum, t) => sum + getPackShare(t), 0);
+        // Fundraising share is now explicitly recorded in pack transactions
+        // No need to calculate 25% - just get the actual fundraising income from pack transactions
+        const fundraisingShare = filteredPackTransactions()
+            .filter(
+                (t) =>
+                    t.type === "Income" && t.category === "Fundraising Share",
+            )
+            .reduce((sum, t) => sum + t.amount, 0);
 
         const transfersFromScouts = filteredTransactions()
             .filter((t) => t.type === "Transfer to Pack")

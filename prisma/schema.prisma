@@ -22,35 +22,39 @@ model Scout {
 }
 
 model Transaction {
-  id          Int             @id @default(autoincrement())
-  date        DateTime
-  scoutName   String          @map("scout_name")
-  description String
-  type        TransactionType
-  amount      Float
-  notes       String          @default("")
-  createdAt   DateTime        @default(now()) @map("created_at")
-  fiscalYear  String          @map("fiscal_year")
+  id                  Int             @id @default(autoincrement())
+  date                DateTime
+  scoutName           String          @map("scout_name")
+  description         String
+  type                TransactionType
+  amount              Float
+  notes               String          @default("")
+  createdAt           DateTime        @default(now()) @map("created_at")
+  fiscalYear          String          @map("fiscal_year")
+  linkedPackTxId      Int?            @map("linked_pack_tx_id")
 
   @@index([scoutName])
   @@index([fiscalYear])
   @@index([type])
+  @@index([linkedPackTxId])
   @@map("transactions")
 }
 
 model PackTransaction {
-  id          Int                 @id @default(autoincrement())
-  date        DateTime
-  description String
-  type        PackTransactionType
-  amount      Float
-  category    String              @default("")
-  notes       String              @default("")
-  createdAt   DateTime            @default(now()) @map("created_at")
-  fiscalYear  String              @map("fiscal_year")
+  id                Int                 @id @default(autoincrement())
+  date              DateTime
+  description       String
+  type              PackTransactionType
+  amount            Float
+  category          String              @default("")
+  notes             String              @default("")
+  createdAt         DateTime            @default(now()) @map("created_at")
+  fiscalYear        String              @map("fiscal_year")
+  linkedScoutTxId   Int?                @map("linked_scout_tx_id")
 
   @@index([fiscalYear])
   @@index([type])
+  @@index([linkedScoutTxId])
   @@map("pack_transactions")
 }
 

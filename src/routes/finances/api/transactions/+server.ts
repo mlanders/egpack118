@@ -70,23 +70,80 @@ export const POST: RequestHandler = async (event) => {
     // Convert type to enum format
     const typeEnum = mapFrontendToEnum(validated.type);
 
-    const transaction = await prisma.transaction.create({
-      data: {
-        ...validated,
-        date: new Date(validated.date),
-        type: typeEnum as any,
-      },
-    });
+    // Check if this is a fundraising transaction (Deposit or Reimbursement)
+    // If so, we need to split it: 75% to scout, 25% to pack
+    const isFundraising =
+      validated.type === "Deposit" || validated.type === "Reimbursement";
 
-    return json(
-      {
-        ...transaction,
-        date: transaction.date.toISOString().split("T")[0],
-        createdAt: transaction.createdAt.toISOString(),
-        type: mapEnumToFrontend(transaction.type),
-      },
-      { status: 201 },
-    );
+    if (isFundraising) {
+      // Use a transaction to create both records atomically
+      const result = await prisma.$transaction(async (tx) => {
+        const scoutAmount = validated.amount * 0.75;
+        const packAmount = validated.amount * 0.25;
+
+        // Create the scout transaction (75%)
+        const scoutTx = await tx.transaction.create({
+          data: {
+            ...validated,
+            date: new Date(validated.date),
+            type: typeEnum as any,
+            amount: scoutAmount,
+            notes: validated.notes || `Fundraising (75% to scout, 25% to pack)`,
+          },
+        });
+
+        // Create the linked pack transaction (25%)
+        const packTx = await tx.packTransaction.create({
+          data: {
+            date: new Date(validated.date),
+            description: `25% of ${validated.scoutName} ${validated.description}`,
+            type: "Income",
+            amount: packAmount,
+            category: "Fundraising Share",
+            notes: `Linked to scout transaction #${scoutTx.id}`,
+            fiscalYear: validated.fiscalYear,
+            linkedScoutTxId: scoutTx.id,
+          },
+        });
+
+        // Update scout transaction with link to pack transaction
+        const updatedScoutTx = await tx.transaction.update({
+          where: { id: scoutTx.id },
+          data: { linkedPackTxId: packTx.id },
+        });
+
+        return updatedScoutTx;
+      });
+
+      return json(
+        {
+          ...result,
+          date: result.date.toISOString().split("T")[0],
+          createdAt: result.createdAt.toISOString(),
+          type: mapEnumToFrontend(result.type),
+        },
+        { status: 201 },
+      );
+    } else {
+      // Non-fundraising transaction - create normally
+      const transaction = await prisma.transaction.create({
+        data: {
+          ...validated,
+          date: new Date(validated.date),
+          type: typeEnum as any,
+        },
+      });
+
+      return json(
+        {
+          ...transaction,
+          date: transaction.date.toISOString().split("T")[0],
+          createdAt: transaction.createdAt.toISOString(),
+          type: mapEnumToFrontend(transaction.type),
+        },
+        { status: 201 },
+      );
+    }
   } catch (error) {
     if (error instanceof z.ZodError) {
       return json(
