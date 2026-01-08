@@ -860,7 +860,6 @@
                     {filteredTransactions}
                     {filteredPackTransactions}
                     {getTypeBadgeClass}
-                    {getPackShare}
                     onViewModeChange={(mode) => (transactionViewMode = mode)}
                     onAddTransaction={() => (showAddTransactionModal = true)}
                     onAddPackTransaction={() =>
@@ -883,7 +882,6 @@
                 {transactions}
                 {packTransactions}
                 {getAvailableFiscalYears}
-                {getPackShare}
                 onSelectYear={(year) => {
                     selectedFiscalYear = year;
                     localStorage.setItem("selectedFiscalYear", year);

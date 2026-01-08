@@ -9,7 +9,6 @@
         filteredTransactions: () => Transaction[];
         filteredPackTransactions: () => PackTransaction[];
         getTypeBadgeClass: (type: string) => string;
-        getPackShare: (transaction: Transaction) => number;
         onViewModeChange: (mode: "scout" | "pack") => void;
         onAddTransaction: () => void;
         onAddPackTransaction: () => void;
@@ -25,7 +24,6 @@
         filteredTransactions,
         filteredPackTransactions,
         getTypeBadgeClass,
-        getPackShare,
         onViewModeChange,
         onAddTransaction,
         onAddPackTransaction,
@@ -104,10 +102,6 @@
                                 class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
                                 >Amount</th
                             >
-                            <th
-                                class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
-                                >Pack (25%)</th
-                            >
                             {#if selectedFiscalYear === ""}
                                 <th
                                     class="px-4 py-2 text-center text-xs font-medium text-white uppercase tracking-wider"
@@ -124,7 +118,7 @@
                         {#if filteredTransactions().length === 0}
                             <tr>
                                 <td
-                                    colspan={selectedFiscalYear === "" ? 8 : 7}
+                                    colspan={selectedFiscalYear === "" ? 7 : 6}
                                     class="px-4 py-8 text-center text-sm text-gray-500"
                                 >
                                     No transactions yet. Click "Add Transaction"
@@ -198,19 +192,6 @@
                                               : 'text-gray-900'}"
                                     >
                                         ${transaction.amount.toFixed(2)}
-                                    </td>
-                                    <td
-                                        class="px-4 py-3 whitespace-nowrap text-right text-sm text-gray-900"
-                                    >
-                                        {#if transaction.type === "Transfer to Pack"}
-                                            <span class="text-xs text-gray-500"
-                                                >Reallocation</span
-                                            >
-                                        {:else if getPackShare(transaction) > 0}
-                                            ${getPackShare(transaction).toFixed(
-                                                2,
-                                            )}
-                                        {/if}
                                     </td>
                                     {#if selectedFiscalYear === ""}
                                         <td
