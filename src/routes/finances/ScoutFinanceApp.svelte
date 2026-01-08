@@ -261,8 +261,10 @@
             .reduce((sum, t) => sum + t.amount, 0);
 
         const totalDues = duesFromAccounts + duesFromCash;
+        // Note: duesFromAccounts is NOT included in totalRevenue because it's an internal transfer
+        // Money was already in the bank (earmarked), now moving to unallocated
         const totalRevenue =
-            totalDues + fundraisingShare + otherIncome + transfersFromScouts;
+            duesFromCash + fundraisingShare + otherIncome + transfersFromScouts;
 
         const expenses = filteredPackTransactions()
             .filter((t) => t.type === "Expense")

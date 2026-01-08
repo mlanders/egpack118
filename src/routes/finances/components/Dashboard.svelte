@@ -109,10 +109,10 @@
     </div>
 
     <!-- Compact Stats Row -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
         <div class="bg-white border border-gray-200 rounded-lg px-3 py-2">
             <div class="flex items-center justify-between">
-                <span class="text-xs text-gray-600">Scouts</span>
+                <span class="text-xs text-gray-600">Active Scouts</span>
                 <span class="text-lg font-semibold text-gray-900"
                     >{filteredScouts().filter((s) => s.active).length}</span
                 >
@@ -127,12 +127,29 @@
                 >
             </div>
         </div>
-        <div class="bg-white border border-gray-200 rounded-lg px-3 py-2">
-            <div class="flex items-center justify-between">
-                <span class="text-xs text-gray-600">Pack Dues</span>
-                <span class="text-lg font-semibold text-gray-900"
+        <div
+            class="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-lg px-3 py-2"
+        >
+            <div class="flex flex-col">
+                <span class="text-xs text-green-700 mb-1"
+                    >Pack Dues Collected</span
+                >
+                <span class="text-lg font-semibold text-green-900"
                     >${packFinances().totalDues.toFixed(2)}</span
                 >
+            </div>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-lg px-3 py-2">
+            <div class="flex items-center justify-between">
+                <span class="text-xs text-gray-600">Dues Paid</span>
+                <span class="text-lg font-semibold text-gray-900">
+                    {transactions.filter(
+                        (t) =>
+                            t.type === "Pack Dues Paid" ||
+                            (t.type === "Withdrawal" &&
+                                t.description === "Pack Dues"),
+                    ).length}
+                </span>
             </div>
         </div>
         <div class="bg-white border border-gray-200 rounded-lg px-3 py-2">

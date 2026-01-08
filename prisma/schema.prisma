@@ -7,13 +7,14 @@ datasource db {
 }
 
 model Scout {
-  id               Int      @id @default(autoincrement())
-  name             String
-  beginningBalance Float    @map("beginning_balance")
-  notes            String   @default("")
-  active           Boolean  @default(true)
-  createdAt        DateTime @default(now()) @map("created_at")
-  fiscalYear       String   @map("fiscal_year")
+  id                 Int      @id @default(autoincrement())
+  name               String
+  beginningBalance   Float    @map("beginning_balance")
+  notes              String   @default("")
+  active             Boolean  @default(true)
+  createdAt          DateTime @default(now()) @map("created_at")
+  fiscalYear         String   @map("fiscal_year")
+  duesOverrideReason String?  @map("dues_override_reason")
 
   @@index([fiscalYear])
   @@index([active])
@@ -64,4 +65,40 @@ enum TransactionType {
 enum PackTransactionType {
   Income
   Expense
+}
+
+model FiscalYearConfig {
+  id             Int      @id @default(autoincrement())
+  fiscalYear     String   @unique @map("fiscal_year")
+  packDuesAmount Float    @default(100) @map("pack_dues_amount")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@index([fiscalYear])
+  @@map("fiscal_year_configs")
+}
+
+model PackDuesPayment {
+  id            Int                   @id @default(autoincrement())
+  scoutId       Int                   @map("scout_id")
+  scoutName     String                @map("scout_name")
+  fiscalYear    String                @map("fiscal_year")
+  amount        Float
+  paymentMethod PackDuesPaymentMethod @map("payment_method")
+  checkNumber   String?               @map("check_number")
+  date          DateTime
+  notes         String                @default("")
+  isOverride    Boolean               @default(false) @map("is_override")
+  createdAt     DateTime              @default(now()) @map("created_at")
+
+  @@index([scoutId])
+  @@index([scoutName])
+  @@index([fiscalYear])
+  @@map("pack_dues_payments")
+}
+
+enum PackDuesPaymentMethod {
+  Cash
+  Check
+  ScoutAccount @map("Scout Account")
 }

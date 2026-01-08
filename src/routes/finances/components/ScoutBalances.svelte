@@ -127,10 +127,13 @@
                                     : ''}"
                             >
                                 <td class="px-4 py-3 whitespace-nowrap">
-                                    <div
-                                        class="text-sm font-medium text-gray-900"
-                                    >
-                                        {scout.name}
+                                    <div class="text-sm font-medium">
+                                        <a
+                                            href="/finances/scouts/{scout.id}"
+                                            class="text-blue-600 hover:text-blue-800 hover:underline"
+                                        >
+                                            {scout.name}
+                                        </a>
                                     </div>
                                     {#if scout.notes}
                                         <div
