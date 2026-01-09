@@ -268,9 +268,7 @@
                             id="checkNumber"
                             data-testid="check-number"
                             bind:value={form.checkNumber}
-                            pattern="[0-9]+"
                             placeholder="Enter check number (numeric only)"
-                            required
                             class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                         <p class="text-xs text-gray-600 mt-1">
@@ -300,9 +298,6 @@
                                     data-testid="amount"
                                     bind:value={form.amount}
                                     step="0.01"
-                                    min="0.01"
-                                    max={duesSummary.remaining}
-                                    required
                                     class="w-full pl-7 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 />
                             </div>
@@ -329,7 +324,6 @@
                         type="date"
                         id="date"
                         bind:value={form.date}
-                        required
                         class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
@@ -355,6 +349,7 @@
                 <!-- Validation Error -->
                 {#if validationError}
                     <div
+                        data-testid="validation-error"
                         class="bg-red-50 border border-red-200 text-red-700 rounded-lg p-3"
                     >
                         <div class="flex items-start gap-2">
