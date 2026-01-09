@@ -209,6 +209,7 @@
                                 type="radio"
                                 name="paymentMethod"
                                 value="Cash"
+                                data-testid="payment-method-cash"
                                 bind:group={form.paymentMethod}
                                 class="w-4 h-4 text-blue-600 focus:ring-blue-500"
                             />
@@ -225,6 +226,7 @@
                                 type="radio"
                                 name="paymentMethod"
                                 value="Check"
+                                data-testid="payment-method-check"
                                 bind:group={form.paymentMethod}
                                 class="w-4 h-4 text-blue-600 focus:ring-blue-500"
                             />
@@ -241,6 +243,7 @@
                                 type="radio"
                                 name="paymentMethod"
                                 value="Scout Account"
+                                data-testid="payment-method-scout-account"
                                 bind:group={form.paymentMethod}
                                 class="w-4 h-4 text-blue-600 focus:ring-blue-500"
                             />
@@ -263,6 +266,7 @@
                         <input
                             type="text"
                             id="checkNumber"
+                            data-testid="check-number"
                             bind:value={form.checkNumber}
                             pattern="[0-9]+"
                             placeholder="Enter check number (numeric only)"
@@ -293,6 +297,7 @@
                                 <input
                                     type="number"
                                     id="amount"
+                                    data-testid="amount"
                                     bind:value={form.amount}
                                     step="0.01"
                                     min="0.01"
@@ -339,6 +344,7 @@
                     </label>
                     <textarea
                         id="notes"
+                        data-testid="notes"
                         bind:value={form.notes}
                         rows="3"
                         placeholder="Add any additional notes..."
@@ -380,6 +386,7 @@
                     </button>
                     <button
                         type="submit"
+                        data-testid="submit-payment"
                         disabled={submitting}
                         class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-700 transition-colors disabled:opacity-50"
                     >
