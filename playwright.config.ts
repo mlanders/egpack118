@@ -40,5 +40,10 @@ export default defineConfig({
     url: "http://localhost:5173",
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
+    env: {
+      // Override DATABASE_URL with TEST_DATABASE_URL for the dev server during tests
+      DATABASE_URL:
+        process.env.TEST_DATABASE_URL || process.env.DATABASE_URL || "",
+    },
   },
 });

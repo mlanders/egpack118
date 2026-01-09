@@ -30,7 +30,9 @@ test.describe("Pack Dues Payment Workflow", () => {
     await expect(page.getByText("Remaining: $50.00")).toBeVisible();
   });
 
-  test("should show fully paid status after complete payment", async ({ page }) => {
+  test("should show fully paid status after complete payment", async ({
+    page,
+  }) => {
     const packDuesPage = new PackDuesPaymentPage(page);
 
     await packDuesPage.gotoScoutDetail(testData.scout1.id);
@@ -73,9 +75,12 @@ test.describe("Pack Dues Payment Workflow", () => {
     await packDuesPage.recordPayment("Cash", 50.0);
 
     // Verify payment appears in history
-    await expect(page.getByRole("heading", { name: "Payment History" })).toBeVisible();
-    await expect(page.getByText("$50.00")).toBeVisible();
-    await expect(page.getByText("Cash")).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "Payment History" }),
+    ).toBeVisible();
+    // Use table cell role to be more specific about the payment amount in the history table
+    await expect(page.getByRole("cell", { name: "$50.00" })).toBeVisible();
+    await expect(page.locator("table").getByText("Cash")).toBeVisible();
   });
 
   test("should allow deleting a payment", async ({ page }) => {
@@ -91,7 +96,7 @@ test.describe("Pack Dues Payment Workflow", () => {
     await expect(page.getByText("Paid: $50.00")).toBeVisible();
 
     // Set up dialog handler to confirm deletion
-    page.on('dialog', dialog => dialog.accept());
+    page.on("dialog", (dialog) => dialog.accept());
 
     // Delete the payment
     await page.getByRole("button", { name: "Delete" }).first().click();
@@ -100,7 +105,9 @@ test.describe("Pack Dues Payment Workflow", () => {
     await expect(page.getByText("Paid: $0.00")).toBeVisible();
   });
 
-  test("should record check payment with check number in history", async ({ page }) => {
+  test("should record check payment with check number in history", async ({
+    page,
+  }) => {
     const packDuesPage = new PackDuesPaymentPage(page);
 
     await packDuesPage.gotoScoutDetail(testData.scout1.id);
@@ -109,7 +116,8 @@ test.describe("Pack Dues Payment Workflow", () => {
 
     // Verify check number appears in payment history
     await expect(page.getByText("98765")).toBeVisible();
-    await expect(page.getByText("Check")).toBeVisible();
+    // Use more specific selector to avoid matching column header
+    await expect(page.locator("table tbody").getByText("Check")).toBeVisible();
   });
 
   test("should use fill remaining button", async ({ page }) => {
@@ -131,7 +139,12 @@ test.describe("Pack Dues Payment Workflow", () => {
 
     await packDuesPage.gotoScoutDetail(testData.scout1.id);
     await packDuesPage.openPaymentModal();
-    await packDuesPage.recordPayment("Cash", 50.0, undefined, "Test payment note");
+    await packDuesPage.recordPayment(
+      "Cash",
+      50.0,
+      undefined,
+      "Test payment note",
+    );
 
     // Verify note appears in history
     await expect(page.getByText("Test payment note")).toBeVisible();

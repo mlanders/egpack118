@@ -57,8 +57,11 @@ test.describe("Scout Management", () => {
   test("should display scout balance correctly", async ({ page }) => {
     await page.goto(`/finances/scouts/${testData.scout2.id}`);
 
-    // Scout 2 has beginning balance of 25.50
-    await expect(page.getByText("$25.50")).toBeVisible();
+    // Scout 2 has beginning balance of 25.50 - check the current balance specifically
+    await expect(page.getByText("Current Balance")).toBeVisible();
+    await expect(
+      page.locator("text=Current Balance").locator("..").getByText("$25.50"),
+    ).toBeVisible();
   });
 
   test("should show active status badge", async ({ page }) => {

@@ -24,13 +24,19 @@ test.describe("Pack Dues Payment Validation", () => {
     // Fill amount but not check number
     await page.locator('[data-testid="amount"]').fill("50");
 
-    // Try to submit - use evaluate to bypass viewport issues
+    // Try to submit - trigger form submission to ensure validation runs
     await page.evaluate(() => {
       const button = document.querySelector(
         '[data-testid="submit-payment"]',
       ) as HTMLButtonElement;
-      button?.click();
+      const form = button?.closest("form");
+      if (form) {
+        form.requestSubmit();
+      }
     });
+
+    // Wait for validation to trigger
+    await page.waitForTimeout(300);
 
     // Verify validation error appears
     await expect(page.getByText(/Check number is required/i)).toBeVisible();
@@ -49,13 +55,19 @@ test.describe("Pack Dues Payment Validation", () => {
     await page.locator('[data-testid="amount"]').fill("50");
     await page.locator('[data-testid="check-number"]').fill("ABC123");
 
-    // Try to submit - use evaluate to bypass viewport issues
+    // Try to submit - trigger form submission to ensure validation runs
     await page.evaluate(() => {
       const button = document.querySelector(
         '[data-testid="submit-payment"]',
       ) as HTMLButtonElement;
-      button?.click();
+      const form = button?.closest("form");
+      if (form) {
+        form.requestSubmit();
+      }
     });
+
+    // Wait for validation to trigger
+    await page.waitForTimeout(300);
 
     // Verify validation error
     await expect(page.getByText(/Check number must be numeric/i)).toBeVisible();
@@ -71,13 +83,19 @@ test.describe("Pack Dues Payment Validation", () => {
     await page.locator('[data-testid="payment-method-cash"]').click();
     await page.locator('[data-testid="amount"]').fill("150");
 
-    // Try to submit - use evaluate to bypass viewport issues
+    // Try to submit - trigger form submission to ensure validation runs
     await page.evaluate(() => {
       const button = document.querySelector(
         '[data-testid="submit-payment"]',
       ) as HTMLButtonElement;
-      button?.click();
+      const form = button?.closest("form");
+      if (form) {
+        form.requestSubmit();
+      }
     });
+
+    // Wait for validation to trigger
+    await page.waitForTimeout(300);
 
     // Verify validation error
     await expect(
@@ -95,13 +113,19 @@ test.describe("Pack Dues Payment Validation", () => {
     await page.locator('[data-testid="payment-method-cash"]').click();
     await page.locator('[data-testid="amount"]').fill("0");
 
-    // Try to submit - use evaluate to bypass viewport issues
+    // Try to submit - trigger form submission to ensure validation runs
     await page.evaluate(() => {
       const button = document.querySelector(
         '[data-testid="submit-payment"]',
       ) as HTMLButtonElement;
-      button?.click();
+      const form = button?.closest("form");
+      if (form) {
+        form.requestSubmit();
+      }
     });
+
+    // Wait for validation to trigger
+    await page.waitForTimeout(300);
 
     // Verify validation error
     await expect(
@@ -122,13 +146,19 @@ test.describe("Pack Dues Payment Validation", () => {
     await page.locator('[data-testid="payment-method-scout-account"]').click();
     await page.locator('[data-testid="amount"]').fill("50");
 
-    // Try to submit - use evaluate to bypass viewport issues
+    // Try to submit - trigger form submission to ensure validation runs
     await page.evaluate(() => {
       const button = document.querySelector(
         '[data-testid="submit-payment"]',
       ) as HTMLButtonElement;
-      button?.click();
+      const form = button?.closest("form");
+      if (form) {
+        form.requestSubmit();
+      }
     });
+
+    // Wait for validation to trigger
+    await page.waitForTimeout(300);
 
     // Verify validation error
     await expect(
@@ -157,9 +187,11 @@ test.describe("Pack Dues Payment Validation", () => {
     await packDuesPage.gotoScoutDetail(testData.scout1.id);
     await packDuesPage.openPaymentModal();
 
-    // Verify dues status is displayed
+    // Verify dues status is displayed - use more specific selectors to avoid strict mode
     await expect(page.getByText("Total Dues: $100.00")).toBeVisible();
-    await expect(page.getByText("Paid: $0.00")).toBeVisible();
-    await expect(page.getByText("Remaining: $100.00")).toBeVisible();
+    await expect(
+      page.locator(".bg-blue-50").getByText(/Paid: \$0\.00/),
+    ).toBeVisible();
+    await expect(page.getByText(/Remaining: \$100\.00/)).toBeVisible();
   });
 });

@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { Pool } from "pg";
 
-// Ensure TEST_DATABASE_URL is set for tests
+// IMPORTANT: Tests MUST ALWAYS use TEST_DATABASE_URL (never DATABASE_URL)
 if (!process.env.TEST_DATABASE_URL) {
   throw new Error(
     "TEST_DATABASE_URL environment variable is not set. Please set it in your .env file.",

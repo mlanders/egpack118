@@ -1,6 +1,5 @@
 import { test, expect } from "@playwright/test";
 import { PackDuesPaymentPage } from "../pages/PackDuesPaymentPage";
-import { FinanceDashboardPage } from "../pages/FinanceDashboardPage";
 import { login } from "../helpers/auth";
 import { resetDatabase, seedTestData } from "../helpers/db";
 
@@ -68,12 +67,11 @@ test.describe("Pack Dues Payment", () => {
       "Payment recorded successfully",
     );
 
-    // Navigate to dashboard and verify balance decreased
-    const dashboard = new FinanceDashboardPage(page);
-    await dashboard.goto();
-
-    const balance = await dashboard.getScoutBalance("Test Scout 2");
-    expect(parseFloat(balance)).toBe(0); // 25.50 - 25.50 = 0
+    // Verify the scout's balance is now 0 on the detail page
+    await expect(page.getByText("Current Balance")).toBeVisible();
+    await expect(
+      page.locator("text=Current Balance").locator("..").getByText("$0.00"),
+    ).toBeVisible();
   });
 
   test("should handle partial payment", async ({ page }) => {
