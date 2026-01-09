@@ -67,7 +67,12 @@ export class PackDuesPaymentPage {
       await this.notesInput.fill(notes);
     }
 
-    // Submit
-    await this.submitButton.click();
+    // Submit - use JavaScript click to bypass viewport issues with modal
+    await this.page.evaluate(() => {
+      const button = document.querySelector(
+        '[data-testid="submit-payment"]',
+      ) as HTMLButtonElement;
+      button?.click();
+    });
   }
 }

@@ -2,13 +2,15 @@ import { PrismaClient } from "@prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { Pool } from "pg";
 
-// Ensure DATABASE_URL is set
-if (!process.env.DATABASE_URL) {
-  throw new Error("DATABASE_URL environment variable is not set");
+// Ensure TEST_DATABASE_URL is set for tests
+if (!process.env.TEST_DATABASE_URL) {
+  throw new Error(
+    "TEST_DATABASE_URL environment variable is not set. Please set it in your .env file.",
+  );
 }
 
-// Create connection pool for tests
-const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+// Create connection pool for tests using TEST_DATABASE_URL
+const pool = new Pool({ connectionString: process.env.TEST_DATABASE_URL });
 const adapter = new PrismaPg(pool);
 
 export async function resetDatabase() {
@@ -25,15 +27,32 @@ export async function resetDatabase() {
   await prisma.$disconnect();
 }
 
+// Helper to get current fiscal year (matches app logic)
+function getCurrentFiscalYear(): string {
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = date.getMonth();
+
+  if (month >= 6) {
+    // July (6) through December (11)
+    return `${year}-${year + 1}`;
+  } else {
+    // January (0) through June (5)
+    return `${year - 1}-${year}`;
+  }
+}
+
 export async function seedTestData() {
   const prisma = new PrismaClient({
     adapter,
   });
 
+  const currentFiscalYear = getCurrentFiscalYear();
+
   // Create fiscal year config
   const fiscalYearConfig = await prisma.fiscalYearConfig.create({
     data: {
-      fiscalYear: "2024-2025",
+      fiscalYear: currentFiscalYear,
       packDuesAmount: 100.0,
     },
   });
@@ -43,7 +62,7 @@ export async function seedTestData() {
     data: {
       name: "Test Scout 1",
       beginningBalance: 0,
-      fiscalYear: "2024-2025",
+      fiscalYear: currentFiscalYear,
       active: true,
     },
   });
@@ -52,7 +71,7 @@ export async function seedTestData() {
     data: {
       name: "Test Scout 2",
       beginningBalance: 25.5,
-      fiscalYear: "2024-2025",
+      fiscalYear: currentFiscalYear,
       active: true,
     },
   });
@@ -63,5 +82,6 @@ export async function seedTestData() {
     fiscalYearConfig,
     scout1,
     scout2,
+    currentFiscalYear,
   };
 }
