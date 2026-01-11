@@ -1,24 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 1/10/2026, 10:31:26 AM*
+*Last updated: 1/10/2026, 5:59:44 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
-
-#### One mile walk this Saturday
-
-**Date:** Saturday, January 10, 2026 at 9:00 PM - 10:00 PM
-
-**Location:** Del Meyer Park
-Del Meyer Park, 9265 Elk Grove Florin Rd, Elk Grove, CA 95624, USA
-
-Bears want to go outside. Join us this Saturday for another 1 mile walk. Weather looks great to be outdoors. This is a great opportunity for the scouts that need to complete Adventure Bear Habitat and last requirement Leave what you Find. Bring your 6 essentials and a camera or notepad to draw 5 things that we encounter on our hike. If you already complete thisactivity you are welcome to join us for a fun walk. Because the rain expect muddy conditions. 
-
-You can see the RSVP status of this event in BAND.
-(Liliana Garcia added)
-
----
 
 #### International Sportsman Expo (ISE)
 
