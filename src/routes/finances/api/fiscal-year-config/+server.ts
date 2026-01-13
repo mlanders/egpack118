@@ -1,13 +1,13 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { prisma } from '$lib/server/prisma';
-import { validateSession } from '$lib/server/auth';
+import { requireAuth, requireWriteAccess } from '$lib/server/authorization';
 import { fiscalYearConfigSchema } from '$lib/server/validation';
 import { z } from 'zod';
 
 // GET /finances/api/fiscal-year-config?fiscalYear=2024-2025
 export const GET: RequestHandler = async (event) => {
-	validateSession(event);
+	requireAuth(event);
 
 	const fiscalYear = event.url.searchParams.get('fiscalYear');
 
@@ -43,7 +43,7 @@ export const GET: RequestHandler = async (event) => {
 
 // POST /finances/api/fiscal-year-config (upsert)
 export const POST: RequestHandler = async (event) => {
-	validateSession(event);
+	requireWriteAccess(event);
 
 	try {
 		const body = await event.request.json();

@@ -1,11 +1,11 @@
 import { json } from "@sveltejs/kit";
 import type { RequestHandler } from "./$types";
 import { prisma } from "$lib/server/prisma";
-import { validateSession } from "$lib/server/auth";
+import { requireAuth, requireWriteAccess } from "$lib/server/authorization";
 
 // DELETE /finances/api/transactions/[id]
 export const DELETE: RequestHandler = async (event) => {
-  validateSession(event);
+  requireWriteAccess(event);
 
   const id = parseInt(event.params.id);
 

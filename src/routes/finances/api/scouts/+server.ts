@@ -1,13 +1,13 @@
 import { json } from "@sveltejs/kit";
 import type { RequestHandler } from "./$types";
 import { prisma } from "$lib/server/prisma";
-import { validateSession } from "$lib/server/auth";
+import { requireAuth, requireWriteAccess } from "$lib/server/authorization";
 import { scoutSchema } from "$lib/server/validation";
 import { z } from "zod";
 
 // GET /finances/api/scouts?fiscalYear=2024-2025&active=true
 export const GET: RequestHandler = async (event) => {
-  validateSession(event);
+  requireAuth(event);
 
   const fiscalYear = event.url.searchParams.get("fiscalYear");
   const activeParam = event.url.searchParams.get("active");
@@ -43,7 +43,7 @@ export const GET: RequestHandler = async (event) => {
 
 // POST /finances/api/scouts
 export const POST: RequestHandler = async (event) => {
-  validateSession(event);
+  requireWriteAccess(event);
 
   try {
     const body = await event.request.json();

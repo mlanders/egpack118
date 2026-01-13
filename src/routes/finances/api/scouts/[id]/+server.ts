@@ -1,13 +1,13 @@
 import { json } from "@sveltejs/kit";
 import type { RequestHandler } from "./$types";
 import { prisma } from "$lib/server/prisma";
-import { validateSession } from "$lib/server/auth";
+import { requireAuth, requireWriteAccess } from "$lib/server/authorization";
 import { scoutSchema } from "$lib/server/validation";
 import { z } from "zod";
 
 // GET /finances/api/scouts/[id]
 export const GET: RequestHandler = async (event) => {
-  validateSession(event);
+  requireAuth(event);
 
   const id = parseInt(event.params.id);
 
@@ -32,7 +32,7 @@ export const GET: RequestHandler = async (event) => {
 
 // PUT /finances/api/scouts/[id]
 export const PUT: RequestHandler = async (event) => {
-  validateSession(event);
+  requireWriteAccess(event);
 
   const id = parseInt(event.params.id);
 
@@ -63,7 +63,7 @@ export const PUT: RequestHandler = async (event) => {
 
 // DELETE /finances/api/scouts/[id]
 export const DELETE: RequestHandler = async (event) => {
-  validateSession(event);
+  requireWriteAccess(event);
 
   const id = parseInt(event.params.id);
 

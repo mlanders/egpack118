@@ -1,6 +1,8 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { enhance } from "$app/forms";
+    import { authClient } from "$lib/auth";
+    import type { User } from "$lib/server/auth";
     import "./styles.css";
     import * as api from "$lib/services/financeApi";
     import type {
@@ -17,6 +19,15 @@
     import AddTransactionModal from "./components/AddTransactionModal.svelte";
     import AddPackTransactionModal from "./components/AddPackTransactionModal.svelte";
     import NewFiscalYearModal from "./components/NewFiscalYearModal.svelte";
+
+    let { user } = $props<{ user: User }>();
+
+    const canWrite = user.role === "ADMIN" || user.role === "TREASURER";
+
+    async function handleLogout() {
+        await authClient.signOut();
+        window.location.reload();
+    }
 
     // Types
     interface Scout {
@@ -710,14 +721,29 @@
             <h1 class="text-xl font-semibold text-gray-900">Pack Finances</h1>
             <p class="text-xs text-gray-600">Financial management tracker</p>
         </div>
-        <form method="POST" action="?/logout" use:enhance>
+        <div class="flex items-center gap-3">
+            <div class="text-right">
+                <div class="text-sm font-medium text-gray-900">
+                    {user.email}
+                </div>
+                <div class="flex items-center gap-2">
+                    <span
+                        class="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-800"
+                    >
+                        {user.role}
+                    </span>
+                    {#if !canWrite}
+                        <span class="text-xs text-gray-500">(Read-only)</span>
+                    {/if}
+                </div>
+            </div>
             <button
-                type="submit"
+                onclick={handleLogout}
                 class="px-3 py-1.5 text-sm font-medium text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors"
             >
-                Logout
+                Sign Out
             </button>
-        </form>
+        </div>
     </div>
 
     <!-- Compact Fiscal Year Selector -->
@@ -745,12 +771,14 @@
                     <option value={year}>{year}</option>
                 {/each}
             </select>
-            <button
-                class="px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 transition-colors"
-                onclick={() => (showNewFiscalYearModal = true)}
-            >
-                New Year
-            </button>
+            {#if canWrite}
+                <button
+                    class="px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 transition-colors"
+                    onclick={() => (showNewFiscalYearModal = true)}
+                >
+                    New Year
+                </button>
+            {/if}
         </div>
     </div>
 
@@ -818,6 +846,7 @@
                     {filteredPackTransactions}
                     {recentActivity}
                     {getTypeBadgeClass}
+                    {canWrite}
                     onAddScout={() => (showAddScoutModal = true)}
                     onAddTransaction={() => (showAddTransactionModal = true)}
                     onAddPackTransaction={() =>
@@ -839,6 +868,7 @@
                     {getTotalFamilyCash}
                     {getTotalWithdrawals}
                     {hasPackDuesPaid}
+                    {canWrite}
                     onToggleInactive={() =>
                         (showInactiveScouts = !showInactiveScouts)}
                     onAddScout={() => (showAddScoutModal = true)}
@@ -860,6 +890,7 @@
                     {filteredTransactions}
                     {filteredPackTransactions}
                     {getTypeBadgeClass}
+                    {canWrite}
                     onViewModeChange={(mode) => (transactionViewMode = mode)}
                     onAddTransaction={() => (showAddTransactionModal = true)}
                     onAddPackTransaction={() =>

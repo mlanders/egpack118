@@ -9,6 +9,7 @@
         filteredTransactions: () => Transaction[];
         filteredPackTransactions: () => PackTransaction[];
         getTypeBadgeClass: (type: string) => string;
+        canWrite: boolean;
         onViewModeChange: (mode: "scout" | "pack") => void;
         onAddTransaction: () => void;
         onAddPackTransaction: () => void;
@@ -24,6 +25,7 @@
         filteredTransactions,
         filteredPackTransactions,
         getTypeBadgeClass,
+        canWrite,
         onViewModeChange,
         onAddTransaction,
         onAddPackTransaction,
@@ -57,20 +59,22 @@
                     Pack
                 </button>
             </div>
-            {#if transactionViewMode === "scout"}
-                <button
-                    onclick={onAddTransaction}
-                    class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
-                >
-                    Add Transaction
-                </button>
-            {:else}
-                <button
-                    onclick={onAddPackTransaction}
-                    class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
-                >
-                    Add Pack Transaction
-                </button>
+            {#if canWrite}
+                {#if transactionViewMode === "scout"}
+                    <button
+                        onclick={onAddTransaction}
+                        class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                    >
+                        Add Transaction
+                    </button>
+                {:else}
+                    <button
+                        onclick={onAddPackTransaction}
+                        class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                    >
+                        Add Pack Transaction
+                    </button>
+                {/if}
             {/if}
         </div>
     </div>
@@ -108,10 +112,12 @@
                                     >Year</th
                                 >
                             {/if}
-                            <th
-                                class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
-                                >Actions</th
-                            >
+                            {#if canWrite}
+                                <th
+                                    class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
+                                    >Actions</th
+                                >
+                            {/if}
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200">
@@ -204,19 +210,21 @@
                                             </span>
                                         </td>
                                     {/if}
-                                    <td
-                                        class="px-4 py-3 whitespace-nowrap text-right text-sm"
-                                    >
-                                        <button
-                                            onclick={() =>
-                                                onDeleteTransaction(
-                                                    transaction.id!,
-                                                )}
-                                            class="text-red-600 hover:text-red-900 font-medium"
+                                    {#if canWrite}
+                                        <td
+                                            class="px-4 py-3 whitespace-nowrap text-right text-sm"
                                         >
-                                            Delete
-                                        </button>
-                                    </td>
+                                            <button
+                                                onclick={() =>
+                                                    onDeleteTransaction(
+                                                        transaction.id!,
+                                                    )}
+                                                class="text-red-600 hover:text-red-900 font-medium"
+                                            >
+                                                Delete
+                                            </button>
+                                        </td>
+                                    {/if}
                                 </tr>
                             {/each}
                         {/if}
@@ -257,10 +265,12 @@
                                     >Year</th
                                 >
                             {/if}
-                            <th
-                                class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
-                                >Actions</th
-                            >
+                            {#if canWrite}
+                                <th
+                                    class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
+                                    >Actions</th
+                                >
+                            {/if}
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200">
@@ -348,19 +358,21 @@
                                             </span>
                                         </td>
                                     {/if}
-                                    <td
-                                        class="px-4 py-3 whitespace-nowrap text-right text-sm"
-                                    >
-                                        <button
-                                            onclick={() =>
-                                                onDeletePackTransaction(
-                                                    transaction.id!,
-                                                )}
-                                            class="text-red-600 hover:text-red-900 font-medium"
+                                    {#if canWrite}
+                                        <td
+                                            class="px-4 py-3 whitespace-nowrap text-right text-sm"
                                         >
-                                            Delete
-                                        </button>
-                                    </td>
+                                            <button
+                                                onclick={() =>
+                                                    onDeletePackTransaction(
+                                                        transaction.id!,
+                                                    )}
+                                                class="text-red-600 hover:text-red-900 font-medium"
+                                            >
+                                                Delete
+                                            </button>
+                                        </td>
+                                    {/if}
                                 </tr>
                             {/each}
                         {/if}

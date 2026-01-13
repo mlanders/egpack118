@@ -16,6 +16,7 @@
         filteredPackTransactions: () => PackTransaction[];
         recentActivity: () => any[];
         getTypeBadgeClass: (type: string) => string;
+        canWrite: boolean;
         onAddScout: () => void;
         onAddTransaction: () => void;
         onAddPackTransaction: () => void;
@@ -33,6 +34,7 @@
         filteredPackTransactions,
         recentActivity,
         getTypeBadgeClass,
+        canWrite,
         onAddScout,
         onAddTransaction,
         onAddPackTransaction,
