@@ -1,8 +1,11 @@
 import { betterAuth } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
 import { prisma } from "$lib/server/prisma";
-import { BETTER_AUTH_SECRET, BETTER_AUTH_URL } from "$env/static/private";
+import { env } from "$env/dynamic/private";
 import bcrypt from "bcryptjs";
+
+const BETTER_AUTH_SECRET = env.BETTER_AUTH_SECRET || "";
+const BETTER_AUTH_URL = env.BETTER_AUTH_URL || "http://localhost:5173";
 
 export const auth = betterAuth({
   database: prismaAdapter(prisma, {
