@@ -1,10 +1,34 @@
 # Pack 118 Calendar
 
-*Last updated: 1/12/2026, 5:47:50 PM*
+*Last updated: 1/12/2026, 10:36:30 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
+
+#### Pack Meeting
+
+**Date:** Wednesday, January 14, 2026 at 2:15 AM - 3:30 AM
+
+**Location:** Point Pleasant United Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Game Night!
+
+We will be playing some games with a sportsmanship focus. Games may include the following:
+- Uno
+- Cup Stack Challenge
+-Go Fish
+- Jenga
+- Old Maid
+- Rock Paper Scissors Tournament
+- Guess in10
+-  Human Knot
+
+You can see the RSVP status of this event in BAND.
+(Michael Landers added)
+
+---
 
 #### International Sportsman Expo (ISE)
 
