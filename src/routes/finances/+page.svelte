@@ -55,7 +55,12 @@
                     </p>
                 </div>
 
-                <form on:submit|preventDefault={handleLogin}>
+                <form
+                    onsubmit={(e) => {
+                        e.preventDefault();
+                        handleLogin();
+                    }}
+                >
                     <div class="mb-4">
                         <label
                             for="email"
