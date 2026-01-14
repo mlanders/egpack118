@@ -1,0 +1,5 @@
+
+> egpack118@0.0.1 test
+> playwright test --reporter=json
+
+[dotenv@17.2.3] injecting env (17) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops

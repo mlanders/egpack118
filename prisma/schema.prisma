@@ -7,13 +7,14 @@ datasource db {
 }
 
 model Scout {
-  id               Int      @id @default(autoincrement())
-  name             String
-  beginningBalance Float    @map("beginning_balance")
-  notes            String   @default("")
-  active           Boolean  @default(true)
-  createdAt        DateTime @default(now()) @map("created_at")
-  fiscalYear       String   @map("fiscal_year")
+  id                 Int      @id @default(autoincrement())
+  name               String
+  beginningBalance   Float    @map("beginning_balance")
+  notes              String   @default("")
+  active             Boolean  @default(true)
+  createdAt          DateTime @default(now()) @map("created_at")
+  fiscalYear         String   @map("fiscal_year")
+  duesOverrideReason String?  @map("dues_override_reason")
 
   @@index([fiscalYear])
   @@index([active])
@@ -21,35 +22,39 @@ model Scout {
 }
 
 model Transaction {
-  id          Int             @id @default(autoincrement())
-  date        DateTime
-  scoutName   String          @map("scout_name")
-  description String
-  type        TransactionType
-  amount      Float
-  notes       String          @default("")
-  createdAt   DateTime        @default(now()) @map("created_at")
-  fiscalYear  String          @map("fiscal_year")
+  id                  Int             @id @default(autoincrement())
+  date                DateTime
+  scoutName           String          @map("scout_name")
+  description         String
+  type                TransactionType
+  amount              Float
+  notes               String          @default("")
+  createdAt           DateTime        @default(now()) @map("created_at")
+  fiscalYear          String          @map("fiscal_year")
+  linkedPackTxId      Int?            @map("linked_pack_tx_id")
 
   @@index([scoutName])
   @@index([fiscalYear])
   @@index([type])
+  @@index([linkedPackTxId])
   @@map("transactions")
 }
 
 model PackTransaction {
-  id          Int                 @id @default(autoincrement())
-  date        DateTime
-  description String
-  type        PackTransactionType
-  amount      Float
-  category    String              @default("")
-  notes       String              @default("")
-  createdAt   DateTime            @default(now()) @map("created_at")
-  fiscalYear  String              @map("fiscal_year")
+  id                Int                 @id @default(autoincrement())
+  date              DateTime
+  description       String
+  type              PackTransactionType
+  amount            Float
+  category          String              @default("")
+  notes             String              @default("")
+  createdAt         DateTime            @default(now()) @map("created_at")
+  fiscalYear        String              @map("fiscal_year")
+  linkedScoutTxId   Int?                @map("linked_scout_tx_id")
 
   @@index([fiscalYear])
   @@index([type])
+  @@index([linkedScoutTxId])
   @@map("pack_transactions")
 }
 
@@ -64,4 +69,124 @@ enum TransactionType {
 enum PackTransactionType {
   Income
   Expense
+}
+
+model FiscalYearConfig {
+  id             Int      @id @default(autoincrement())
+  fiscalYear     String   @unique @map("fiscal_year")
+  packDuesAmount Float    @default(100) @map("pack_dues_amount")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@index([fiscalYear])
+  @@map("fiscal_year_configs")
+}
+
+model PackDuesPayment {
+  id            Int                   @id @default(autoincrement())
+  scoutId       Int                   @map("scout_id")
+  scoutName     String                @map("scout_name")
+  fiscalYear    String                @map("fiscal_year")
+  amount        Float
+  paymentMethod PackDuesPaymentMethod @map("payment_method")
+  checkNumber   String?               @map("check_number")
+  date          DateTime
+  notes         String                @default("")
+  isOverride    Boolean               @default(false) @map("is_override")
+  createdAt     DateTime              @default(now()) @map("created_at")
+
+  @@index([scoutId])
+  @@index([scoutName])
+  @@index([fiscalYear])
+  @@map("pack_dues_payments")
+}
+
+enum PackDuesPaymentMethod {
+  Cash
+  Check
+  ScoutAccount @map("Scout Account")
+}
+
+enum UserRole {
+  ADMIN
+  TREASURER
+  USER
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  emailVerified Boolean   @default(false) @map("email_verified")
+  name          String?
+  role          UserRole  @default(USER)
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+
+  sessions      Session[]
+  accounts      Account[]
+
+  @@index([email])
+  @@index([role])
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  expiresAt DateTime @map("expires_at")
+  token     String   @unique
+  ipAddress String?  @map("ip_address")
+  userAgent String?  @map("user_agent")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("sessions")
+}
+
+model Account {
+  id           String    @id @default(cuid())
+  userId       String    @map("user_id")
+  accountId    String    @map("account_id")
+  providerId   String    @map("provider_id")
+  accessToken  String?   @map("access_token")
+  refreshToken String?   @map("refresh_token")
+  expiresAt    DateTime? @map("expires_at")
+  password     String?
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("accounts")
+}
+
+model Verification {
+  id         String   @id @default(cuid())
+  identifier String
+  value      String
+  expiresAt  DateTime @map("expires_at")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  @@unique([identifier, value])
+  @@map("verifications")
+}
+
+model Invitation {
+  id        String   @id @default(cuid())
+  email     String
+  role      UserRole @default(USER)
+  token     String   @unique
+  expiresAt DateTime @map("expires_at")
+  invitedBy String   @map("invited_by")
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([token])
+  @@index([email])
+  @@map("invitations")
 }

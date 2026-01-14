@@ -10,15 +10,23 @@
     "prepare": "svelte-kit sync || echo ''",
     "postinstall": "prisma generate",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "create-admin": "tsx scripts/create-admin.ts"
   },
   "devDependencies": {
+    "@playwright/mcp": "^0.0.54",
+    "@playwright/test": "^1.57.0",
     "@sveltejs/adapter-auto": "^7.0.0",
     "@sveltejs/kit": "^2.48.5",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@tailwindcss/postcss": "^4.1.17",
     "@types/pg": "^8.16.0",
     "autoprefixer": "^10.4.22",
+    "dotenv": "^17.2.3",
     "postcss": "^8.5.6",
     "prisma": "^7.2.0",
     "svelte": "^5.43.8",
@@ -31,6 +39,9 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.2.0",
     "@prisma/client": "^7.2.0",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^3.0.3",
+    "better-auth": "^1.4.10",
     "pg": "^8.16.3",
     "zod": "^4.3.5"
   }

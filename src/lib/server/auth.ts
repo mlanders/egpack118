@@ -1,20 +1,39 @@
-import type { RequestEvent } from '@sveltejs/kit';
-import { error } from '@sveltejs/kit';
+import { betterAuth } from "better-auth";
+import { prismaAdapter } from "better-auth/adapters/prisma";
+import { prisma } from "$lib/server/prisma";
+import { env } from "$env/dynamic/private";
+import bcrypt from "bcryptjs";
 
-const SESSION_TIMEOUT = 15 * 60 * 1000; // 15 minutes
+const BETTER_AUTH_SECRET = env.BETTER_AUTH_SECRET || "";
+const BETTER_AUTH_URL = env.BETTER_AUTH_URL || "http://localhost:5173";
 
-export function validateSession(event: RequestEvent): void {
-	const authTimestamp = event.cookies.get('finance_auth_timestamp');
+export const auth = betterAuth({
+  database: prismaAdapter(prisma, {
+    provider: "postgresql",
+  }),
+  emailAndPassword: {
+    enabled: true,
+    requireEmailVerification: false,
+    password: {
+      hash: async (password) => {
+        return await bcrypt.hash(password, 10);
+      },
+      verify: async ({ hash, password }) => {
+        return await bcrypt.compare(password, hash);
+      },
+    },
+  },
+  secret: BETTER_AUTH_SECRET,
+  baseURL: BETTER_AUTH_URL,
+  trustedOrigins: [BETTER_AUTH_URL],
+  session: {
+    expiresIn: 60 * 60 * 24 * 7, // 7 days
+    updateAge: 60 * 60 * 24, // Update session every 24 hours
+  },
+});
 
-	if (!authTimestamp) {
-		throw error(401, { message: 'Unauthorized - Please log in' });
-	}
-
-	const timestamp = parseInt(authTimestamp);
-	const now = Date.now();
-
-	if (now - timestamp >= SESSION_TIMEOUT) {
-		event.cookies.delete('finance_auth_timestamp', { path: '/finances' });
-		throw error(401, { message: 'Session expired - Please log in again' });
-	}
-}
+// Export helper types
+export type Session = typeof auth.$Infer.Session;
+export type User = typeof auth.$Infer.Session.user & {
+  role: "ADMIN" | "TREASURER" | "USER";
+};

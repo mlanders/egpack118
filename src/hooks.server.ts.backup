@@ -1,0 +1,31 @@
+import { auth } from "$lib/server/auth";
+import { prisma } from "$lib/server/prisma";
+import type { Handle } from "@sveltejs/kit";
+
+export const handle: Handle = async ({ event, resolve }) => {
+  // Better Auth handler - handles /api/auth/* endpoints
+  const authRequest = await auth.handler(event.request);
+  if (authRequest) {
+    return authRequest;
+  }
+
+  // Get session for every request
+  const session = await auth.api.getSession({
+    headers: event.request.headers,
+  });
+
+  event.locals.session = session?.session ?? null;
+  
+  // If we have a user, fetch the full user with role from database
+  if (session?.user) {
+    const fullUser = await prisma.user.findUnique({
+      where: { id: session.user.id },
+      select: { id: true, email: true, name: true, role: true, emailVerified: true, createdAt: true },
+    });
+    event.locals.user = fullUser as any;
+  } else {
+    event.locals.user = null;
+  }
+
+  return resolve(event);
+};

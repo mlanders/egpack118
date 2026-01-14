@@ -10,7 +10,6 @@
         transactions: Transaction[];
         packTransactions: PackTransaction[];
         getAvailableFiscalYears: () => string[];
-        getPackShare: (transaction: Transaction) => number;
         onSelectYear: (year: string) => void;
     }
 
@@ -19,7 +18,6 @@
         transactions,
         packTransactions,
         getAvailableFiscalYears,
-        getPackShare,
         onSelectYear,
     }: Props = $props();
 </script>
@@ -101,13 +99,13 @@
                             yearTransactions.filter(
                                 (t) => t.type === "Pack Dues Paid",
                             ).length * 100}
-                        {@const yearFundraisingShare = yearTransactions
+                        {@const yearFundraisingShare = yearPackTransactions
                             .filter(
                                 (t) =>
-                                    t.type === "Deposit" ||
-                                    t.type === "Reimbursement",
+                                    t.type === "Income" &&
+                                    t.category === "Fundraising Share",
                             )
-                            .reduce((sum, t) => sum + getPackShare(t), 0)}
+                            .reduce((sum, t) => sum + t.amount, 0)}
                         {@const yearTransfersFromScouts = yearTransactions
                             .filter((t) => t.type === "Transfer to Pack")
                             .reduce((sum, t) => sum + t.amount, 0)}
@@ -128,7 +126,9 @@
                             .filter((t) => t.type === "Reimbursement")
                             .reduce((sum, t) => sum + t.amount, 0)}
                         {@const yearPackCash =
-                            yearTotalRevenue - yearExpenses - yearReimbursements}
+                            yearTotalRevenue -
+                            yearExpenses -
+                            yearReimbursements}
 
                         {@const yearEarmarked = yearScouts.reduce(
                             (sum, scout) => {
@@ -160,7 +160,9 @@
 
                         <tr class="hover:bg-gray-50">
                             <td class="px-3 py-2">
-                                <div class="text-sm font-semibold text-gray-900">
+                                <div
+                                    class="text-sm font-semibold text-gray-900"
+                                >
                                     {year}
                                 </div>
                                 <div class="text-xs text-gray-500">

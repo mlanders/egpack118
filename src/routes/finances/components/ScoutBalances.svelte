@@ -10,6 +10,7 @@
         getTotalFamilyCash: (scoutName: string) => number;
         getTotalWithdrawals: (scoutName: string) => number;
         hasPackDuesPaid: (scoutName: string) => boolean;
+        canWrite: boolean;
         onToggleInactive: () => void;
         onAddScout: () => void;
         onMarkInactive: (scout: Scout) => void;
@@ -26,6 +27,7 @@
         getTotalFamilyCash,
         getTotalWithdrawals,
         hasPackDuesPaid,
+        canWrite,
         onToggleInactive,
         onAddScout,
         onMarkInactive,
@@ -50,12 +52,14 @@
                 />
                 Show Inactive
             </label>
-            <button
-                onclick={onAddScout}
-                class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
-            >
-                Add Scout
-            </button>
+            {#if canWrite}
+                <button
+                    onclick={onAddScout}
+                    class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                >
+                    Add Scout
+                </button>
+            {/if}
         </div>
     </div>
 
@@ -97,10 +101,12 @@
                             class="px-4 py-2 text-center text-xs font-medium text-white uppercase tracking-wider"
                             >Dues</th
                         >
-                        <th
-                            class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
-                            >Actions</th
-                        >
+                        {#if canWrite}
+                            <th
+                                class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
+                                >Actions</th
+                            >
+                        {/if}
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -127,10 +133,13 @@
                                     : ''}"
                             >
                                 <td class="px-4 py-3 whitespace-nowrap">
-                                    <div
-                                        class="text-sm font-medium text-gray-900"
-                                    >
-                                        {scout.name}
+                                    <div class="text-sm font-medium">
+                                        <a
+                                            href="/finances/scouts/{scout.id}"
+                                            class="text-blue-600 hover:text-blue-800 hover:underline"
+                                        >
+                                            {scout.name}
+                                        </a>
                                     </div>
                                     {#if scout.notes}
                                         <div
@@ -205,32 +214,36 @@
                                         </span>
                                     {/if}
                                 </td>
-                                <td
-                                    class="px-4 py-3 whitespace-nowrap text-right text-sm space-x-2"
-                                >
-                                    {#if scout.active}
+                                {#if canWrite}
+                                    <td
+                                        class="px-4 py-3 whitespace-nowrap text-right text-sm space-x-2"
+                                    >
+                                        {#if scout.active}
+                                            <button
+                                                onclick={() =>
+                                                    onMarkInactive(scout)}
+                                                class="text-yellow-600 hover:text-yellow-900 font-medium"
+                                            >
+                                                Deactivate
+                                            </button>
+                                        {:else}
+                                            <button
+                                                onclick={() =>
+                                                    onMarkActive(scout)}
+                                                class="text-green-600 hover:text-green-900 font-medium"
+                                            >
+                                                Activate
+                                            </button>
+                                        {/if}
                                         <button
                                             onclick={() =>
-                                                onMarkInactive(scout)}
-                                            class="text-yellow-600 hover:text-yellow-900 font-medium"
+                                                onDeleteScout(scout.id!)}
+                                            class="text-red-600 hover:text-red-900 font-medium"
                                         >
-                                            Deactivate
+                                            Delete
                                         </button>
-                                    {:else}
-                                        <button
-                                            onclick={() => onMarkActive(scout)}
-                                            class="text-green-600 hover:text-green-900 font-medium"
-                                        >
-                                            Activate
-                                        </button>
-                                    {/if}
-                                    <button
-                                        onclick={() => onDeleteScout(scout.id!)}
-                                        class="text-red-600 hover:text-red-900 font-medium"
-                                    >
-                                        Delete
-                                    </button>
-                                </td>
+                                    </td>
+                                {/if}
                             </tr>
                         {/each}
                     {/if}

@@ -9,7 +9,7 @@
         filteredTransactions: () => Transaction[];
         filteredPackTransactions: () => PackTransaction[];
         getTypeBadgeClass: (type: string) => string;
-        getPackShare: (transaction: Transaction) => number;
+        canWrite: boolean;
         onViewModeChange: (mode: "scout" | "pack") => void;
         onAddTransaction: () => void;
         onAddPackTransaction: () => void;
@@ -25,7 +25,7 @@
         filteredTransactions,
         filteredPackTransactions,
         getTypeBadgeClass,
-        getPackShare,
+        canWrite,
         onViewModeChange,
         onAddTransaction,
         onAddPackTransaction,
@@ -59,20 +59,22 @@
                     Pack
                 </button>
             </div>
-            {#if transactionViewMode === "scout"}
-                <button
-                    onclick={onAddTransaction}
-                    class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
-                >
-                    Add Transaction
-                </button>
-            {:else}
-                <button
-                    onclick={onAddPackTransaction}
-                    class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
-                >
-                    Add Pack Transaction
-                </button>
+            {#if canWrite}
+                {#if transactionViewMode === "scout"}
+                    <button
+                        onclick={onAddTransaction}
+                        class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                    >
+                        Add Transaction
+                    </button>
+                {:else}
+                    <button
+                        onclick={onAddPackTransaction}
+                        class="px-3 py-1.5 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                    >
+                        Add Pack Transaction
+                    </button>
+                {/if}
             {/if}
         </div>
     </div>
@@ -104,27 +106,25 @@
                                 class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
                                 >Amount</th
                             >
-                            <th
-                                class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
-                                >Pack (25%)</th
-                            >
                             {#if selectedFiscalYear === ""}
                                 <th
                                     class="px-4 py-2 text-center text-xs font-medium text-white uppercase tracking-wider"
                                     >Year</th
                                 >
                             {/if}
-                            <th
-                                class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
-                                >Actions</th
-                            >
+                            {#if canWrite}
+                                <th
+                                    class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
+                                    >Actions</th
+                                >
+                            {/if}
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200">
                         {#if filteredTransactions().length === 0}
                             <tr>
                                 <td
-                                    colspan={selectedFiscalYear === "" ? 8 : 7}
+                                    colspan={selectedFiscalYear === "" ? 7 : 6}
                                     class="px-4 py-8 text-center text-sm text-gray-500"
                                 >
                                     No transactions yet. Click "Add Transaction"
@@ -147,7 +147,27 @@
                                         {transaction.scoutName}
                                     </td>
                                     <td class="px-4 py-3 text-sm text-gray-900">
-                                        {transaction.description}
+                                        <div class="flex items-center gap-1">
+                                            {transaction.description}
+                                            {#if transaction.linkedPackTxId}
+                                                <span
+                                                    class="inline-flex items-center text-blue-600"
+                                                    title="Linked to pack transaction #{transaction.linkedPackTxId}"
+                                                >
+                                                    <svg
+                                                        class="w-3 h-3"
+                                                        fill="currentColor"
+                                                        viewBox="0 0 20 20"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            {/if}
+                                        </div>
                                         {#if transaction.notes}
                                             <div
                                                 class="text-xs text-gray-500 mt-0.5"
@@ -179,19 +199,6 @@
                                     >
                                         ${transaction.amount.toFixed(2)}
                                     </td>
-                                    <td
-                                        class="px-4 py-3 whitespace-nowrap text-right text-sm text-gray-900"
-                                    >
-                                        {#if transaction.type === "Transfer to Pack"}
-                                            <span class="text-xs text-gray-500"
-                                                >Reallocation</span
-                                            >
-                                        {:else if getPackShare(transaction) > 0}
-                                            ${getPackShare(transaction).toFixed(
-                                                2,
-                                            )}
-                                        {/if}
-                                    </td>
                                     {#if selectedFiscalYear === ""}
                                         <td
                                             class="px-4 py-3 whitespace-nowrap text-center"
@@ -203,19 +210,21 @@
                                             </span>
                                         </td>
                                     {/if}
-                                    <td
-                                        class="px-4 py-3 whitespace-nowrap text-right text-sm"
-                                    >
-                                        <button
-                                            onclick={() =>
-                                                onDeleteTransaction(
-                                                    transaction.id!,
-                                                )}
-                                            class="text-red-600 hover:text-red-900 font-medium"
+                                    {#if canWrite}
+                                        <td
+                                            class="px-4 py-3 whitespace-nowrap text-right text-sm"
                                         >
-                                            Delete
-                                        </button>
-                                    </td>
+                                            <button
+                                                onclick={() =>
+                                                    onDeleteTransaction(
+                                                        transaction.id!,
+                                                    )}
+                                                class="text-red-600 hover:text-red-900 font-medium"
+                                            >
+                                                Delete
+                                            </button>
+                                        </td>
+                                    {/if}
                                 </tr>
                             {/each}
                         {/if}
@@ -256,10 +265,12 @@
                                     >Year</th
                                 >
                             {/if}
-                            <th
-                                class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
-                                >Actions</th
-                            >
+                            {#if canWrite}
+                                <th
+                                    class="px-4 py-2 text-right text-xs font-medium text-white uppercase tracking-wider"
+                                    >Actions</th
+                                >
+                            {/if}
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200">
@@ -284,7 +295,27 @@
                                         ).toLocaleDateString()}
                                     </td>
                                     <td class="px-4 py-3 text-sm text-gray-900">
-                                        {transaction.description}
+                                        <div class="flex items-center gap-1">
+                                            {transaction.description}
+                                            {#if transaction.linkedScoutTxId}
+                                                <span
+                                                    class="inline-flex items-center text-blue-600"
+                                                    title="Linked to scout transaction #{transaction.linkedScoutTxId}"
+                                                >
+                                                    <svg
+                                                        class="w-3 h-3"
+                                                        fill="currentColor"
+                                                        viewBox="0 0 20 20"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            {/if}
+                                        </div>
                                         {#if transaction.notes}
                                             <div
                                                 class="text-xs text-gray-500 mt-0.5"
@@ -327,19 +358,21 @@
                                             </span>
                                         </td>
                                     {/if}
-                                    <td
-                                        class="px-4 py-3 whitespace-nowrap text-right text-sm"
-                                    >
-                                        <button
-                                            onclick={() =>
-                                                onDeletePackTransaction(
-                                                    transaction.id!,
-                                                )}
-                                            class="text-red-600 hover:text-red-900 font-medium"
+                                    {#if canWrite}
+                                        <td
+                                            class="px-4 py-3 whitespace-nowrap text-right text-sm"
                                         >
-                                            Delete
-                                        </button>
-                                    </td>
+                                            <button
+                                                onclick={() =>
+                                                    onDeletePackTransaction(
+                                                        transaction.id!,
+                                                    )}
+                                                class="text-red-600 hover:text-red-900 font-medium"
+                                            >
+                                                Delete
+                                            </button>
+                                        </td>
+                                    {/if}
                                 </tr>
                             {/each}
                         {/if}
