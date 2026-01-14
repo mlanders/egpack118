@@ -175,7 +175,11 @@ function parseDateString(dateStr: string): Date {
   if (dateMatch) {
     const [, , monthName, day, year] = dateMatch;
     const month = new Date(`${monthName} 1, ${year}`).getMonth();
-    return new Date(parseInt(year), month, parseInt(day));
+
+    // Create date at noon Pacific Time to avoid timezone issues
+    // This ensures the date doesn't shift to the previous day
+    const dateString = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}T12:00:00-08:00`;
+    return new Date(dateString);
   }
   return new Date();
 }

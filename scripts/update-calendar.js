@@ -69,6 +69,7 @@ function parseICalendar(icalData) {
 }
 
 // Parse iCal date format (YYYYMMDD or YYYYMMDDTHHMMSS)
+// Converts UTC times to Pacific Time
 function parseICalDate(dateStr) {
   const year = parseInt(dateStr.substring(0, 4));
   const month = parseInt(dateStr.substring(4, 6)) - 1;
@@ -78,28 +79,39 @@ function parseICalDate(dateStr) {
     const hour = parseInt(dateStr.substring(9, 11));
     const minute = parseInt(dateStr.substring(11, 13));
     const second = parseInt(dateStr.substring(13, 15));
-    return new Date(Date.UTC(year, month, day, hour, minute, second));
+
+    // Create UTC date
+    const utcDate = new Date(Date.UTC(year, month, day, hour, minute, second));
+
+    // Convert to Pacific Time by creating a new date with the UTC time
+    // interpreted as Pacific Time (which is UTC-8 or UTC-7 during DST)
+    const pacificDate = new Date(
+      utcDate.toLocaleString("en-US", { timeZone: "America/Los_Angeles" }),
+    );
+
+    return pacificDate;
   }
 
-  return new Date(year, month, day);
+  // For all-day events, use noon Pacific Time to avoid date shifting
+  return new Date(year, month, day, 12, 0, 0);
 }
 
-// Format date for display
+// Format date for display in Pacific Time
 function formatDate(date, isAllDay) {
-  if (isAllDay) {
-    return date.toLocaleDateString("en-US", {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-  }
-
-  return date.toLocaleDateString("en-US", {
+  const options = {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "America/Los_Angeles",
+  };
+
+  if (isAllDay) {
+    return date.toLocaleDateString("en-US", options);
+  }
+
+  return date.toLocaleString("en-US", {
+    ...options,
     hour: "numeric",
     minute: "2-digit",
   });
@@ -134,6 +146,7 @@ function generateMarkdown(events) {
     const monthKey = event.startDate.toLocaleDateString("en-US", {
       year: "numeric",
       month: "long",
+      timeZone: "America/Los_Angeles",
     });
     if (!eventsByMonth[monthKey]) {
       eventsByMonth[monthKey] = [];
@@ -154,6 +167,7 @@ function generateMarkdown(events) {
         const endTime = event.endDate.toLocaleTimeString("en-US", {
           hour: "numeric",
           minute: "2-digit",
+          timeZone: "America/Los_Angeles",
         });
         markdown += ` - ${endTime}`;
       }

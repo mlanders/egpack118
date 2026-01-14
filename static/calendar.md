@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/13/2026, 3:30:01 PM*
+*Last updated: 1/13/2026, 4:13:40 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -8,7 +8,7 @@
 
 #### Pack Meeting
 
-**Date:** Wednesday, January 14, 2026 at 2:15 AM - 3:30 AM
+**Date:** Tuesday, January 13, 2026 at 6:15 PM - 7:30 PM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -27,6 +27,37 @@ We will be playing some games with a sportsmanship focus. Games may include the 
 
 You can see the RSVP status of this event in BAND.
 (Michael Landers added)
+
+---
+
+#### Bear Dean Meeting January
+
+**Date:** Wednesday, January 14, 2026 at 6:30 PM - 7:30 PM
+
+**Location:** 8548 Amares Cir, Elk Grove, CA 95757, USA
+
+Happy New Year Bear Families! We are getting ready for our nextden meeting in January. We aim to complete some items left from our Adventure Paws of Action and move into the next Adventure Standing Tall. This Adventure will focus on personal safety and this include sensitive topics thatare encourage to be discussed at home.  The first requirement is to have families watch the video at home. See link attached. Parents, before watching the video with your kids, We recommend to read the Parent Notificationand sign the form and bring to our meeting.  (see PDF attached) 
+https://vimeo.com/325064786.
+If any questions, please let us know. This is recommended to be completed at home before the Den Meeting.
+Noah and Reylee's parents, We will send a separate message to coordinate an early starting timewith you both to get kids caught up.
+Thank you again and looking forwardto see everyone.
+PD. Our Next Denner is Noah.
+
+You can see the RSVP status of this event in BAND.
+(Liliana Garcia added)
+
+---
+
+#### 3 Rivers District Round Table Meeting
+
+**Date:** Thursday, January 15, 2026 at 11:00 AM - 1:00 PM
+
+Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+
+Verify location on the GEC calendar: https://scoutingevent.com/047  
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
 
 ---
 
@@ -51,40 +82,9 @@ SunJan. 18 - 10:00 AM - 4:00 PM
 
 ---
 
-#### Bear Dean Meeting January
-
-**Date:** Thursday, January 15, 2026 at 2:30 AM - 3:30 AM
-
-**Location:** 8548 Amares Cir, Elk Grove, CA 95757, USA
-
-Happy New Year Bear Families! We are getting ready for our nextden meeting in January. We aim to complete some items left from our Adventure Paws of Action and move into the next Adventure Standing Tall. This Adventure will focus on personal safety and this include sensitive topics thatare encourage to be discussed at home.  The first requirement is to have families watch the video at home. See link attached. Parents, before watching the video with your kids, We recommend to read the Parent Notificationand sign the form and bring to our meeting.  (see PDF attached) 
-https://vimeo.com/325064786.
-If any questions, please let us know. This is recommended to be completed at home before the Den Meeting.
-Noah and Reylee's parents, We will send a separate message to coordinate an early starting timewith you both to get kids caught up.
-Thank you again and looking forwardto see everyone.
-PD. Our Next Denner is Noah.
-
-You can see the RSVP status of this event in BAND.
-(Liliana Garcia added)
-
----
-
-#### 3 Rivers District Round Table Meeting
-
-**Date:** Thursday, January 15, 2026 at 7:00 PM - 9:00 PM
-
-Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
-
-Verify location on the GEC calendar: https://scoutingevent.com/047  
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
-
 #### Sacramento Kings Scout Night
 
-**Date:** Monday, January 19, 2026 at 2:00 AM
+**Date:** Sunday, January 18, 2026 at 6:00 PM
 
 **Location:** Golden 1 Center
 500 David J Stern Walk, Sacramento, CA 95814,USA
@@ -105,7 +105,7 @@ https://kings.spinzo.com/trail-blazers-vs-kings-2026-01-18-DAYWW?group=golden-em
 
 #### Wolf Den Meeting [2nd Grade] - Council Fire (Citizenship)
 
-**Date:** Wednesday, January 21, 2026 at 2:15 AM - 3:30 AM
+**Date:** Tuesday, January 20, 2026 at 6:15 PM - 7:30 PM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -137,7 +137,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Cub Leader Basic Training (Details TBA)
 
-**Date:** Saturday, February 7, 2026 at 5:00 PM - 12:00 AM
+**Date:** Saturday, February 7, 2026 at 9:00 AM - 4:00 PM
 
 https://scoutingevent.com/047-104534
 
@@ -164,7 +164,7 @@ Pack Committee Chair or Committee Member
 
 #### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing (Part 1 of 2)
 
-**Date:** Wednesday, February 18, 2026 at 2:15 AM - 3:30 AM
+**Date:** Tuesday, February 17, 2026 at 6:15 PM - 7:30 PM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -190,7 +190,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pinewood Derby / Blue & Gold Banquet
 
-**Date:** Saturday, February 21, 2026 at 9:00 PM - 12:00 AM
+**Date:** Saturday, February 21, 2026 at 1:00 PM - 4:00 PM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -203,7 +203,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Scouting for Food - Flyer Distribution
 
-**Date:** Saturday, March 7, 2026 at 5:00 PM - 7:00 PM
+**Date:** Saturday, March 7, 2026 at 9:00 AM - 11:00 AM
 
 **Location:** Zehnder Ranch Elementary School - EGUSD
 9880 Denali Cir, Elk Grove, CA 95757, USA
@@ -214,7 +214,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pack Meeting: Arrow of Light Crossover
 
-**Date:** Wednesday, March 11, 2026 at 1:15 AM - 2:00 AM
+**Date:** Tuesday, March 10, 2026 at 6:15 PM - 7:00 PM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -226,7 +226,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Scouting for Food - Food Pickup
 
-**Date:** Saturday, March 14, 2026 at 4:00 PM - 6:00 PM
+**Date:** Saturday, March 14, 2026 at 9:00 AM - 11:00 AM
 
 **Location:** Zehnder Ranch Elementary School - EGUSD
 9880 Denali Cir, Elk Grove, CA 95757, USA
@@ -237,7 +237,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing (Part 2 of 2)
 
-**Date:** Wednesday, March 18, 2026 at 1:15 AM - 2:30 AM
+**Date:** Tuesday, March 17, 2026 at 6:15 PM - 7:30 PM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -264,7 +264,7 @@ You cansee the RSVP status of this event in BAND.
 
 #### University of Scouting (Save the Date) - Adult/Leader Training
 
-**Date:** Saturday, March 21, 2026 at 8:00 AM - 5:00 PM
+**Date:** Saturday, March 21, 2026 at 1:00 AM - 10:00 AM
 
 (Stephanie Landers added)
 
@@ -295,7 +295,7 @@ The Golden Empire Council is giving Scouts of all ages a chanceto try Scouting l
 
 #### Wolf Den Meeting [2nd Grade] - Cubs Who Care
 
-**Date:** Wednesday, April 22, 2026 at 1:15 AM - 2:30 AM
+**Date:** Tuesday, April 21, 2026 at 6:15 PM - 7:30 PM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
@@ -330,7 +330,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Bridging Ceremony / End-of-Year Party
 
-**Date:** Wednesday, May 13, 2026 at 12:00 AM - 2:30 AM
+**Date:** Tuesday, May 12, 2026 at 5:00 PM - 7:30 PM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -342,7 +342,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Cub Leader Basic Training (Save the Date)
 
-**Date:** Saturday, May 16, 2026 at 4:00 PM - 11:00 PM
+**Date:** Saturday, May 16, 2026 at 9:00 AM - 4:00 PM
 
 https://scoutingevent.com/047-104535
 
@@ -381,7 +381,7 @@ Council Vice President TrainingKim Perry-Reed kperryr@gmail.com or 916-203-5711
 
 #### Annual Planning Meeting – All parents welcome
 
-**Date:** Saturday, June 13, 2026 at 10:00 PM - 12:00 AM
+**Date:** Saturday, June 13, 2026 at 3:00 PM - 5:00 PM
 
 You can see the RSVP status of this event in BAND.
 (StephanieLanders added)
