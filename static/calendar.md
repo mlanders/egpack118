@@ -1,28 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 1/14/2026, 4:51:07 AM*
+*Last updated: 1/14/2026, 10:36:02 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
-
-#### Bear Den Meeting January
-
-**Date:** Wednesday, January 14, 2026 at 10:30 AM - 11:30 AM
-
-**Location:** 8548 Amares Cir, Elk Grove, CA 95757, USA
-
-Happy New Year Bear Families! We are getting ready for our nextden meeting in January. We aim to complete some items left from our Adventure Paws of Action and move into the next Adventure Standing Tall. This Adventure will focus on personal safety and this include sensitive topics thatare encourage to be discussed at home.  The first requirement is to have families watch the video at home. See link attached. Parents, before watching the video with your kids, We recommend to read the Parent Notificationand sign the form and bring to our meeting.  (see PDF attached) 
-https://vimeo.com/325064786.
-If any questions, please let us know. This is recommended to be completed at home before the Den Meeting.
-Noah and Reylee's parents, We will send a separate message to coordinate an early starting timewith you both to get kids caught up.
-Thank you again and looking forwardto see everyone.
-PD. Our Next Denner is Noah.
-
-You can see the RSVP status of this event in BAND.
-(Liliana Garcia added)
-
----
 
 #### 3 Rivers District Round Table Meeting
 
