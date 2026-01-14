@@ -37,39 +37,39 @@
                 <thead class="bg-gray-50">
                     <tr>
                         <th
-                            class="px-3 py-2 text-left text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-left text-xs font-medium text-white uppercase"
                             >Year</th
                         >
                         <th
-                            class="px-3 py-2 text-center text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-center text-xs font-medium text-white uppercase"
                             >Scouts</th
                         >
                         <th
-                            class="px-3 py-2 text-center text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-center text-xs font-medium text-white uppercase"
                             >Txns</th
                         >
                         <th
-                            class="px-3 py-2 text-right text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-right text-xs font-medium text-white uppercase"
                             >Revenue</th
                         >
                         <th
-                            class="px-3 py-2 text-right text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-right text-xs font-medium text-white uppercase"
                             >Expenses</th
                         >
                         <th
-                            class="px-3 py-2 text-right text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-right text-xs font-medium text-white uppercase"
                             >Cash</th
                         >
                         <th
-                            class="px-3 py-2 text-right text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-right text-xs font-medium text-white uppercase"
                             >Earmarked</th
                         >
                         <th
-                            class="px-3 py-2 text-right text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-right text-xs font-medium text-white uppercase"
                             >Unallocated</th
                         >
                         <th
-                            class="px-3 py-2 text-center text-xs font-medium text-gray-700 uppercase"
+                            class="px-3 py-2 text-center text-xs font-medium text-white uppercase"
                             >Actions</th
                         >
                     </tr>
