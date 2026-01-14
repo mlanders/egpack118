@@ -1,12 +1,12 @@
 # Pack 118 Calendar
 
-*Last updated: 1/13/2026, 5:54:56 PM*
+*Last updated: 1/13/2026, 10:36:43 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
 
-#### Bear Dean Meeting January
+#### Bear Den Meeting January
 
 **Date:** Wednesday, January 14, 2026 at 10:30 AM - 11:30 AM
 
@@ -54,6 +54,20 @@ Fri Jan. 16 - 11:00 AM - 8:00 PM
 Sat Jan. 17 - 10:00 AM - 7:00 PM
 SunJan. 18 - 10:00 AM - 4:00 PM
 
+(Michael Landers added)
+
+---
+
+#### Tiger Den Meeting
+
+**Date:** Saturday, January 17, 2026 at 4:00 AM - 5:00 AM
+
+**Location:** 9800 Toscano Dr
+9800 Toscano Dr, Elk Grove, CA 95757, USA
+
+Going to work on Bobcat
+
+You can see the RSVP status of thisevent in BAND.
 (Michael Landers added)
 
 ---
