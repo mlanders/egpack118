@@ -1,44 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 1/14/2026, 10:36:19 PM*
+*Last updated: 1/15/2026, 4:50:12 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
-
-#### 3 Rivers District Round Table Meeting
-
-**Date:** Thursday, January 15, 2026 at 3:00 AM - 5:00 AM
-
-Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
-
-Verify location on the GEC calendar: https://scoutingevent.com/047  
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
-
-#### International Sportsman Expo (ISE)
-
-**Date:** Thursday, January 15, 2026
-
-**Location:** 1600 Exposition Blvd
-1600 Exposition Blvd, Sacramento, CA 95815, USA
-
-Scouts wearing a uniform get into the event FREE. Parking is $20.
-
-Golden Empire Council will be there with the Climbing Wall, PinewoodDerby, Scout Games, Cub Scout Crafts, Fishing POND, STEM, and Shooting Sports (Archery and BB Guns).
-
-Hours
-Thurs Jan. 15 - 11:00 AM - 8:00 PM
-Fri Jan. 16 - 11:00 AM - 8:00 PM
-Sat Jan. 17 - 10:00 AM - 7:00 PM
-SunJan. 18 - 10:00 AM - 4:00 PM
-
-(Michael Landers added)
-
----
 
 #### Tiger Den Meeting
 
