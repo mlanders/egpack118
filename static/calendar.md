@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/15/2026, 5:51:56 PM*
+*Last updated: 1/15/2026, 10:36:19 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -120,6 +120,19 @@ With Pack or Family: Visit the Nimbus Fish Hatchery (Req 1)
 
 Suggested Attire/Materials:
 'Class A’ Uniformis encouraged
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### 3 Rivers District Round Table Meeting
+
+**Date:** Thursday, February 19, 2026 at 3:00 AM - 5:00 AM
+
+Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+
+Verify location on the GEC calendar: https://scoutingevent.com/047  
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
