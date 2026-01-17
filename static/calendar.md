@@ -1,24 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 1/16/2026, 10:32:54 PM*
+*Last updated: 1/17/2026, 4:42:20 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### January 2026
-
-#### Tiger Den Meeting
-
-**Date:** Saturday, January 17, 2026 at 4:00 AM - 5:00 AM
-
-**Location:** 9800 Toscano Dr
-9800 Toscano Dr, Elk Grove, CA 95757, USA
-
-Going to work on Bobcat
-
-You can see the RSVP status of thisevent in BAND.
-(Michael Landers added)
-
----
 
 #### Sacramento Kings Scout Night
 
