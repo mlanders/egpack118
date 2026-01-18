@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/17/2026, 5:58:20 PM*
+*Last updated: 1/17/2026, 10:33:31 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -27,30 +27,11 @@ https://kings.spinzo.com/trail-blazers-vs-kings-2026-01-18-DAYWW?group=golden-em
 
 ---
 
-#### Wolf Den Meeting [2nd Grade] - Council Fire (Citizenship)
+#### Tiger Den Meeting Activity - Possible Hike?
 
-**Date:** Tuesday, January 20, 2026 at 10:15 AM - 11:30 AM
+**Date:** Saturday, January 31, 2026 at 5:00 AM - 7:00 AM
 
-**Location:** 9810 Collie Way
-9810 Collie Way, Elk Grove, CA 95757, USA
-
-Advancements/Themes: 
-
-Council Fire (Citizenship)
-https://www.scouting.org/cub-scout-adventures/council-fire/
-
-Location: Landers’ Home (9810 Collie Way)
-
-Preparation:
-- With parents (before meeting): Complete “How to Protect Your Children” activities (Req 7) (https://www.scouting.org/training/youth-protection/parents-guides/)
-
-Planned Activities: 
-Learn about the US Flag (Req 1); Develop “good citizenship” skits (Req 2);Build Lego models of homes & buildings to make a neighborhood/community (Req 3, 4, & 5)
-
-With Pack: Participate in Scouting for Food event - takesplace in March (Req 6)
-
-Suggested Attire/Materials:
-'Class A’ Uniform is encouraged
+Details TBA - Depending on weather we might do a hike and worktoward completing the Outdoor Adventure or Physical Fitness adventure. 
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
@@ -86,7 +67,7 @@ Pack Committee Chair or Committee Member
 
 ---
 
-#### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing (Part 1 of 2)
+#### Wolf Den Meeting [2nd Grade] - Council Fire
 
 **Date:** Tuesday, February 17, 2026 at 10:15 AM - 11:30 AM
 
@@ -94,18 +75,22 @@ Pack Committee Chair or Committee Member
 9810 Collie Way, Elk Grove, CA 95757, USA
 
 Advancements/Themes: 
-A Wolf Goes Fishing (Part 1 of 2)
-https://www.scouting.org/cub-scout-adventures/a-wolf-goes-fishing/
 
-Location:Landers’ Home (9810 Collie Way)
+Council Fire (Citizenship)
+https://www.scouting.org/cub-scout-adventures/council-fire/
+
+Location: Landers’ Home (9810 Collie Way)
+
+Preparation:
+- With parents (before meeting): Complete “How to Protect Your Children” activities (Req 7) (https://www.scouting.org/training/youth-protection/parents-guides/)
 
 Planned Activities: 
-Bait memory game (Req 2); Fishing Safety Game (Req 4)
+Learn about the US Flag (Req 1); Develop “good citizenship” skits (Req 2);Build Lego models of homes & buildings to make a neighborhood/community (Req 3, 4, & 5)
 
-With Pack or Family: Visit the Nimbus Fish Hatchery (Req 1)
+With Pack: Participate in Scouting for Food event - takesplace in March (Req 6)
 
 Suggested Attire/Materials:
-'Class A’ Uniformis encouraged
+'Class A’ Uniform is encouraged
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
@@ -172,7 +157,7 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing (Part 2 of 2)
+#### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing
 
 **Date:** Tuesday, March 17, 2026 at 11:15 AM - 12:30 PM
 
@@ -182,10 +167,24 @@ You can see the RSVP status of this event in BAND.
 Advancements/Themes: A Wolf Goes Fishing
 https://www.scouting.org/cub-scout-adventures/a-wolf-goes-fishing/
 
+Advancements/Themes: 
+A Wolf Goes Fishing (Part 1 of 2)
+https://www.scouting.org/cub-scout-adventures/a-wolf-goes-fishing/
+
+Location: Landers’ Home (9810 Collie Way)
+
+Planned Activities: 
+Bait memory game (Req 2); Fishing Safety Game (Req 4)
+
+With Pack or Family: Visit the Nimbus Fish Hatchery (Req 1)
+
+SuggestedAttire/Materials:
+'Class A’ Uniform is encouraged
+
 Location: Elk Grove Park Lake
 
 Planned Activities: 
-Practice casting (Req 3); Go fishing as a den(Req 5)
+Practice casting (Req 3); Go fishing asa den (Req 5)
 
 Suggested Attire/Materials:
 Class B T-Shirt
@@ -194,7 +193,7 @@ If families have fishing gear they are invited to bring it!
 
 
 
-You cansee the RSVP status of this event in BAND.
+You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
@@ -322,6 +321,24 @@ Council Vice President TrainingKim Perry-Reed kperryr@gmail.com or 916-203-5711
 
 You can see the RSVP status of this event in BAND.
 (StephanieLanders added)
+
+---
+
+### July 2026
+
+#### Pack Family Campout! Sly Park - Details TBA
+
+**Date:** Friday, July 10, 2026 at 6:00 AM - 4:00 AM
+
+**Location:** 4771 Sly Park Rd
+4771 Sly Park Rd, Pollock Pines, CA 95726, USA
+
+Exciting news -- We have reserved Scout Hill at Sly Park campground for a family campout! Details TBA. 
+
+Campground details here: https://www.eid.org/recreation/sly-park-reservations-and-campsite-photos/scout-hill 
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
 
 ---
 
