@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/18/2026, 10:29:47 AM*
+*Last updated: 1/18/2026, 5:56:30 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -18,6 +18,20 @@ You can see the RSVP status of this event in BAND.
 ---
 
 ### February 2026
+
+#### Webelos-4th Grade Den Meeting
+
+**Date:** Sunday, February 1, 2026 at 6:00 AM - 7:30 AM
+
+**Location:** 7217 Point Pleasant Rd
+7217 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Race the Webelos Adventure(lots of useful information as the scouts prepare for Pinewood Derby). 
+
+You can see the RSVP status of this event in BAND.
+(John Fraser added)
+
+---
 
 #### Cub Leader Basic Training (Details TBA)
 
