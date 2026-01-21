@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/20/2026, 10:38:53 AM*
+*Last updated: 1/20/2026, 5:54:22 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -191,10 +191,25 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### University of Scouting (Save the Date) - Adult/Leader Training
+#### University of Scouting (GEC Event) - Adult/Leader Training
 
-**Date:** Friday, March 20, 2026 at 6:00 PM - 3:00 AM
+**Date:** Saturday, March 21, 2026 at 1:00 AM - 9:00 AM
 
+**Location:** Florin High School
+7956 Cottonwood Ln, Sacramento, CA 95828, USA
+
+Information & Registration: https://scoutingevent.com/047-109209 
+
+FEE: Participants
+              $25 Early Bird Janaury 15  to February 11, 11:59 PM
+              $30 Regular February 12 - March 6, 11:59 PM
+          Staff (Instructors, Helpers and Admin Staff only)
+$ 10  Early Bird Janaury 15  to February 11, 11:59 PM
+              $10 Regular February 12 - March 6, 11:59 PM
+
+
+
+You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
