@@ -1,21 +1,8 @@
 # Pack 118 Calendar
 
-*Last updated: 1/31/2026, 4:51:02 AM*
+*Last updated: 1/31/2026, 10:34:58 AM*
 
 ## Upcoming Events (Next 6 Months)
-
-### January 2026
-
-#### Tiger Den Meeting Activity - Possible Hike?
-
-**Date:** Saturday, January 31, 2026 at 5:00 AM - 7:00 AM
-
-Details TBA - Depending on weather we might do a hike and worktoward completing the Outdoor Adventure or Physical Fitness adventure. 
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 ### February 2026
 
