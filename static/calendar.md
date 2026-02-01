@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/31/2026, 10:51:43 PM*
+*Last updated: 2/1/2026, 4:53:12 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -44,6 +44,18 @@ Pack Committee Chair or Committee Member
 
 
 (Stephanie Landers added)
+
+---
+
+#### Pack Meeting
+
+**Date:** Tuesday, February 10, 2026 at 2:15 AM - 3:30 AM
+
+**Location:** Point Pleasant United Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
 
 ---
 
