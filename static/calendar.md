@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 1/31/2026, 6:32:50 PM*
+*Last updated: 1/31/2026, 10:51:43 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -102,6 +102,15 @@ You can see the RSVP status of this event in BAND.
 ---
 
 ### March 2026
+
+#### Tiger Den Meeting
+
+**Date:** Sunday, March 1, 2026 at 5:00 AM - 7:00 AM
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
+
+---
 
 #### Scouting for Food - Flyer Distribution
 
