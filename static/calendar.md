@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 2/1/2026, 6:24:05 PM*
+*Last updated: 2/1/2026, 11:04:11 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -218,14 +218,6 @@ You can see the RSVP status of this event in BAND.
 4J6R+J2 Beale Air Force Base, CA, USA
 
 The Golden Empire Council is giving Scouts of all ages a chanceto try Scouting like never before. Scouts from all over Northern California will meet at Beale Air Force Base for a weekend of fun, games, militaryand aviation shows, an arena show, a community showcase, a merit badgemidway, range and field sports, Cub Scouts, Scouts BSA, Venturing, andSea Scout camps, a Fun Run, and Sunday services. Check out our video forour future Expo 2026.
-
-(Stephanie Landers added)
-
----
-
-#### Spring Family Campout (Tentative)
-
-**Date:** Saturday, April 18, 2026
 
 (Stephanie Landers added)
 
