@@ -1,5 +1,6 @@
 <script>
     import pinewood_derby from "/src/lib/assets/activities/pinewood_derby.webp";
+    import pwdRules2026 from "/src/lib/assets/2026threeriversPWDrules.pdf";
     import derby_templates_1 from "/src/lib/assets/pinewood_derby_templates/derby_templates_1.pdf";
     import derby_templates_2 from "/src/lib/assets/pinewood_derby_templates/derby_templates_2.pdf";
     import derby_templates_3 from "/src/lib/assets/pinewood_derby_templates/derby_templates_3.pdf";
@@ -70,69 +71,115 @@
         <div class="prose prose-lg max-w-none">
             <ol class="space-y-4 text-gray-700">
                 <li>
-                    <strong>1.</strong> Only the axles, wheels and body provided in
-                    the Boy Scouts of America kit are the only parts that can be used
-                    to construct your car.
+                    <strong>1.</strong> NO PRE-CUT CARS or cars from PREVIOUS years.
                 </li>
                 <li>
-                    <strong>2.</strong> Width shall not exceed 2-3/4 inches.
+                    <strong>2.</strong> The car, including all decorations, must
+                    conform to the following size and weight restrictions:
+                    <ul class="mt-2 ml-4 space-y-1">
+                        <li>
+                            <strong>a.</strong> WIDTH – Not to exceed 2 ¾ inches,
+                            inner wheel width a minimum of 1 ¾ inches.
+                        </li>
+                        <li>
+                            <strong>b.</strong> HEIGHT – Ground to underside of car
+                            must be a minimum of 3/8 inch. Overall car height cannot
+                            exceed 6 inches.
+                        </li>
+                        <li>
+                            <strong>c.</strong> LENGTH – Not to exceed 7 inches.
+                        </li>
+                        <li>
+                            <strong>d.</strong> WEIGHT – Not to exceed 5 ounces and
+                            no loose weights (recommend designing for 4.9 ounces as
+                            environmental items such as humidity can affect weight
+                            reading – the scale used at car inspection determines
+                            final qualification for race).
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <strong>3.</strong> Length shall not exceed 7 inches.
+                    <strong>3.</strong> Axles, wheels and body provided in the Boy
+                    Scouts of America kit are the only parts to be used. Wheels and
+                    axles from other kit brands are not allowed.
                 </li>
                 <li>
-                    <strong>4.</strong> Weight shall not exceed 5.0 ounces. Weight
-                    may be added but must be securely fastened to the car body.
+                    <strong>4.</strong> Wheel bearings, washers and bushings are prohibited.
                 </li>
                 <li>
-                    <strong>5.</strong> The car must have 1-3/4 inches clearance between
-                    the wheels.
+                    <strong>5.</strong> Wheels may be sanded until the mold seam is
+                    removed. Wheels are not to be turned on a lathe, completely smoothed
+                    or modified. Some of the original surface must still be visible.
                 </li>
                 <li>
-                    <strong>6.</strong> The car must have 3/8 inch clearance underneath
-                    the body so the car will clear the center guide strip on the track.
+                    <strong>6.</strong> NO lubricating oil may be used. Axles may
+                    only be lubricated with dry powdered graphite or Teflon lubricant.
+                    No lubricants are allowed in the building. All lubricants must
+                    be applied prior to race time.
                 </li>
                 <li>
-                    <strong>7.</strong> Wheel bearings, washers and bushings are prohibited.
+                    <strong>7.</strong> NO enclosing or packing wheels. NO hub caps.
                 </li>
                 <li>
-                    <strong>8.</strong> The car shall not ride on any type of springs.
+                    <strong>8.</strong> NO changing of the axles slot position. The
+                    pre-cut axle slot on the block of wood must be used. If the axle
+                    slot is not a true 90-degree to the length of the car, adjustment
+                    may be made by filling the slot and re-sawing at the same location.
                 </li>
                 <li>
-                    <strong>9.</strong> Only official Cub Scout Grand Prix Pinewood
-                    Derby wheels and axles are permitted.
+                    <strong>9.</strong> Axles must be attached directly to the car
+                    body in the axle slot. The car may not ride on any kind of spring(s).
                 </li>
                 <li>
-                    <strong>10.</strong> Details such as steering wheel and driver
-                    are permissible as long as these details do not exceed the maximum
-                    length, width and weight specifications.
+                    <strong>10.</strong> The car must be freewheeling, with no starting
+                    devices. No assisted starts of any kind are allowed.
                 </li>
                 <li>
-                    <strong>11.</strong> The car must be freewheeling with no starting
-                    devices.
+                    <strong>11.</strong> NO loose materials of any kind are allowed
+                    on the car.
                 </li>
                 <li>
-                    <strong>12.</strong> Each car must pass inspection by the official
-                    inspection committee before it will be allowed to compete. If
-                    a car does not pass inspection, the owner will be informed of
-                    the reason and will be given time to make adjustments.
+                    <strong>12.</strong> All cars must pass an inspection to qualify
+                    for the race. Failure to follow the above rules will result in
+                    disqualification. All racers must be pre-registered AND cars must
+                    pass inspection on race day.
                 </li>
                 <li>
-                    <strong>13.</strong> Cars that are deemed unsafe will be disqualified.
+                    <strong>13.</strong> Cars that jump the track will be given a
+                    restart. Cars that jump the track a second time immediately after
+                    the restart will be disqualified if, in the opinion of the race
+                    steward, the car will continue to jump the track or poses a danger
+                    to the other cars on the track.
                 </li>
                 <li>
-                    <strong>14.</strong> Wheel treatment: wheels may be sanded and
-                    polished. All four wheels must touch the track surface.
-                </li>
-                <li>
-                    <strong>15.</strong> Axle treatment: axles may be polished. Graphite
-                    or other dry lubricant may be used. No liquid lubricants are permitted.
-                </li>
-                <li>
-                    <strong>16.</strong> The car shall be constructed solely by the
-                    Cub Scout with minimal adult assistance for safety purposes.
+                    <strong>14.</strong> The race steward, in the case of a breakdown,
+                    will do minor repairs.
                 </li>
             </ol>
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-gray-200">
+            <a
+                href={pwdRules2026}
+                download
+                class="inline-flex items-center gap-2 bg-scout-blue text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+            >
+                <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                    />
+                </svg>
+                Download Official Rules (PDF)
+            </a>
         </div>
     </div>
 
