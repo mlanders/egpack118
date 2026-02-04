@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 2/3/2026, 7:47:08 PM*
+*Last updated: 2/3/2026, 10:54:40 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -82,6 +82,20 @@ You can see the RSVP status of this event in BAND.
 Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
 
 Verify location on the GEC calendar: https://scoutingevent.com/047  
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### PWD - Last call for car check-in!
+
+**Date:** Friday, February 20, 2026 at 10:00 AM - 11:00 AM
+
+**Location:** Point Pleasant United Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+All cars need to be turned in, registered, and accounted forPRIOR to race day. If this time does not work for you, you can arrange a time to drop off with Rob (916-716-1283) or another leader for a different registration time. 
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
