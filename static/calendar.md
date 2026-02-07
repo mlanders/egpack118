@@ -1,37 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 2/6/2026, 10:43:41 PM*
+*Last updated: 2/7/2026, 4:52:23 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### February 2026
-
-#### Cub Leader Basic Training (Details TBA)
-
-**Date:** Saturday, February 7, 2026 at 1:00 AM - 8:00 AM
-
-https://scoutingevent.com/047-104534
-
-WHEN: Saturday, Feb 7, 2026
-
-Check-in 8:30a
-
-TIME: 9:00a - 4:00p
-
-WHERE: Coucil Service Center, 3851 N Freeway Blvd Suite 100, Sacramento 95834  
-
-COST: Free -bring your lunch
-
-For Cub Leaders & Pack Adults looking for in person Basic Leader Specific Training, you will be trained for all positions
-
-Cubmaster or Assistant Cubmaster
-Den Leader or Assistant Den Leader
-Pack Committee Chair or Committee Member
-
-
-(Stephanie Landers added)
-
----
 
 #### Pack Meeting
 
