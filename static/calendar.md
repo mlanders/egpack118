@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 2/8/2026, 4:53:18 AM*
+*Last updated: 2/8/2026, 10:38:39 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -45,6 +45,19 @@ Suggested Attire/Materials:
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### Den Bear Meeting
+
+**Date:** Wednesday, February 18, 2026 at 10:30 AM - 11:30 AM
+
+**Location:** 8549 Amares Cir, Elk Grove, CA 95757, USA
+
+Hello Families. Last month we have a great meeting and learningways to protect ourself. This month we are learning ways to stay healthy and active. join us to our next den meeting. We will learn about healthy eating and will make some yummy snacks! 
+
+You can see the RSVP status of this event in BAND.
+(Liliana Garcia added)
 
 ---
 
