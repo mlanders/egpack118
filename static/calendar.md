@@ -1,22 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 2/9/2026, 11:06:03 PM*
+*Last updated: 2/10/2026, 5:17:15 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### February 2026
-
-#### Pack Meeting
-
-**Date:** Tuesday, February 10, 2026 at 2:15 AM - 3:30 AM
-
-**Location:** Point Pleasant United Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
-
----
 
 #### Wolf Den Meeting [2nd Grade] - Council Fire
 
