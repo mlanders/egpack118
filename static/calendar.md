@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 2/14/2026, 10:53:59 PM*
+*Last updated: 2/15/2026, 4:54:22 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -111,7 +111,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pack Meeting: Arrow of Light Crossover
 
-**Date:** Tuesday, March 10, 2026 at 11:15 AM - 12:00 PM
+**Date:** Tuesday, March 10, 2026 at 11:15 AM - 12:30 PM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
