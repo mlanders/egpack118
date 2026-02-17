@@ -1,40 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 2/17/2026, 5:06:47 AM*
+*Last updated: 2/17/2026, 10:59:07 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### February 2026
-
-#### Wolf Den Meeting [2nd Grade] - Council Fire
-
-**Date:** Tuesday, February 17, 2026 at 10:15 AM - 11:30 AM
-
-**Location:** 9810 Collie Way
-9810 Collie Way, Elk Grove, CA 95757, USA
-
-Advancements/Themes: 
-
-Council Fire (Citizenship)
-https://www.scouting.org/cub-scout-adventures/council-fire/
-
-Location: Landers’ Home (9810 Collie Way)
-
-Preparation:
-- With parents (before meeting): Complete “How to Protect Your Children” activities (Req 7) (https://www.scouting.org/training/youth-protection/parents-guides/)
-
-Planned Activities: 
-Learn about the US Flag (Req 1); Develop “good citizenship” skits (Req 2);Build Lego models of homes & buildings to make a neighborhood/community (Req 3, 4, & 5)
-
-With Pack: Participate in Scouting for Food event - takesplace in March (Req 6)
-
-Suggested Attire/Materials:
-'Class A’ Uniform is encouraged
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Den Bear Meeting
 
