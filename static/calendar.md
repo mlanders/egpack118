@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 2/17/2026, 6:24:09 PM*
+*Last updated: 2/17/2026, 11:02:57 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### February 2026
-
-#### Den Bear Meeting
-
-**Date:** Wednesday, February 18, 2026 at 10:30 AM - 11:30 AM
-
-**Location:** 8549 Amares Cir, Elk Grove, CA 95757, USA
-
-Hello Families. Last month we have a great meeting and learningways to protect ourself. This month we are learning ways to stay healthy and active. join us to our next den meeting. We will learn about healthy eating and will make some yummy snacks! 
-
-You can see the RSVP status of this event in BAND.
-(Liliana Garcia added)
-
----
 
 #### 3 Rivers District Round Table Meeting
 
