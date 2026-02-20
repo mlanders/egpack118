@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 2/19/2026, 10:58:47 PM*
+*Last updated: 2/20/2026, 5:01:35 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -111,6 +111,19 @@ Close-toed shoes
 If families have fishing gear they are invited to bring it!
 
 
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### 3 Rivers District Round Table Meeting
+
+**Date:** Thursday, March 19, 2026 at 5:00 AM - 7:00 AM
+
+Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+
+Verify location on the GEC calendar: https://scoutingevent.com/047  
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
