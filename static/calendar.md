@@ -1,24 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 2/20/2026, 5:01:35 AM*
+*Last updated: 2/20/2026, 10:51:24 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### February 2026
-
-#### PWD - Last call for car check-in!
-
-**Date:** Friday, February 20, 2026 at 10:00 AM - 11:00 AM
-
-**Location:** Point Pleasant United Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-All cars need to be turned in, registered, and accounted forPRIOR to race day. If this time does not work for you, you can arrange a time to drop off with Rob (916-716-1283) or another leader for a different registration time. 
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Pinewood Derby / Blue & Gold Banquet
 
