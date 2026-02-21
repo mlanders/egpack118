@@ -1,21 +1,8 @@
 # Pack 118 Calendar
 
-*Last updated: 2/21/2026, 4:51:24 AM*
+*Last updated: 2/21/2026, 10:37:08 AM*
 
 ## Upcoming Events (Next 6 Months)
-
-### February 2026
-
-#### Pinewood Derby / Blue & Gold Banquet
-
-**Date:** Saturday, February 21, 2026 at 5:00 AM - 8:00 AM
-
-**Location:** Point Pleasant United Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-(Stephanie Landers added)
-
----
 
 ### March 2026
 
