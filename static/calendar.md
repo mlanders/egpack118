@@ -1,19 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 3/1/2026, 4:51:53 AM*
+*Last updated: 3/1/2026, 10:35:46 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### March 2026
-
-#### Tiger Den Meeting
-
-**Date:** Sunday, March 1, 2026 at 5:00 AM - 7:00 AM
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
-
----
 
 #### Parent Meeting
 
