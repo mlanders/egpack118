@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/1/2026, 10:35:46 AM*
+*Last updated: 3/1/2026, 6:12:30 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -24,7 +24,8 @@ You can see the RSVP status of this event in BAND.
 **Location:** Zehnder Ranch Elementary School - EGUSD
 9880 Denali Cir, Elk Grove, CA 95757, USA
 
-(Stephanie Landers added)
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
 
 ---
 
