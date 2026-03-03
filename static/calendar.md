@@ -1,21 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 3/2/2026, 10:54:46 PM*
+*Last updated: 3/3/2026, 5:00:52 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### March 2026
-
-#### Parent Meeting
-
-**Date:** Tuesday, March 3, 2026 at 2:30 AM - 3:30 AM
-
-Zoom: https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
-
-You can see the RSVP status of this event in BAND.
-(Michael Landers added)
-
----
 
 #### Scouting for Food - Flyer Distribution
 
