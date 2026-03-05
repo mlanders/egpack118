@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/4/2026, 10:53:40 AM*
+*Last updated: 3/4/2026, 6:11:10 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -25,8 +25,31 @@ You can see the RSVP status of this event in BAND.
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
 
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
+Agenda:
+6:15-6:30 - Gathering Time [Lion/Tiger Den]
+6:30-6:35- Flags & Opening (Oath, Law)  [Wolf Den]
+6:35-6:40 - CM Opening Remarks
+6:40-6:50 - AoL Crossover
+6:50-7:15 - Camp Card Activities
+7:15-7:30 -CM Closing Remarks
+7:20-7:30 - Refreshments, cleanup [AoL, Webelos]
+
+Den Assignments: 
+- Lion/Tiger Den - Setup, gathering Activity
+- Wolf Den- Opening/Flags
+- Bear Den - Skit/Song/Joke
+- Webelos - Cleanup
+- Arrowof Light - Refreshments to celebrate crossover!
+
+Activities:
+- AoL Crossover
+- Camp cards – Distribution, overview of incentives
+
+Attire & Materials
+- Field uniform (Class A) suggested
+
+You can see the RSVP statusof this event in BAND.
+(Stephanie Landers added)
 
 ---
 
@@ -211,9 +234,74 @@ Council Vice President TrainingKim Perry-Reed kperryr@gmail.com or 916-203-5711
 
 ### June 2026
 
-#### GEC Cub Scout Twighlight Camp (evenings only)
+#### Twilight Camp - Mandatory Orientation & Paperwork Turn-in [3R District Event]
 
-**Date:** Monday, June 8, 2026
+**Date:** Thursday, June 4, 2026 at 11:30 AM - 12:00 PM
+
+**Location:** Edna Batey Elementary School
+9421 Stonebrook Dr #9429, Elk Grove, CA 95624, USA
+
+Required for those attending 3R Twilight Camp. Turn in all required forms (forms listed on registration site): https://scoutingevent.com/047-112270
+
+(Stephanie Landers added)
+
+---
+
+#### Twilight Camp Range & Target Activities Day [3R District Event]
+
+**Date:** Saturday, June 6, 2026 at 1:30 AM - 7:00 AM
+
+**Location:** Mahon Ranch
+10171 Grant Line Rd, Elk Grove, CA 95624, USA
+
+More information and registration here: https://scoutingevent.com/047-112270
+***Register your cub based on the grade they will be entering in 2026-2027 school year***
+*Tigers (entering 1st grade): A parent mustregister as a Tiger Partner and be present throughout all camp activities.
+
+Registration includes:
+- June 6 - 8:30a-2p - Range & Target ActivitiesDay (Mahon Ranch)
+- June 8-11 - 4:30p-8p - Twilight Camp (Edna Batey Elementary School)
+- June 12 - 5p-7:45pm - Family Swim Night - All age familymembers of registered participants welcome (Jerry Fox Swim Center)
+
+(Stephanie Landers added)
+
+---
+
+#### Cub Scout Twighlight Camp (evenings only) [3R District Event]
+
+**Date:** Monday, June 8, 2026 at 2:30 AM - 6:00 AM
+
+**Location:** 9421 Stonebrook Dr
+9421 Stonebrook Dr, Elk Grove, CA 95624, USA
+
+More information and registration here: https://scoutingevent.com/047-112270
+***Register your cub based on the grade they will be entering in 2026-2027 school year***
+*Tigers (entering 1st grade): A parent mustregister as a Tiger Partner and be present throughout all camp activities.
+
+Registration includes:
+- June 6 - 8:30a-2p - Range & Target ActivitiesDay (Mahon Ranch)
+- June 8-11 - 4:30p-8p - Twilight Camp (Edna Batey Elementary School)
+- June 12 - 5p-7:45pm - Family Swim Night - All age familymembers of registered participants welcome (Jerry Fox Swim Center)
+
+(Stephanie Landers added)
+
+---
+
+#### Twilight Camp Family Swim Night [3R District Event]
+
+**Date:** Friday, June 12, 2026 at 10:00 AM - 12:45 PM
+
+**Location:** Jerry Fox Swim Center
+9950 Elk Grove Florin Rd, Elk Grove, CA 95624, USA
+
+More information and registration here: https://scoutingevent.com/047-112270
+***Register your cub based on the grade they will be entering in 2026-2027 school year***
+*Tigers (entering 1st grade): A parent mustregister as a Tiger Partner and be present throughout all camp activities.
+
+Registration includes:
+- June 6 - 8:30a-2p - Range & Target ActivitiesDay (Mahon Ranch)
+- June 8-11 - 4:30p-8p - Twilight Camp (Edna Batey Elementary School)
+- June 12 - 5p-7:45pm - Family Swim Night - All age familymembers of registered participants welcome (Jerry Fox Swim Center)
 
 (Stephanie Landers added)
 
