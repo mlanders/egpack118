@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/5/2026, 11:16:48 AM*
+*Last updated: 3/5/2026, 6:10:05 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -105,16 +105,23 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### 3 Rivers District Round Table Meeting
+#### Three Rivers District Awards Night
 
-**Date:** Thursday, March 19, 2026 at 5:00 AM - 7:00 AM
+**Date:** Thursday, March 19, 2026 at 11:45 AM - 2:30 PM
 
-Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+**Location:** Buddhist Church of Sacramento
+2401 Riverside Blvd, Sacramento,CA 95818, USA
 
-Verify location on the GEC calendar: https://scoutingevent.com/047  
+Scouts and Parents are welcome. The pack has already paid to attend. Scouts please wear Class A uniform.
 
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+We will be having one person recognized at this event so come cheer them on!
+
+Dinner is not provided but there will be cake!
+
+Please RSVP if you plan to attend.
+
+You can seethe RSVP status of this event in BAND.
+(Michael Landers added)
 
 ---
 
@@ -152,6 +159,19 @@ You can see the RSVP status of this event in BAND.
 
 The Golden Empire Council is giving Scouts of all ages a chanceto try Scouting like never before. Scouts from all over Northern California will meet at Beale Air Force Base for a weekend of fun, games, militaryand aviation shows, an arena show, a community showcase, a merit badgemidway, range and field sports, Cub Scouts, Scouts BSA, Venturing, andSea Scout camps, a Fun Run, and Sunday services. Check out our video forour future Expo 2026.
 
+(Stephanie Landers added)
+
+---
+
+#### 3 Rivers District Round Table Meeting
+
+**Date:** Thursday, April 16, 2026 at 5:00 AM - 7:00 AM
+
+Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+
+Verify location on the GEC calendar: https://scoutingevent.com/047  
+
+You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
