@@ -1,22 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 3/6/2026, 10:42:48 PM*
+*Last updated: 3/7/2026, 4:50:53 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### March 2026
-
-#### Scouting for Food - Flyer Distribution
-
-**Date:** Saturday, March 7, 2026 at 1:00 AM - 3:00 AM
-
-**Location:** Zehnder Ranch Elementary School - EGUSD
-9880 Denali Cir, Elk Grove, CA 95757, USA
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
-
----
 
 #### Pack Meeting: Arrow of Light Crossover
 
