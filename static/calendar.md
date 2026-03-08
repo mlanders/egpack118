@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/7/2026, 10:35:50 AM*
+*Last updated: 3/7/2026, 6:13:42 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -38,6 +38,21 @@ Attire & Materials
 
 You can see the RSVP statusof this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### Scouting for food- Front Store Donation
+
+**Date:** Saturday, March 14, 2026 at 1:00 AM - 7:00 AM
+
+**Location:** Safeway
+10050 Bruceville Rd, Elk Grove, CA 95757, USA
+
+We will have a table set up at the front of the store. Scouts will work in shifts of two, with adult supervision. A sign-up sheet with time slots will be shared soon.
+During their shift, scouts will politely ask customers entering the store to consider purchasing non-perishable food items and donating them on their way out.
+
+You can see the RSVP status ofthis event in BAND.
+(Liliana Garcia added)
 
 ---
 
