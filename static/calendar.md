@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/8/2026, 7:22:04 PM*
+*Last updated: 3/9/2026, 12:03:57 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -67,41 +67,25 @@ You can see the RSVP status ofthis event in BAND.
 
 ---
 
-#### Wolf Den Meeting [2nd Grade] - A Wolf Goes Fishing
+#### Wolf Den Meeting [2nd Grade] - Council Fire (Completion) / Let's Camp
 
 **Date:** Tuesday, March 17, 2026 at 11:15 AM - 12:30 PM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
 
-Advancements/Themes: A Wolf Goes Fishing
-https://www.scouting.org/cub-scout-adventures/a-wolf-goes-fishing/
+Bring a completed Lego building representing our community! Wewill put them all together to make our Wolf Community. 
 
-Advancements/Themes: 
-A Wolf Goes Fishing (Part 1 of 2)
-https://www.scouting.org/cub-scout-adventures/a-wolf-goes-fishing/
-
-Location: Landers’ Home (9810 Collie Way)
-
-Planned Activities: 
-Bait memory game (Req 2); Fishing Safety Game (Req 4)
-
-With Pack or Family: Visit the Nimbus Fish Hatchery (Req 1)
-
-SuggestedAttire/Materials:
-'Class A’ Uniform is encouraged
-
-Location: Elk Grove Park Lake
-
-Planned Activities: 
-Practice casting (Req 3); Go fishing asa den (Req 5)
+Agenda:
+- 6:15-6:30pm - Gathering Time
+- 6:30pm - Opening (oath, law, overview of actvities)
+- 6:35pm - Awards
+- 6:40pm - Activities: Complete our Wolf Den Community (Lego builds); Start some "Let's Camp" activities
+- 7:15pm - Closing, snack - Marshmallows
 
 Suggested Attire/Materials:
-Class B T-Shirt
-Close-toed shoes
-If families have fishing gear they are invited to bring it!
-
-
+Class A Field Uniform encouraged
+Wolf Handbook (if they have one -- if not it's ok)
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
