@@ -1,45 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 3/10/2026, 6:03:57 AM*
+*Last updated: 3/10/2026, 11:52:04 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### March 2026
-
-#### Pack Meeting: Arrow of Light Crossover
-
-**Date:** Tuesday, March 10, 2026 at 11:15 AM - 12:30 PM
-
-**Location:** Point Pleasant United Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-Agenda:
-6:15-6:30 - Gathering Time [Lion/Tiger Den]
-6:30-6:35- Flags & Opening (Oath, Law)  [Wolf Den]
-6:35-6:40 - CM Opening Remarks
-6:40-6:50 - AoL Crossover
-6:50-7:15 - Camp Card Activities
-7:15-7:30 -CM Closing Remarks
-7:20-7:30 - Refreshments, cleanup [AoL, Webelos]
-
-Den Assignments: 
-- Lion/Tiger Den - Setup, gathering Activity
-- Wolf Den- Opening/Flags
-- Bear Den - Skit/Song/Joke
-- Webelos - Cleanup
-- Arrowof Light - Refreshments to celebrate crossover!
-
-Activities:
-- AoL Crossover
-- Camp cards – Distribution, overview of incentives
-
-Attire & Materials
-- Field uniform (Class A) suggested
-
-You can see the RSVP statusof this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Scouting for food- Front Store Donation
 
