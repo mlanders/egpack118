@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/12/2026, 7:10:02 PM*
+*Last updated: 3/12/2026, 11:56:28 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -68,6 +68,17 @@ Wolf Handbook (if they have one -- if not it's ok)
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### Den Meeting March
+
+**Date:** Wednesday, March 18, 2026 at 11:30 AM - 12:15 PM
+
+**Location:** 8549 Amares Cir, Elk Grove, CA 95757, USA
+
+You can see the RSVP status of this event in BAND.
+(Liliana Garcia added)
 
 ---
 
