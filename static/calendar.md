@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/14/2026, 11:40:15 AM*
+*Last updated: 3/14/2026, 7:33:26 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -16,31 +16,6 @@ https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
 
 You can see the RSVP status of this event inBAND.
 (dan alden added)
-
----
-
-#### Wolf Den Meeting [2nd Grade] - Council Fire (Completion) / Let's Camp
-
-**Date:** Tuesday, March 17, 2026 at 11:15 AM - 12:30 PM
-
-**Location:** 9810 Collie Way
-9810 Collie Way, Elk Grove, CA 95757, USA
-
-Bring a completed Lego building representing our community! Wewill put them all together to make our Wolf Community. 
-
-Agenda:
-- 6:15-6:30pm - Gathering Time
-- 6:30pm - Opening (oath, law, overview of actvities)
-- 6:35pm - Awards
-- 6:40pm - Activities: Complete our Wolf Den Community (Lego builds); Start some "Let's Camp" activities
-- 7:15pm - Closing, snack - Marshmallows
-
-Suggested Attire/Materials:
-Class A Field Uniform encouraged
-Wolf Handbook (if they have one -- if not it's ok)
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
 
 ---
 
@@ -109,6 +84,17 @@ Personal Fitness Adeventure
 
 You can see the RSVP status of this event in BAND.
 (John Fraser added)
+
+---
+
+#### Wolf Den Meeting [2nd Grade] *adjusted date/time* - Please RSVP
+
+**Date:** Sunday, March 29, 2026 at 7:00 AM - 9:00 AM
+
+Activities and Agenda pending confirmation of date/tome
+
+Youcan see the RSVP status of this event in BAND.
+(Stephanie Landers added)
 
 ---
 
