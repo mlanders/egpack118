@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 3/16/2026, 6:16:07 AM*
+*Last updated: 3/16/2026, 12:03:36 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### March 2026
-
-#### Pack 118 Scout Expo Q & A Session
-
-**Date:** Monday, March 16, 2026 at 11:30 AM - 12:30 PM
-
-For those that are attending the Scout Expo, join us and ask any questions you may have.
-
-https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
-
-You can see the RSVP status of this event inBAND.
-(dan alden added)
-
----
 
 #### Den Meeting March
 
@@ -73,17 +60,6 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### Wolf Den Meeting [2nd Grade] *adjusted date/time* - Please RSVP
-
-**Date:** Sunday, March 29, 2026 at 7:00 AM - 9:00 AM
-
-Activities and Agenda pending confirmation of date/tome
-
-Youcan see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
-
 #### Webelos-Den Meeting-4th Grade
 
 **Date:** Sunday, March 29, 2026 at 7:00 AM - 8:30 AM
@@ -95,6 +71,17 @@ Personal Fitness Adeventure
 
 You can see the RSVP status of this event in BAND.
 (John Fraser added)
+
+---
+
+#### Wolf Den Meeting [2nd Grade] *adjusted date/time* - Please RSVP
+
+**Date:** Sunday, March 29, 2026 at 7:00 AM - 9:00 AM
+
+Activities and Agenda pending confirmation of date/tome
+
+Youcan see the RSVP status of this event in BAND.
+(Stephanie Landers added)
 
 ---
 
