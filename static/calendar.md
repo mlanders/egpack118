@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/18/2026, 12:03:37 AM*
+*Last updated: 3/18/2026, 6:15:51 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -85,6 +85,20 @@ Activities and Agenda pending confirmation of date/tome
 
 Youcan see the RSVP status of this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### Scout Expo Banner Making
+
+**Date:** Sunday, March 29, 2026 at 8:30 AM - 9:30 AM
+
+**Location:** Kunsting Family Park
+Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
+
+We are going to make our Banner for the Scout Expo. Come with ideas and craft materials.
+
+You can see the RSVP status of this event in BAND.
+(Michael Landers added)
 
 ---
 
