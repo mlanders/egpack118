@@ -1,21 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 3/18/2026, 6:15:51 AM*
+*Last updated: 3/18/2026, 12:01:54 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### March 2026
-
-#### Den Meeting March
-
-**Date:** Wednesday, March 18, 2026 at 11:30 AM - 12:15 PM
-
-**Location:** 8549 Amares Cir, Elk Grove, CA 95757, USA
-
-You can see the RSVP status of this event in BAND.
-(Liliana Garcia added)
-
----
 
 #### Three Rivers District Awards Night
 
