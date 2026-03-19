@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/18/2026, 12:01:54 PM*
+*Last updated: 3/18/2026, 7:25:51 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -49,20 +49,6 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### Webelos-Den Meeting-4th Grade
-
-**Date:** Sunday, March 29, 2026 at 7:00 AM - 8:30 AM
-
-**Location:** Kunsting Family Park
-Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
-
-Personal Fitness Adeventure
-
-You can see the RSVP status of this event in BAND.
-(John Fraser added)
-
----
-
 #### Wolf Den Meeting [2nd Grade] *adjusted date/time* - Please RSVP
 
 **Date:** Sunday, March 29, 2026 at 7:00 AM - 9:00 AM
@@ -74,6 +60,20 @@ Activities and Agenda pending confirmation of date/tome
 
 Youcan see the RSVP status of this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### Webelos-Den Meeting-4th Grade
+
+**Date:** Sunday, March 29, 2026 at 7:00 AM - 8:30 AM
+
+**Location:** Kunsting Family Park
+Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
+
+Personal Fitness Adeventure
+
+You can see the RSVP status of this event in BAND.
+(John Fraser added)
 
 ---
 
