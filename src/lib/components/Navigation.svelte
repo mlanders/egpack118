@@ -40,6 +40,10 @@
             items: [
                 { href: "/become-a-leader", label: "Become a Leader" },
                 {
+                    href: "/resources/university-of-scouting",
+                    label: "University of Scouting",
+                },
+                {
                     href: "https://advancements.scouting.org/",
                     label: "Scouting Advancements",
                     external: true,
