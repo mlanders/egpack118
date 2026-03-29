@@ -1,66 +1,8 @@
 # Pack 118 Calendar
 
-*Last updated: 3/29/2026, 5:59:07 AM*
+*Last updated: 3/29/2026, 10:23:04 AM*
 
 ## Upcoming Events (Next 6 Months)
-
-### March 2026
-
-#### Webelos-Den Meeting-4th Grade
-
-**Date:** Sunday, March 29, 2026 at 7:00 AM - 8:30 AM
-
-**Location:** Kunsting Family Park
-Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
-
-Personal Fitness Adeventure
-
-You can see the RSVP status of this event in BAND.
-(John Fraser added)
-
----
-
-#### Wolf Den Meeting [2nd Grade]
-
-**Date:** Sunday, March 29, 2026 at 7:00 AM - 8:30 AM
-
-**Location:** Kunsting Family Park
-Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
-
-Adventure Focus: Physical Fitness (Running with the Pack), Safety, Lets Camp Wolf
-
-Attire & Materials
-Please bring:
-- Class B Pack T-shirt
-- Tennis shoes
-- 6 Essentials (water, snack, sun protection, whistle, flashlight, basic first aid materials)
-
-Agenda
-- 2pm - welcome, opening (oath, law)
-- 2:10pm - overview activities 
-- Six Essentials Relay
-- Find Your Buddy Game
-- Den Walk
-- Review Playground Rules / playon the playground 
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
-
-#### Scout Expo Banner Making
-
-**Date:** Sunday, March 29, 2026 at 8:30 AM - 9:30 AM
-
-**Location:** Kunsting Family Park
-Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
-
-We are going to make our Banner for the Scout Expo. Come with ideas and craft materials.
-
-You can see the RSVP status of this event in BAND.
-(Michael Landers added)
-
----
 
 ### April 2026
 
