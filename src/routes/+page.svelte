@@ -2,6 +2,8 @@
     import scouts1 from "$lib/assets/scouts1.webp";
     import scouts2 from "$lib/assets/scouts2.webp";
     import truckee from "$lib/assets/truckee.webp";
+    import cubmasterMikeAvatar from "$lib/assets/leaders/Cubmaster_Mike_Avatar.png";
+    import LeaderCard from "$lib/components/leaders/LeaderCard.svelte";
 </script>
 
 <svelte:head>
@@ -235,6 +237,57 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Leaders
+        </h2>
+        <p class="text-xl text-gray-700">Meet our Pack 118 leadership team.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-8">
+        <div class="flex gap-2">
+            <LeaderCard
+                name="Mike L."
+                position="Cubmaster"
+                avatar={cubmasterMikeAvatar}
+                alt="Cubmaster Mike L"
+            />
+            <LeaderCard
+                name="Daniel A."
+                position="Committee Chair"
+                alt="Committee Chair Daniel A."
+            />
+            <LeaderCard
+                name="This could be you!"
+                position="Treasurer"
+                alt="Treasurer "
+            />
+        </div>
+        <div class="flex gap-2">
+            <LeaderCard
+                name="Stephanie L."
+                position="Den Leader"
+                alt="Den Leader Stephanie L."
+            />
+            <LeaderCard
+                name="Rob R."
+                position="Den Leader"
+                alt="Den Leader Rob R."
+            />
+            <LeaderCard
+                name="Liliana G."
+                position="Den Leader"
+                alt="Den Leader Liliana G."
+            />
+            <LeaderCard
+                name="Ryan W."
+                position="Den Leader"
+                alt="Den Leader Ryan W."
+            />
         </div>
     </div>
 </section>

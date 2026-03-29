@@ -1,5 +1,6 @@
 <script lang="ts">
     import cubScoutsLogo from "$lib/assets/cub-scouts-logo.png";
+    import medicalForm from "$lib/assets/Scouting_America_Medical_Part_A_&_B.pdf";
 
     interface NavLink {
         href: string;
@@ -39,6 +40,10 @@
             label: "Resources",
             items: [
                 { href: "/become-a-leader", label: "Become a Leader" },
+                {
+                    href: medicalForm,
+                    label: "Medical Form A & B",
+                },
                 {
                     href: "/resources/university-of-scouting",
                     label: "University of Scouting",
