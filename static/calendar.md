@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/28/2026, 7:34:56 PM*
+*Last updated: 3/29/2026, 12:05:31 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -20,16 +20,30 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### Wolf Den Meeting [2nd Grade] *adjusted date/time* - Please RSVP
+#### Wolf Den Meeting [2nd Grade]
 
-**Date:** Sunday, March 29, 2026 at 7:00 AM - 9:00 AM
+**Date:** Sunday, March 29, 2026 at 7:00 AM - 8:30 AM
 
 **Location:** Kunsting Family Park
 Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
 
-Activities and Agenda pending confirmation of date/tome
+Adventure Focus: Physical Fitness (Running with the Pack), Safety, Lets Camp Wolf
 
-Youcan see the RSVP status of this event in BAND.
+Attire & Materials
+Please bring:
+- Class B Pack T-shirt
+- Tennis shoes
+- 6 Essentials (water, snack, sun protection, whistle, flashlight, basic first aid materials)
+
+Agenda
+- 2pm - welcome, opening (oath, law)
+- 2:10pm - overview activities 
+- Six Essentials Relay
+- Find Your Buddy Game
+- Den Walk
+- Review Playground Rules / playon the playground 
+
+You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
