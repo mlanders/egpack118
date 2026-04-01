@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 3/31/2026, 12:03:23 PM*
+*Last updated: 3/31/2026, 7:43:58 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -207,16 +207,6 @@ Campground details here: https://www.eid.org/recreation/sly-park-reservations-an
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
-
----
-
-### October 2026
-
-#### The Band was created 2 year(s) ago on this day
-
-**Date:** Thursday, October 1, 2026
-
-The Band was created 2 year(s) ago on this day
 
 ---
 
