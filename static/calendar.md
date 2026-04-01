@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 4/1/2026, 12:22:52 AM*
+*Last updated: 4/1/2026, 6:25:10 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -16,6 +16,18 @@
 The Golden Empire Council is giving Scouts of all ages a chanceto try Scouting like never before. Scouts from all over Northern California will meet at Beale Air Force Base for a weekend of fun, games, militaryand aviation shows, an arena show, a community showcase, a merit badgemidway, range and field sports, Cub Scouts, Scouts BSA, Venturing, andSea Scout camps, a Fun Run, and Sunday services. Check out our video forour future Expo 2026.
 
 (Stephanie Landers added)
+
+---
+
+#### Pack Meeting
+
+**Date:** Tuesday, April 14, 2026 at 4:15 AM - 5:30 AM
+
+**Location:** Point Pleasant United Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
 
 ---
 
@@ -207,6 +219,16 @@ Campground details here: https://www.eid.org/recreation/sly-park-reservations-an
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
+
+---
+
+### October 2026
+
+#### The Band was created 2 year(s) ago on this day
+
+**Date:** Thursday, October 1, 2026
+
+The Band was created 2 year(s) ago on this day
 
 ---
 
