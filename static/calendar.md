@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 4/10/2026, 12:43:43 AM*
+*Last updated: 4/10/2026, 6:13:57 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### April 2026
-
-#### Scout Expo 2026
-
-**Date:** Friday, April 10, 2026
-
-**Location:** Beale AFB
-4J6R+J2 Beale Air Force Base, CA, USA
-
-The Golden Empire Council is giving Scouts of all ages a chanceto try Scouting like never before. Scouts from all over Northern California will meet at Beale Air Force Base for a weekend of fun, games, militaryand aviation shows, an arena show, a community showcase, a merit badgemidway, range and field sports, Cub Scouts, Scouts BSA, Venturing, andSea Scout camps, a Fun Run, and Sunday services. Check out our video forour future Expo 2026.
-
-(Stephanie Landers added)
-
----
 
 #### Pack Meeting
 
