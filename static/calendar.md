@@ -1,22 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 4/14/2026, 12:48:30 AM*
+*Last updated: 4/14/2026, 6:43:35 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### April 2026
-
-#### Pack Meeting
-
-**Date:** Tuesday, April 14, 2026 at 4:15 AM - 5:30 AM
-
-**Location:** Point Pleasant United Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
-
----
 
 #### 3 Rivers District Round Table Meeting
 
