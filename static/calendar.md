@@ -1,30 +1,31 @@
 # Pack 118 Calendar
 
-*Last updated: 4/16/2026, 12:17:21 PM*
+*Last updated: 4/16/2026, 7:41:41 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### April 2026
 
-#### Wolf Den Meeting [2nd Grade] - Cubs Who Care
+#### Wolf Den Meeting [2nd Grade] - Council Fire, Awards
 
-**Date:** Tuesday, April 21, 2026 at 11:15 AM - 12:30 PM
+**Date:** Thursday, April 23, 2026 at 11:15 AM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
 
-Advancements/Themes: 
-Cubs Who Care 
-https://www.scouting.org/cub-scout-adventures/cubs-who-care/
+Advancements/Themes: Council Fire, Awards
 
 Location: Landers’ Home (9810 Collie Way)
 
 Planned Activities: 
-Mitten Hands tasks (Req 1); Masked Artist(Req 2); ASL Names (Req 3); Accessibility Walk Around (Req 4)
-**PossibleService Dog Visit!!!
+Finish Council Fire
+Awards
+Fire safety
+S’mores! (Weather permitting)
 
 Suggested Attire/Materials:
-'Class A’ Uniform isencouraged
+'Class A’ Uniform is encouraged
+Please bring a Lego building representing a small house or community building
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
