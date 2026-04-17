@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 4/17/2026, 12:49:30 AM*
+*Last updated: 4/17/2026, 6:22:43 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -8,7 +8,7 @@
 
 #### Wolf Den Meeting [2nd Grade] - Council Fire, Awards
 
-**Date:** Thursday, April 23, 2026 at 11:15 AM
+**Date:** Thursday, April 23, 2026 at 11:15 AM - 12:30 PM
 
 **Location:** 9810 Collie Way
 9810 Collie Way, Elk Grove, CA 95757, USA
