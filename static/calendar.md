@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 4/21/2026, 7:41:01 PM*
+*Last updated: 4/22/2026, 12:50:05 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -50,10 +50,12 @@ You can see the RSVP status of this event in BAND.
 
 **Date:** Sunday, April 26, 2026 at 9:00 AM - 10:00 AM
 
-**Location:** 7217 Point Pleasant Rd
-7217 Point Pleasant Rd, Elk Grove, CA 95757, USA
+**Location:** Cosumnes River Preserve
+13501 Franklin Blvd, Walnut Grove, CA 95690, USA
 
-You can see the RSVP status of this event in BAND.
+Cosumnes River Preserve—Tech on the Trail Adventure 
+
+You cansee the RSVP status of this event in BAND.
 (John Fraser added)
 
 ---
