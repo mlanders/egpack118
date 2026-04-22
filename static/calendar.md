@@ -1,24 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 4/22/2026, 6:43:31 AM*
+*Last updated: 4/22/2026, 12:15:50 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### April 2026
-
-#### Bear Den meeting
-
-**Date:** Wednesday, April 22, 2026 at 11:30 AM
-
-**Location:** 8549 Amares Cir
-8549 Amares Cir, Elk Grove, CA 95757, USA
-
-Science 
-
-You can see the RSVP status of this event in BAND.
-(Liliana Garcia added)
-
----
 
 #### Wolf Den Meeting [2nd Grade] - Council Fire, Awards
 
