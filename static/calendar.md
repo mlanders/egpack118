@@ -1,36 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 4/23/2026, 6:46:25 AM*
+*Last updated: 4/23/2026, 12:12:22 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### April 2026
-
-#### Wolf Den Meeting [2nd Grade] - Council Fire, Awards
-
-**Date:** Thursday, April 23, 2026 at 11:15 AM - 12:30 PM
-
-**Location:** 9810 Collie Way
-9810 Collie Way, Elk Grove, CA 95757, USA
-
-Advancements/Themes: Council Fire, Awards
-
-Location: Landers’ Home (9810 Collie Way)
-
-Planned Activities: 
-Finish Council Fire
-Awards
-Fire safety
-S’mores! (Weather permitting)
-
-Suggested Attire/Materials:
-'Class A’ Uniform is encouraged
-Please bring a Lego building representing a small house or community building
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Webelos Den Meeting
 
