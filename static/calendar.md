@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 4/22/2026, 12:15:50 PM*
+*Last updated: 4/22/2026, 7:44:52 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -178,6 +178,32 @@ Registration includes:
 
 You can see the RSVP status of this event in BAND.
 (StephanieLanders added)
+
+---
+
+#### Scout Night @ Sac Republic
+
+**Date:** Saturday, June 20, 2026 at 1:00 PM - 3:00 PM
+
+**Location:** Heart Health Park
+1600 Exposition Blvd, Sacramento, CA 95815,USA
+
+📆 Saturday June 20th
+
+📍 Heart Health Park
+
+🎟️ Tickets Here! (https://shorturl.at/qY9sm)
+
+All Scouts who earned over $100 Heroes and Helpers with receive free tickets 🍿
+
+All Scouts who filled out “I Sold 20” form will receive a free ticket ⚽
+
+Ticket codes will be sent out inMay!
+
+-----
+Council event - tickets will be sent by the council if youearned them otherwise you can buy them from the link above.
+
+(Michael Landers added)
 
 ---
 
