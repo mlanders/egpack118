@@ -1,10 +1,32 @@
 # Pack 118 Calendar
 
-*Last updated: 4/23/2026, 12:12:22 PM*
+*Last updated: 4/23/2026, 7:45:54 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### April 2026
+
+#### 3 Rivers District Pinewood Derby
+
+**Date:** Saturday, April 25, 2026 at 5:00 AM - 8:00 AM
+
+**Location:** Twisted Track Station
+1201 R St, Sacramento, CA 95811, USA
+
+This event is open to everyone so bring your cars to race in the open race. 
+
+Come cheer on our top 3 racers.
+1. Addilyn
+2. Noah R
+3.Dylan
+
+And our best in show: Ajay
+
+Please arrive around 12 to get checked in! Lots of fun activities for the scouts!
+
+(Michael Landers added)
+
+---
 
 #### Webelos Den Meeting
 
