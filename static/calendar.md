@@ -1,24 +1,8 @@
 # Pack 118 Calendar
 
-*Last updated: 4/26/2026, 6:09:56 AM*
+*Last updated: 4/26/2026, 11:57:05 AM*
 
 ## Upcoming Events (Next 6 Months)
-
-### April 2026
-
-#### Webelos Den Meeting
-
-**Date:** Sunday, April 26, 2026 at 9:00 AM - 10:00 AM
-
-**Location:** Cosumnes River Preserve
-13501 Franklin Blvd, Walnut Grove, CA 95690, USA
-
-Cosumnes River Preserve—Tech on the Trail Adventure 
-
-You cansee the RSVP status of this event in BAND.
-(John Fraser added)
-
----
 
 ### May 2026
 
