@@ -128,10 +128,7 @@
             </SectionCard>
             <SectionCard title="Once Registered">
                 <ul class="space-y-3 text-gray-700">
-                    <ChecklistItem
-                        >Scout handbook (provided at registration or by den
-                        leader)</ChecklistItem
-                    >
+                    <ChecklistItem>Scout handbook</ChecklistItem>
                     <ChecklistItem
                         >Pencil or pen for handbook activities</ChecklistItem
                     >
