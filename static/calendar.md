@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 5/5/2026, 7:56:59 PM*
+*Last updated: 5/6/2026, 7:15:29 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -90,6 +90,18 @@ Registration includes:
 
 ---
 
+#### Annual Planning Meeting – All parents welcome
+
+**Date:** Saturday, June 6, 2026 at 8:00 AM - 10:00 AM
+
+**Location:** Round Table Pizza
+10054 Bruceville Rd, Elk Grove, CA 95757, USA
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
+
+---
+
 #### Cub Scout Twighlight Camp (evenings only) [3R District Event]
 
 **Date:** Monday, June 8, 2026 at 2:30 AM - 6:00 AM
@@ -127,15 +139,6 @@ Registration includes:
 - June 12 - 5p-7:45pm - Family Swim Night - All age familymembers of registered participants welcome (Jerry Fox Swim Center)
 
 (Stephanie Landers added)
-
----
-
-#### Annual Planning Meeting – All parents welcome
-
-**Date:** Saturday, June 13, 2026 at 8:00 AM - 10:00 AM
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
 
 ---
 
