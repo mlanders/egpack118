@@ -1,18 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 5/9/2026, 12:58:11 AM*
+*Last updated: 5/9/2026, 6:20:14 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### May 2026
-
-#### GEC Cub Scout Fishing Day
-
-**Date:** Saturday, May 9, 2026
-
-(Stephanie Landers added)
-
----
 
 #### Bridging Ceremony / End-of-Year Party
 
