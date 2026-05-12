@@ -1,29 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 5/12/2026, 7:27:49 AM*
+*Last updated: 5/12/2026, 12:54:30 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### May 2026
-
-#### Bridging Ceremony / End-of-Year Party
-
-**Date:** Tuesday, May 12, 2026 at 10:45 AM - 12:30 PM
-
-**Location:** Point Pleasant United Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-5:30 - 5:45 -> Setup
-5:45 - 6:15 -> Gathering & Food
-6:15 - 6:25 -> Flags & Intro
-6:25 - 7:10 -> Bridging by Dens
-7:10 - 7:30 -> Closing & Food
-7:30+ -> Cleanup
-
-You can see the RSVP status of this event inBAND.
-(Stephanie Landers added)
-
----
 
 #### Cub Leader Basic Training (Save the Date)
 
