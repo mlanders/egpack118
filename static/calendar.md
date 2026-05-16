@@ -1,39 +1,8 @@
 # Pack 118 Calendar
 
-*Last updated: 5/16/2026, 1:05:48 AM*
+*Last updated: 5/16/2026, 6:24:39 AM*
 
 ## Upcoming Events (Next 6 Months)
-
-### May 2026
-
-#### Cub Leader Basic Training (Save the Date)
-
-**Date:** Saturday, May 16, 2026 at 2:00 AM - 9:00 AM
-
-https://scoutingevent.com/047-104535
-
-WHEN: Saturday, May 16, 2026
-
-Check-in 8:30a
-
-TIME: 9:00a - 4:00p
-
-WHERE: TBD 
-
-COST: Free -  bring your lunch
-
-For Cub Leaders & Pack Adults looking for in person Basic Leader Specific Training, you will be trained for all positions
-
-Cubmaster or Assistant Cubmaster
-Den Leader or Assistant Den Leader
-Pack Committee Chair or Committee Member
- 
-
-Council Vice President TrainingKim Perry-Reed kperryr@gmail.com or 916-203-5711
-
-(Stephanie Landers added)
-
----
 
 ### June 2026
 
