@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 6/4/2026, 8:17:56 AM*
+*Last updated: 6/4/2026, 1:06:58 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### June 2026
-
-#### Twilight Camp - Mandatory Orientation & Paperwork Turn-in [3R District Event]
-
-**Date:** Thursday, June 4, 2026 at 11:30 AM - 12:00 PM
-
-**Location:** Edna Batey Elementary School
-9421 Stonebrook Dr #9429, Elk Grove, CA 95624, USA
-
-Required for those attending 3R Twilight Camp. Turn in all required forms (forms listed on registration site): https://scoutingevent.com/047-112270
-
-(Stephanie Landers added)
-
----
 
 #### Twilight Camp Range & Target Activities Day [3R District Event]
 
