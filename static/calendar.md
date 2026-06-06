@@ -1,30 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 6/5/2026, 8:36:45 PM*
+*Last updated: 6/6/2026, 1:34:28 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### June 2026
-
-#### Twilight Camp Range & Target Activities Day [3R District Event]
-
-**Date:** Saturday, June 6, 2026 at 1:30 AM - 7:00 AM
-
-**Location:** Mahon Ranch
-10171 Grant Line Rd, Elk Grove, CA 95624, USA
-
-More information and registration here: https://scoutingevent.com/047-112270
-***Register your cub based on the grade they will be entering in 2026-2027 school year***
-*Tigers (entering 1st grade): A parent mustregister as a Tiger Partner and be present throughout all camp activities.
-
-Registration includes:
-- June 6 - 8:30a-2p - Range & Target ActivitiesDay (Mahon Ranch)
-- June 8-11 - 4:30p-8p - Twilight Camp (Edna Batey Elementary School)
-- June 12 - 5p-7:45pm - Family Swim Night - All age familymembers of registered participants welcome (Jerry Fox Swim Center)
-
-(Stephanie Landers added)
-
----
 
 #### Annual Planning Meeting – All parents welcome
 
