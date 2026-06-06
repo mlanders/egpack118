@@ -1,22 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 6/6/2026, 6:45:49 AM*
+*Last updated: 6/6/2026, 12:24:59 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### June 2026
-
-#### Annual Planning Meeting – All parents welcome
-
-**Date:** Saturday, June 6, 2026 at 8:00 AM - 10:00 AM
-
-**Location:** Round Table Pizza
-10054 Bruceville Rd, Elk Grove, CA 95757, USA
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
-
----
 
 #### Cub Scout Twighlight Camp (evenings only) [3R District Event]
 
