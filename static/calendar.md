@@ -1,30 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 6/7/2026, 9:07:46 PM*
+*Last updated: 6/8/2026, 3:58:12 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### June 2026
-
-#### Cub Scout Twighlight Camp (evenings only) [3R District Event]
-
-**Date:** Monday, June 8, 2026 at 2:30 AM - 6:00 AM
-
-**Location:** 9421 Stonebrook Dr
-9421 Stonebrook Dr, Elk Grove, CA 95624, USA
-
-More information and registration here: https://scoutingevent.com/047-112270
-***Register your cub based on the grade they will be entering in 2026-2027 school year***
-*Tigers (entering 1st grade): A parent mustregister as a Tiger Partner and be present throughout all camp activities.
-
-Registration includes:
-- June 6 - 8:30a-2p - Range & Target ActivitiesDay (Mahon Ranch)
-- June 8-11 - 4:30p-8p - Twilight Camp (Edna Batey Elementary School)
-- June 12 - 5p-7:45pm - Family Swim Night - All age familymembers of registered participants welcome (Jerry Fox Swim Center)
-
-(Stephanie Landers added)
-
----
 
 #### Twilight Camp Family Swim Night [3R District Event]
 
