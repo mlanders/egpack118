@@ -1,30 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 6/12/2026, 8:16:51 AM*
+*Last updated: 6/12/2026, 1:12:09 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### June 2026
-
-#### Twilight Camp Family Swim Night [3R District Event]
-
-**Date:** Friday, June 12, 2026 at 10:00 AM - 12:45 PM
-
-**Location:** Jerry Fox Swim Center
-9950 Elk Grove Florin Rd, Elk Grove, CA 95624, USA
-
-More information and registration here: https://scoutingevent.com/047-112270
-***Register your cub based on the grade they will be entering in 2026-2027 school year***
-*Tigers (entering 1st grade): A parent mustregister as a Tiger Partner and be present throughout all camp activities.
-
-Registration includes:
-- June 6 - 8:30a-2p - Range & Target ActivitiesDay (Mahon Ranch)
-- June 8-11 - 4:30p-8p - Twilight Camp (Edna Batey Elementary School)
-- June 12 - 5p-7:45pm - Family Swim Night - All age familymembers of registered participants welcome (Jerry Fox Swim Center)
-
-(Stephanie Landers added)
-
----
 
 #### Scout Night @ Sac Republic
 
