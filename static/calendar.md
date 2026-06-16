@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 6/15/2026, 1:56:10 PM*
+*Last updated: 6/15/2026, 9:18:05 PM*
 
 ## Upcoming Events (Next 6 Months)
 
