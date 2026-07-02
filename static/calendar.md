@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 7/1/2026, 8:40:46 PM*
+*Last updated: 7/2/2026, 1:57:23 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -14,6 +14,8 @@
 4771 Sly Park Rd, Pollock Pines, CA 95726, USA
 
 Exciting news -- We have reserved Scout Hill at Sly Park campground for a family campout! Details TBA. 
+
+The cost is is $10 per person to help cover the campsite fee and resources. You can Venmo me here: https://venmo.com/u/MichaelHLanders
 
 Campground details here: https://www.eid.org/recreation/sly-park-reservations-and-campsite-photos/scout-hill 
 
