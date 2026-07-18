@@ -73,7 +73,7 @@
                 Regular Pack Meetings
             </h3>
             <p class="text-gray-700 mb-2">
-                <strong>When:</strong> 2nd Tuesday of each month, 6:15pm - 7:30pm
+                <strong>When:</strong> 2nd Thursday of each month, 6:15pm - 7:30pm
             </p>
             <p class="text-gray-700 mb-2">
                 <strong>Where:</strong> United Methodist Church

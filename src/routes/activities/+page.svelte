@@ -38,7 +38,7 @@
                     Pack Meetings
                 </h3>
                 <p class="text-gray-700">
-                    Usually held at 6:30 p.m. on the 2nd Tuesday of each month.
+                    Usually held at 6:30 p.m. on the 2nd Thursday of each month.
                     Pack meetings bring all dens together for fun activities,
                     ceremonies, and awards.
                 </p>

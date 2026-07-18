@@ -91,8 +91,8 @@
                 </h2>
                 <div class="prose prose-lg text-gray-700 space-y-4">
                     <p>
-                        We hold pack meetings the 2nd Tuesday of each month. You
-                        are welcome to bring your child and experience what
+                        We hold pack meetings the 2nd Thursday of each month.
+                        You are welcome to bring your child and experience what
                         makes Pack 118 special.
                     </p>
                     <p>
