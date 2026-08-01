@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 8/1/2026, 1:21:51 AM*
+*Last updated: 8/1/2026, 6:22:10 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -15,6 +15,19 @@ https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
 Agenda: TBA
 
 Previous Meeting Minutes: TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### 3 Rivers District Round Table Meeting
+
+**Date:** Thursday, August 20, 2026 at 5:00 AM - 7:00 AM
+
+Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+
+Verify location on the GEC calendar: https://scoutingevent.com/047  
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
