@@ -1,25 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 8/6/2026, 1:36:35 AM*
+*Last updated: 8/6/2026, 7:10:34 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### August 2026
-
-#### Pack Committee Meeting (Leaders)
-
-**Date:** Thursday, August 6, 2026 at 4:30 AM - 5:30 AM
-
-https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
-
-Agenda: TBA
-
-Previous Meeting Minutes: TBA
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Pack Meeting!
 
