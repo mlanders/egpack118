@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 8/5/2026, 7:37:10 PM*
+*Last updated: 8/6/2026, 1:36:35 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -282,24 +282,24 @@ You can see the RSVP status of this event in BAND.
 
 $120/person, if we get 10+ in our group, the rate is discounted to $100/person. Full payment for your party due to Stephanie Landers viaVenmo or Zelle no later than 12/19.
 
-***Must be at least 5 years old, recommended at least 8*** Eligible siblings and adults of all ages are welcome. 
+***Must be at least 5 years old, recommended at least 8 years old*** Eligible siblings and adults of all agesare welcome. 
 
 https://uss-hornet.org/tours-and-programs/live-aboard-adventure/ 
 
 ---
-Ever wonder how an aircraft carrier works? Come aboard and spend thenight living with history on the ultimate overnight adventure and find outhow USS Hornet’s sailors lived and worked on this city at sea! Designed for ages 5 and up, this is a perfect group activity for scouts, youth groups, schools, friends, and families!
+Ever wonder how an aircraft carrier works? Come aboard andspend the night living with history on the ultimate overnight adventure and find out how USS Hornet’s sailors lived and worked on this city at sea! Designed for ages 5 and up, this is a perfect group activity for scouts, youth groups, schools, friends, and families!
 
-During the Night Ops Overnight youwill tour key areas of the ship to see various spaces and systems and discuss the history, science, and engineering behind them. As you move aroundthe ship, you can participate in several hands-on science stations and demonstrations interspersed with seeing sailors’ living spaces! The experience includes:
+During the Night Ops Overnight you will tour key areas of the ship to see various spaces and systems and discuss the history, science, and engineering behind them. As you move around the ship, you can participate in several hands-on science stations and demonstrations interspersed with seeing sailors’ living spaces! Theexperience includes:
 - Sleeping in restored, original sailor sleeping compartments
-- Enjoying Dinner and Breakfast in the original Enlisted Crew’s Mess
+- Enjoying Dinner and Breakfast in the original Enlisted Crew’sMess
 - Learning about this famous aircraft carrier’s daring exploits
-- Touring keyareas of the ship and the historic naval aircraft on display
-- Learning about NASA’s Apollo 11 and Apollo 12 missions that put the first men on themoon
+- Touring key areas of the ship and the historic naval aircraft on display
+-Learning about NASA’s Apollo 11 and Apollo 12 missions that put the first men on the moon
 - Earning an overnight crew Patch & Certificate
 - Ample Free Parking
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landersadded)
+(Stephanie Landers added)
 
 ---
 
