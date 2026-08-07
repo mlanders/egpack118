@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 8/6/2026, 5:01:50 PM*
+*Last updated: 8/7/2026, 12:16:15 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -203,6 +203,15 @@ You can see the RSVP status of this event in BAND.
 ---
 
 ### November 2026
+
+#### Possible 3R District Cub Camp (Details TBA)
+
+**Date:** Friday, November 6, 2026
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
+
+---
 
 #### Elk Grove Veterans Day Parade (Details TBA)
 
