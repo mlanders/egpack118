@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 8/11/2026, 6:59:43 PM*
+*Last updated: 8/12/2026, 12:25:13 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -31,11 +31,12 @@ You cansee the RSVP status of this event in BAND.
 
 ---
 
-#### Trails End Popcorn Store Front - 2hr time slots (Safeway on Laguna)
+#### Trails End Popcorn Store Front - 2hr time slots (Safeway on Bruceville/Whitelock)
 
 **Date:** Saturday, August 15, 2026 at 3:00 AM - 1:00 PM
 
-**Location:** 5021 Laguna Blvd, Elk Grove, CA 95758, USA
+**Location:** 10050 Bruceville Rd, Elk Grove, CA 95757
+10050 Bruceville Rd,Elk Grove, CA 95757, USA
 
 Please sign up for a time slot to fundraise at a storefront table.
 
@@ -52,11 +53,11 @@ Suggested attire is Class A Uniform to represent Cub Scouts and Pack 118.
 
 ---
 
-#### Trails End Popcorn Store Front - 2hr time slots (Safeway on Laguna)
+#### Trails End Popcorn Store Front - 2hr time slots (Safeway on Bruceville/Whitelock)
 
 **Date:** Sunday, August 16, 2026 at 3:00 AM - 1:00 PM
 
-**Location:** 5021 Laguna Blvd, Elk Grove, CA 95758, USA
+**Location:** 10050 Bruceville Rd, Elk Grove, CA 95757, USA
 
 Please sign up for a time slot to fundraise at a storefront table.
 
@@ -86,7 +87,7 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### Trails End Popcorn Store Front - 2hr time slots (Location TBA)
+#### Trails End Popcorn Store Front - 2hr time slots (Safeway on Bruceville/Whitelock)
 
 **Date:** Saturday, August 22, 2026 at 3:00 AM - 1:00 PM
 
@@ -105,9 +106,11 @@ Suggested attire is Class A Uniform to represent Cub Scouts and Pack 118.
 
 ---
 
-#### Trails End Popcorn Store Front - 2hr time slots (Location TBA)
+#### Trails End Popcorn Store Front - 2hr time slots (Safeway on Bruceville/Whitelock)
 
 **Date:** Sunday, August 23, 2026 at 3:00 AM - 1:00 PM
+
+**Location:** 10050 Bruceville Rd, Elk Grove, CA 95757, USA
 
 Please sign up for a time slot to fundraise at a storefront table.
 
