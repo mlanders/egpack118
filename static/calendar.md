@@ -1,35 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 8/13/2026, 12:27:15 AM*
+*Last updated: 8/13/2026, 6:11:45 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### August 2026
-
-#### Pack Meeting!
-
-**Date:** Thursday, August 13, 2026 at 4:15 AM - 5:30 AM
-
-**Location:** Point Pleasant Methodist Church
-3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-Agenda:
-6:15-6:30 - Gathering Time
-6:30-6:40 - Opening Ceremony
-6:40-7:15 - Activities
-7:15-7:30 - Closing Ceremony
-
-Attire: 
-ClassA Uniform (Field Uniform) is encouraged for Pack Meetings.
-
-Families (including siblings) are welcome.
-
-RSVP is appreciated to help us have an idea of headcount for materials and snacks. Hope to see you there!
-
-You cansee the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Trails End Popcorn Store Front - 2hr time slots (Safeway on Bruceville/Whitelock)
 
