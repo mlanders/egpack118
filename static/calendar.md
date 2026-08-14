@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 8/13/2026, 6:59:55 PM*
+*Last updated: 8/14/2026, 12:24:59 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -102,6 +102,19 @@ Suggested attire is Class A Uniform to represent Cub Scouts and Pack 118.
 
 ---
 
+#### Arrow of Light Den Meeting
+
+**Date:** Sunday, August 23, 2026 at 7:00 AM - 8:30 AM
+
+**Location:** 7217 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Bobcat Adventure, Service Project Planning, and Physical Fitness Handout
+
+You can see the RSVP status of this event in BAND.
+(John Fraser added)
+
+---
+
 ### September 2026
 
 #### Recruitment Night: Zehnder Ranch Elementary
@@ -127,6 +140,32 @@ We would love 2-3 adult volunteers and their Cub Scouts join tohelp answer quest
 
 You can see the RSVP statusof this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### Arrow of Light Den Meeting
+
+**Date:** Sunday, September 13, 2026 at 7:00 AM - 8:30 AM
+
+**Location:** 7217 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Knife Safety and Meal Planning 
+
+You can see the RSVP statusof this event in BAND.
+(John Fraser added)
+
+---
+
+#### Arrow of Light Den Meeting
+
+**Date:** Saturday, September 26, 2026 at 3:00 AM - 4:30 AM
+
+**Location:** 525 Marina Way, West Sacramento, CA 95605, USA
+
+River Clean-up
+
+You can see the RSVP status of this event inBAND.
+(John Fraser added)
 
 ---
 
