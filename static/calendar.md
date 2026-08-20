@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 8/20/2026, 5:50:24 AM*
+*Last updated: 8/20/2026, 11:39:16 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -252,6 +252,22 @@ During the Night Ops Overnight you will tour key areas of the ship to see variou
 -Learning about NASA’s Apollo 11 and Apollo 12 missions that put the first men on the moon
 - Earning an overnight crew Patch & Certificate
 - Ample Free Parking
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### February 2027
+
+#### Pinewood Derby / Blue & Gold Banquet
+
+**Date:** Saturday, February 20, 2027 at 5:00 AM - 8:00 AM
+
+**Location:** Point Pleasant United Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Details TBA
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
