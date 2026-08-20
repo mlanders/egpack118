@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 8/19/2026, 11:46:00 PM*
+*Last updated: 8/20/2026, 5:50:24 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### August 2026
-
-#### 3 Rivers District Round Table Meeting
-
-**Date:** Thursday, August 20, 2026 at 5:00 AM - 7:00 AM
-
-Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
-
-Verify location on the GEC calendar: https://scoutingevent.com/047  
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Trails End Popcorn Store Front - 2hr time slots (Safeway on Bruceville/Whitelock)
 
