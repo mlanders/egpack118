@@ -1,31 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 8/22/2026, 11:40:53 PM*
+*Last updated: 8/23/2026, 5:40:09 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### August 2026
-
-#### Trails End Popcorn Store Front - 2hr time slots (Safeway on Bruceville/Whitelock)
-
-**Date:** Sunday, August 23, 2026 at 3:00 AM - 1:00 PM
-
-**Location:** 10050 Bruceville Rd, Elk Grove, CA 95757, USA
-
-Please sign up for a time slot to fundraise at a storefront table.
-
-NOTE: An adult must register for sales through the Trail's End App.And sign up for the time slot there as well. 
-Download the app here:
- - Android: https://play.google.com/store/apps/details?id=com.trailsend.scout&hl=en_US 
-- Apple: https://apps.apple.com/us/app/trails-end/id1421483087 
-
-Pack 118 unit code: XTAQS
-
-Suggested attire is Class A Uniform to represent Cub Scouts and Pack 118.
-
-(Stephanie Landers added)
-
----
 
 #### Arrow of Light Den Meeting
 
