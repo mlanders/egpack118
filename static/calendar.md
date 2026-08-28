@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 8/27/2026, 2:53:25 PM*
+*Last updated: 8/28/2026, 3:00:55 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -42,6 +42,29 @@ Knife Safety and Meal Planning
 
 You can see the RSVP statusof this event in BAND.
 (John Fraser added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, September 24, 2026 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
 
 ---
 
@@ -94,6 +117,29 @@ You can see the RSVP statusof this event in BAND.
 
 ---
 
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, October 22, 2026 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
 #### Arrow of Light—Troop 288 Camping Trip
 
 **Date:** Friday, October 23, 2026 at 10:00 AM - 5:00 AM
@@ -138,33 +184,60 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
-#### GCC University of Scouting (Parent and Leader Training)
+#### GCC University of Scouting (Parent and Leader Training) - Registration due by Nov 4
 
-**Date:** Saturday, November 14, 2026 at 1:00 AM - 8:00 AM
+**Date:** Saturday, November 14, 2026 at 1:00 AM - 7:30 AM
 
-**Location:** 304 F St, Davis, CA 95616, USA
+**Location:** 4000 E Covell Blvd, Davis, CA 95618, USA
 
 🏁 START YOUR ENGINES—SUCCESS IS WAITING! 🏁
-The countdown ison for the Greater California Council University of Scouting 2026, and this is one event you will not want to miss!
-Get ready for a high-energy daypacked with fresh ideas, practical training, leadership development, inspiration, and the tools you need to help your unit—and yourself—drive toward success.
 
-📅 Saturday, November 14, 2026
+🚦 Register byNov 4: https://scoutingevent.com/047-119377
+$25 plus optional $15 for Togo’s lunch box
 
-📍 Davis, California
-
-🚦 Registration opens August 21, 2026  at https://scoutingevent.com/?OrgKey=BSA047&calendarID=685545
-
-Whether you are a new leader ready to hit the road or an experienced Scouter looking to shift into high gear, University of Scouting is your opportunity to learn, connect, grow, and bring powerful new ideas back to your program. We are also offering den chief training!
-Plan it. Learn it. Lead it. Succeed.
-
-Mark your calendar, rally your fellow leaders, and prepare to take your Scouting journey to the next level.
+Whether you are a new leader ready to hit the road or an experienced Scouter looking to shift into high gear, University of Scoutingis your opportunity to learn, connect, grow, and bring powerful new ideas back to your program. We are also offering den chief training!
 
 🏎️ DON’T JUST FOLLOW THE ROAD—DRIVE YOUR SUCCESS!
-Save the datenow. Registration opens August 21, 2026!
 
 Contact
-Diane Weiss: ProgramVolunteer
+Diane Weiss: Program Volunteer
 dianeweissnotary@gmail.com
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Hike (3rd Grade) **weather permitting**
+
+**Date:** Sunday, November 15, 2026 at 6:00 AM - 8:00 AM
+
+Location & details TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### December 2026
+
+#### Bear Den **Weekend** Meeting (3rd Grade)
+
+**Date:** Sunday, December 13, 2026 at 6:00 AM - 8:00 AM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
@@ -203,6 +276,29 @@ You can see the RSVP status of this event in BAND.
 
 ---
 
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, January 28, 2027 at 10:15 AM - 11:30 AM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
 ### February 2027
 
 #### Pinewood Derby / Blue & Gold Banquet
@@ -213,6 +309,29 @@ You can see the RSVP status of this event in BAND.
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
 
 Details TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, February 25, 2027 at 10:15 AM - 11:30 AM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
