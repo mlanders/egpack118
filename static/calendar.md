@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 9/2/2026, 9:06:17 AM*
+*Last updated: 9/2/2026, 1:37:26 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### September 2026
-
-#### Recruitment Night: Zehnder Ranch Elementary
-
-**Date:** Wednesday, September 2, 2026 at 12:00 PM - 1:00 PM
-
-**Location:** 9880 Denali Cir, Elk Grove, CA 95757, USA
-
-We would love 2-3 adult volunteers and their Cub Scouts join tohelp answer questions from families interested in Cub Scouts. You do not need to be enrolled at this school to attend.  
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Recruitment Night: Carroll Elementary
 
