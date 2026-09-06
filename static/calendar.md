@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 9/5/2026, 8:21:18 PM*
+*Last updated: 9/6/2026, 3:25:22 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -319,6 +319,22 @@ Meeting Agenda:
 6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
 6:40-7:25 - Adventures toward Advancement
 7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### March 2027
+
+#### Scouting for Food - Flyer Distribution
+
+**Date:** Saturday, March 6, 2027 at 1:00 AM - 3:00 AM
+
+**Location:** Zehnder Ranch Elementary School - EGUSD
+9880 Denali Cir, Elk Grove, CA 95757, USA
+
+Help distribute flyers to notify the neighborhood of the Scouting for Food event.
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
