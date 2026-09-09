@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 9/9/2026, 9:03:17 AM*
+*Last updated: 9/9/2026, 1:34:24 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### September 2026
-
-#### Recruitment Night: Carroll Elementary
-
-**Date:** Wednesday, September 9, 2026 at 12:00 PM - 1:00 PM
-
-**Location:** Building G, 10325 Stathos Dr, Elk Grove, CA 95757, USA
-
-We would love 2-3 adult volunteers and their Cub Scouts join tohelp answer questions from families interested in Cub Scouts. You do not need to be enrolled at this school to attend.
-
-You can see the RSVP statusof this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Arrow of Light Den Meeting
 
