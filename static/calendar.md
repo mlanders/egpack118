@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 9/11/2026, 9:00:28 AM*
+*Last updated: 9/11/2026, 1:35:38 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -324,6 +324,31 @@ You can see the RSVP status of this event in BAND.
 Help distribute flyers to notify the neighborhood of the Scouting for Food event.
 
 You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Pack Meeting - AoL Crossover!
+
+**Date:** Thursday, March 11, 2027 at 10:15 AM - 11:30 AM
+
+**Location:** Point Pleasant Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening Ceremony
+6:40-7:15 - Activities
+7:15-7:30 - Closing Ceremony
+
+Attire: 
+ClassA Uniform (Field Uniform) is encouraged for Pack Meetings.
+
+Families (including siblings) are welcome.
+
+RSVP is appreciated to help us have an idea of headcount for materials and snacks. Hope to see you there!
+
+You cansee the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
