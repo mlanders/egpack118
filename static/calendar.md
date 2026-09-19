@@ -1,22 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 9/18/2026, 8:33:14 PM*
+*Last updated: 9/19/2026, 3:27:23 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### September 2026
-
-#### Wolf Den Meeting
-
-**Date:** Saturday, September 19, 2026 at 2:00 AM - 4:00 AM
-
-**Location:** Elk Grove Bike Park, Elk Grove Park Trail, Elk Grove, CA 95624, USA
-
-Bring you bike, helmet and water bottle. We will be working onthe “Pedal with the Pack” adventure!
-
-(Freddy Santana added)
-
----
 
 #### Bear Den Meeting (3rd Grade)
 
