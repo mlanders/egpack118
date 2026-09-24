@@ -1,38 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 9/24/2026, 9:38:41 AM*
+*Last updated: 9/24/2026, 2:14:06 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### September 2026
-
-#### Bear Den Meeting (3rd Grade)
-
-**Date:** Thursday, September 24, 2026 at 11:15 AM - 12:30 PM
-
-**Location:** Kunsting Family Park
-Kunsting Family Park, 10069 Wild Orchid Way, Elk Grove, CA 95757, USA
-
-Denner: Connor (arrives early to help with setup and welcomingCub Scouts/families; leads opening)
-
-Attire: Class A Uniform encouraged
-
-Adventure Focus: Whittling https://www.scouting.org/cub-scout-adventures/whittling/
-
-Materials: Materials will be provided (bar of soap, training pocket knife, and some beads for kids to make a keychain to attach to their knife)
-
-It will likely start to get dark during our meeting so we will bring some lanterns to help light the space. 
-
-Meeting Agenda: 
-6:15-6:30 - Gathering Time
-6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
-6:40-7:25 - Adventures toward Advancement
-7:25-7:30 - Closing
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Arrow of Light Den Meeting
 
