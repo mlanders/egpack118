@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 9/25/2026, 9:44:14 AM*
+*Last updated: 9/25/2026, 2:11:41 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -345,6 +345,29 @@ We will have a table set up at the front of the store.
 During their shift, scouts will politely ask customers entering the store to consider purchasing non-perishable food items and donating them on their wayout.
 
 The food will need to be delivered to the Elk Grove food bank by Saturday at 11AM.
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, March 25, 2027 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
