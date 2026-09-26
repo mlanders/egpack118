@@ -1,23 +1,8 @@
 # Pack 118 Calendar
 
-*Last updated: 9/25/2026, 8:56:06 PM*
+*Last updated: 9/26/2026, 3:57:04 AM*
 
 ## Upcoming Events (Next 6 Months)
-
-### September 2026
-
-#### Arrow of Light Den Meeting
-
-**Date:** Saturday, September 26, 2026 at 3:00 AM - 4:30 AM
-
-**Location:** 525 Marina Way, West Sacramento, CA 95605, USA
-
-River Clean-up
-
-You can see the RSVP status of this event inBAND.
-(John Fraser added)
-
----
 
 ### October 2026
 
