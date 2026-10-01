@@ -1,40 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 10/1/2026, 5:36:08 AM*
+*Last updated: 10/1/2026, 3:24:53 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### October 2026
-
-#### Recruitment Night: Helen Carr Castello Elementary
-
-**Date:** Thursday, October 1, 2026 at 12:00 PM - 1:00 PM
-
-**Location:** 9850 Fire Poppy Dr, Elk Grove, CA 95757, USA
-
-We would love 2-3 adult volunteers and their Cub Scouts join tohelp answer questions from families interested in Cub Scouts. You do not need to be enrolled at this school to attend.
-
-You can see the RSVP statusof this event in BAND.
-(Stephanie Landers added)
-
----
-
-#### Pack Committee Meeting (Leaders)
-
-**Date:** Thursday, October 1, 2026 at 1:30 PM - 2:30 PM
-
-https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
-
-As a reminder all parents are welcome to join but it'll mostlybe planning.
-
-Agenda: https://docs.google.com/document/d/17aEd4ZwD-S5YVZt6iV7Hx4BElGjRXpEa5FRD-FqAPcU/edit?usp=sharing
-
-Previous Meeting Minutes:TBA
-
-You can see the RSVP status of this event in BAND.
-(Michael Landers added)
-
----
 
 #### Recruitment Night: Franklin Elementary School
 
