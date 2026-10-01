@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 9/30/2026, 2:56:50 PM*
+*Last updated: 9/30/2026, 9:36:06 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -24,6 +24,23 @@ We would love 2-3 adult volunteers and their Cub Scouts join tohelp answer quest
 
 You can see the RSVP statusof this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### Pack Committee Meeting (Leaders)
+
+**Date:** Thursday, October 1, 2026 at 1:30 PM - 2:30 PM
+
+https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
+
+As a reminder all parents are welcome to join but it'll mostlybe planning.
+
+Agenda: TBA
+
+Previous Meeting Minutes: TBA
+
+You can see the RSVP status of this event in BAND.
+(Michael Landers added)
 
 ---
 
