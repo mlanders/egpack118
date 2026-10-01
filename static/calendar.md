@@ -1,18 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 9/30/2026, 9:36:06 PM*
+*Last updated: 10/1/2026, 5:36:08 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### October 2026
-
-#### The Band was created 2 year(s) ago on this day
-
-**Date:** Thursday, October 1, 2026
-
-The Band was created 2 year(s) ago on this day
-
----
 
 #### Recruitment Night: Helen Carr Castello Elementary
 
@@ -35,9 +27,9 @@ https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1
 
 As a reminder all parents are welcome to join but it'll mostlybe planning.
 
-Agenda: TBA
+Agenda: https://docs.google.com/document/d/17aEd4ZwD-S5YVZt6iV7Hx4BElGjRXpEa5FRD-FqAPcU/edit?usp=sharing
 
-Previous Meeting Minutes: TBA
+Previous Meeting Minutes:TBA
 
 You can see the RSVP status of this event in BAND.
 (Michael Landers added)
@@ -53,6 +45,19 @@ You can see the RSVP status of this event in BAND.
 We would love 2-3 adult volunteers and their Cub Scouts join tohelp answer questions from families interested in Cub Scouts. You do not need to be enrolled at this school to attend.
 
 You can see the RSVP statusof this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### 3 Rivers District Round Table Meeting
+
+**Date:** Thursday, October 15, 2026 at 5:00 AM - 7:00 AM
+
+Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+
+Verify location on the GEC calendar: https://scoutingevent.com/047  
+
+You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
@@ -95,6 +100,21 @@ You can see the RSVP status of this event in BAND.
 ---
 
 ### November 2026
+
+#### Pack Committee Meeting (Leaders)
+
+**Date:** Thursday, November 5, 2026 at 2:30 AM - 3:30 AM
+
+https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
+
+Agenda: TBA
+
+Previous Meeting Minutes: TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
 
 #### Possible 3R District Cub Camp (Details TBA)
 
