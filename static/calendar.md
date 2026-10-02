@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 10/1/2026, 3:24:53 PM*
+*Last updated: 10/1/2026, 9:28:18 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -57,7 +57,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Arrow of Light—Troop 288 Camping Trip
 
-**Date:** Friday, October 23, 2026 at 10:00 AM - 5:00 AM
+**Date:** Saturday, October 24, 2026 at 6:00 AM - 3:00 AM
 
 **Location:** Lake Comanche
 62FR+GC Wallace, CA, USA
