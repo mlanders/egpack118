@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 10/13/2026, 6:42:48 AM*
+*Last updated: 10/13/2026, 3:21:52 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### October 2026
-
-#### Recruitment Night: Franklin Elementary School
-
-**Date:** Tuesday, October 13, 2026 at 12:00 PM - 1:00 PM
-
-**Location:** 5401 Dorcey Dr, Elk Grove, CA 95757, USA
-
-We would love 2-3 adult volunteers and their Cub Scouts join tohelp answer questions from families interested in Cub Scouts. You do not need to be enrolled at this school to attend.
-
-You can see the RSVP statusof this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### 3 Rivers District Round Table Meeting
 
