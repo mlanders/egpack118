@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 10/16/2026, 3:52:25 AM*
+*Last updated: 10/16/2026, 9:12:48 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -379,6 +379,20 @@ Meeting Agenda:
 7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### April 2027
+
+#### Possible Pack Family Campout?
+
+**Date:** Friday, April 16, 2027
+
+If you are interested in planning a campout for the pack (including helping with location reservation & coordination), please talk to CMMike.
+
+For now these dates will be held for a possible pack family campout.
+
 (Stephanie Landers added)
 
 ---
