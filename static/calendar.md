@@ -1,10 +1,23 @@
 # Pack 118 Calendar
 
-*Last updated: 10/16/2026, 9:12:48 AM*
+*Last updated: 10/16/2026, 1:35:39 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### October 2026
+
+#### Arrow of Light Den Meeting
+
+**Date:** Sunday, October 18, 2026 at 7:00 AM - 8:30 AM
+
+**Location:** 7227 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Outdoor Adventure at Rob’s House
+
+You can see the RSVP statusof this event in BAND.
+(John Fraser added)
+
+---
 
 #### Bear Den Meeting (3rd Grade)
 
@@ -96,6 +109,19 @@ You can see the RSVP status of this event in BAND.
 
 You can see the RSVP status of this event in BAND.
 (StephanieLanders added)
+
+---
+
+#### Arrow of Light Den Meeting
+
+**Date:** Sunday, November 8, 2026 at 6:00 AM - 7:30 AM
+
+**Location:** 101 I St, Sacramento, CA 95814, USA
+
+First Aid Adventure in Old Sacramento State Historic Park
+
+You can see the RSVP status of this event in BAND.
+(John Fraser added)
 
 ---
 
