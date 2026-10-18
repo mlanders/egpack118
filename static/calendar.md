@@ -1,23 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 10/18/2026, 3:31:24 AM*
+*Last updated: 10/18/2026, 8:29:39 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### October 2026
-
-#### Arrow of Light Den Meeting
-
-**Date:** Sunday, October 18, 2026 at 7:00 AM - 8:30 AM
-
-**Location:** 7227 Point Pleasant Rd, Elk Grove, CA 95757, USA
-
-Outdoor Adventure at Rob’s House
-
-You can see the RSVP statusof this event in BAND.
-(John Fraser added)
-
----
 
 #### Bear Den Meeting (3rd Grade)
 
