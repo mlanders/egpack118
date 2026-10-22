@@ -1,43 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 10/22/2026, 9:45:19 AM*
+*Last updated: 10/22/2026, 2:15:55 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### October 2026
-
-#### Bear Den Meeting (3rd Grade)
-
-**Date:** Thursday, October 22, 2026 at 11:15 AM - 12:30 PM
-
-**Location:** 9810 Collie Way
-9810 Collie Way, Elk Grove, CA 95757, USA
-
-Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
-
-Attire: Class A Uniform encouraged
-
-Materials: 
-- Soap carving to share progress so far, if not finishedthat’s ok
-- Can bring Bear handbook if you have one, but not required. 
-
-Adventure Focus: Bobcat (https://www.scouting.org/cub-scout-adventures/bobcat-bear/)
-
-Meeting Agenda: 
-6:15-6:30 - Gathering Time
-6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
-6:40-7:25 - Adventures toward Advancement:
-- Den Bear Flag
-- “Lights, Camera, Action” ScoutOath
-- Code of conduct
-- Denner Roles
-- “I Did My Best” Comic Strip
-7:25-7:30 - Closing
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Arrow of Light—Troop 288 Camping Trip
 
@@ -416,6 +383,29 @@ If you are interested in planning a campout for the pack (including helping with
 
 For now these dates will be held for a possible pack family campout.
 
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, April 22, 2027 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
