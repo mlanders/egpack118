@@ -1,40 +1,8 @@
 # Pack 118 Calendar
 
-*Last updated: 10/24/2026, 8:30:42 AM*
+*Last updated: 10/24/2026, 1:21:58 PM*
 
 ## Upcoming Events (Next 6 Months)
-
-### October 2026
-
-#### Trunk-or-Treat
-
-**Date:** Saturday, October 24, 2026 at 10:30 AM - 11:30 AM
-
-**Location:** Zehnder Ranch
-9880 Denali Cir, Elk Grove, CA 95757, USA
-
-Pack 118 Trunk or Treat 🎃
-
-Join Pack 118 for a fun evening of costumes, decorated trunks, and plenty of treats! Please RSVP so families know how many treats to bring!
-
-Families are encouraged to decorate the trunk of their car with a fun Halloween theme—spooky, silly, Scouts, movies, games, sports, or whatever you can dream up! Bring candy or smalltoys to hand out to our Trunk-or-Treaters.
-
-Please keep food allergies in mind when choosing treats. Individually wrapped candy is best, and non-food treats like stickers, pencils, glow sticks, or small toys are a great option too.
-
-Scouts, siblings, parents, and leaders are encouraged to come dressed in costume! Costumes should be family-friendly and appropriate for all ages.
-
-🎃 Saturday, October 24
-🕠 5:30 PM
-📍 Zehnder RanchElementary School
-
-Decorate your trunk • Wear a costume • Bring some treats • Have fun!
-
-** Event subject to weather and school permission **
-
-You can see the RSVP status of this event in BAND.
-(Michael Landers added)
-
----
 
 ### November 2026
 
