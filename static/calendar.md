@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 10/23/2026, 8:36:57 PM*
+*Last updated: 10/24/2026, 3:25:59 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -407,6 +407,15 @@ Meeting Agenda:
 
 You can see the RSVP status of this event in BAND.
 (Stephanie Landers added)
+
+---
+
+#### 3R District Pinewood Derby (Time/Location TBA)
+
+**Date:** Saturday, April 24, 2027 at 3:00 AM - 7:00 AM
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
 
 ---
 
