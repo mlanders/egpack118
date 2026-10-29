@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 10/29/2026, 5:25:34 AM*
+*Last updated: 10/29/2026, 3:30:07 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -370,6 +370,29 @@ You can see the RSVP status of this event in BAND.
 
 You can see the RSVP status of this event in BAND.
 (StephanieLanders added)
+
+---
+
+#### Bear Den - Possible BONUS Meeting (3rd Grade)
+
+**Date:** Thursday, April 29, 2027 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
 
 ---
 
