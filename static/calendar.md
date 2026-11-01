@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 10/31/2026, 9:48:21 PM*
+*Last updated: 11/1/2026, 4:47:29 AM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -58,6 +58,31 @@ After the parade, there will be a community picnic open to the public.
 
 
 You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Pack Meeting!
+
+**Date:** Thursday, November 12, 2026 at 2:15 AM - 3:30 AM
+
+**Location:** Point Pleasant Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening Ceremony
+6:40-7:15 - Activities
+7:15-7:30 - Closing Ceremony
+
+Attire: 
+ClassA Uniform (Field Uniform) is encouraged for Pack Meetings.
+
+Families (including siblings) are welcome.
+
+RSVP is appreciated to help us have an idea of headcount for materials and snacks. Hope to see you there!
+
+You cansee the RSVP status of this event in BAND.
 (Stephanie Landers added)
 
 ---
