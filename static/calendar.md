@@ -1,25 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 11/4/2026, 9:31:12 PM*
+*Last updated: 11/5/2026, 6:08:20 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### November 2026
-
-#### Pack Committee Meeting (Leaders)
-
-**Date:** Thursday, November 5, 2026 at 2:30 AM - 3:30 AM
-
-https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
-
-Agenda: TBA
-
-Previous Meeting Minutes: TBA
-
-You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
-
----
 
 #### Possible 3R District Cub Camp (Details TBA)
 
