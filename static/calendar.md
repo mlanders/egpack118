@@ -1,19 +1,10 @@
 # Pack 118 Calendar
 
-*Last updated: 11/5/2026, 9:29:25 PM*
+*Last updated: 11/6/2026, 5:51:28 AM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### November 2026
-
-#### Possible 3R District Cub Camp (Details TBA)
-
-**Date:** Friday, November 6, 2026
-
-You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
-
----
 
 #### Arrow of Light Den Meeting
 
