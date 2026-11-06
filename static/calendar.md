@@ -1,6 +1,6 @@
 # Pack 118 Calendar
 
-*Last updated: 11/5/2026, 3:21:03 PM*
+*Last updated: 11/5/2026, 9:29:25 PM*
 
 ## Upcoming Events (Next 6 Months)
 
@@ -121,6 +121,21 @@ You can see the RSVP status of this event in BAND.
 ---
 
 ### December 2026
+
+#### Pack Committee Meeting (Leaders)
+
+**Date:** Thursday, December 3, 2026 at 2:30 AM - 3:30 AM
+
+https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
+
+Agenda: TBA
+
+Previous Meeting Minutes: TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
 
 #### Bear Den **Weekend** Meeting (3rd Grade)
 
