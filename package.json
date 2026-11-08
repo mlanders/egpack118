@@ -5,44 +5,25 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "prisma generate && vite build",
-    "preview": "vite preview",
+    "preview": "wrangler dev",
     "prepare": "svelte-kit sync || echo ''",
-    "postinstall": "prisma generate",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "test": "playwright test",
-    "test:ui": "playwright test --ui",
-    "test:headed": "playwright test --headed",
-    "test:debug": "playwright test --debug",
-    "create-admin": "tsx scripts/create-admin.ts"
+    "build": "vite build"
   },
   "devDependencies": {
     "@playwright/mcp": "^0.0.54",
-    "@playwright/test": "^1.57.0",
-    "@sveltejs/adapter-auto": "^7.0.0",
+    "@sveltejs/adapter-cloudflare": "^7.2.10",
     "@sveltejs/kit": "^2.48.5",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@tailwindcss/postcss": "^4.1.17",
-    "@types/pg": "^8.16.0",
     "autoprefixer": "^10.4.22",
-    "dotenv": "^17.2.3",
     "postcss": "^8.5.6",
-    "prisma": "^7.2.0",
     "svelte": "^5.43.8",
     "svelte-check": "^4.3.4",
     "tailwindcss": "^4.1.17",
-    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vite": "^7.2.2"
-  },
-  "dependencies": {
-    "@prisma/adapter-pg": "^7.2.0",
-    "@prisma/client": "^7.2.0",
-    "@types/bcryptjs": "^2.4.6",
-    "bcryptjs": "^3.0.3",
-    "better-auth": "^1.4.10",
-    "pg": "^8.16.3",
-    "zod": "^4.3.5"
+    "vite": "^7.2.2",
+    "wrangler": "^4.158.0"
   }
 }
