@@ -1,16 +1,412 @@
 # Pack 118 Calendar
 
-*Last updated: 7/18/2026, 6:16:28 AM*
+*Last updated: 11/8/2026, 4:52:48 AM*
 
 ## Upcoming Events (Next 6 Months)
 
-### October 2026
+### November 2026
 
-#### The Band was created 2 year(s) ago on this day
+#### Arrow of Light Den Meeting
 
-**Date:** Thursday, October 1, 2026
+**Date:** Sunday, November 8, 2026 at 6:00 AM - 7:30 AM
 
-The Band was created 2 year(s) ago on this day
+**Location:** 101 I St, Sacramento, CA 95814, USA
+
+First Aid Adventure in Old Sacramento State Historic Park
+
+You can see the RSVP status of this event in BAND.
+(John Fraser added)
+
+---
+
+#### Elk Grove Veterans Day Parade (Details TBA)
+
+**Date:** Wednesday, November 11, 2026 at 1:00 AM - 4:00 AM
+
+**Location:** 8820 Elk Grove Blvd, Elk Grove, CA 95624, USA
+
+9:30AM - Parade participants gather
+10AM - Opening Ceremony
+11:11 AM - Parade begins at the Cosumnes CSD Administration Building (8820 Elk Grove Blvd) and concludes at Elk Grove Park. 
+
+After the parade, there will be a community picnic open to the public. 
+
+
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Pack Meeting!
+
+**Date:** Thursday, November 12, 2026 at 2:15 AM - 3:30 AM
+
+**Location:** Point Pleasant Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening Ceremony
+6:40-7:15 - Activities
+7:15-7:30 - Closing Ceremony
+
+Attire: 
+ClassA Uniform (Field Uniform) is encouraged for Pack Meetings.
+
+Families (including siblings) are welcome.
+
+RSVP is appreciated to help us have an idea of headcount for materials and snacks. Hope to see you there!
+
+You cansee the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### GCC University of Scouting (Parent and Leader Training) - Registration due by Nov 4
+
+**Date:** Saturday, November 14, 2026 at 1:00 AM - 7:30 AM
+
+**Location:** 4000 E Covell Blvd, Davis, CA 95618, USA
+
+🏁 START YOUR ENGINES—SUCCESS IS WAITING! 🏁
+
+🚦 Register byNov 4: https://scoutingevent.com/047-119377
+$25 plus optional $15 for Togo’s lunch box
+
+Whether you are a new leader ready to hit the road or an experienced Scouter looking to shift into high gear, University of Scoutingis your opportunity to learn, connect, grow, and bring powerful new ideas back to your program. We are also offering den chief training!
+
+🏎️ DON’T JUST FOLLOW THE ROAD—DRIVE YOUR SUCCESS!
+
+Contact
+Diane Weiss: Program Volunteer
+dianeweissnotary@gmail.com
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Hike (3rd Grade) **weather permitting**
+
+**Date:** Sunday, November 15, 2026 at 6:00 AM - 8:00 AM
+
+Location & details TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### 3 Rivers District Round Table Meeting
+
+**Date:** Thursday, November 19, 2026 at 3:00 AM - 5:00 AM
+
+Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
+
+Verify location on the GEC calendar: https://scoutingevent.com/047  
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### December 2026
+
+#### Pack Committee Meeting (Leaders)
+
+**Date:** Thursday, December 3, 2026 at 2:30 AM - 3:30 AM
+
+https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
+
+Agenda: TBA
+
+Previous Meeting Minutes: TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den **Weekend** Meeting (3rd Grade)
+
+**Date:** Sunday, December 13, 2026 at 6:00 AM - 8:00 AM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+2-2:15pm - Gathering Time
+2:15-2:20pm - Opening (Flags, Oath, Law, Awards/acknowledgements)
+2:20-3:50pm - Adventures toward Advancement
+3:50-4pm - Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### January 2027
+
+#### USS Hornet Overnight ("Live Aboard Adventure") ($100pp)
+
+**Date:** Saturday, January 9, 2027 at 8:30 AM - 2:00 AM
+
+**Location:** USS Hornet Museum
+707 W Hornet Ave, Alameda, CA 94501, USA
+
+$100/person. Full payment for your party due to Stephanie Landers via Venmo or Zelle no later than 12/19. 
+
+Venmo: @steph_landers (https://venmo.com/u/steph_landers) - QR code attached
+Zelle: Stephanie Landers916-541-7691 - QR code attached 
+
+***Must be at least 5 years old, recommended at least 8 years old*** Eligible siblings and adults of all ages arewelcome. 
+
+https://uss-hornet.org/tours-and-programs/live-aboard-adventure/ 
+
+---
+Ever wonder how an aircraft carrier works? Come aboard and spend the night living with history on the ultimate overnight adventure and find out how USS Hornet’s sailors lived and worked on this city at sea! Designed for ages 5 and up, this is a perfect group activity for scouts, youthgroups, schools, friends, and families!
+
+During the Night Ops Overnight you will tour key areas of the ship to see various spaces and systems and discuss the history, science, and engineering behind them. As you movearound the ship, you can participate in several hands-on science stationsand demonstrations interspersed with seeing sailors’ living spaces! The experience includes:
+- Sleeping in restored, original sailor sleeping compartments
+- Enjoying Dinner and Breakfast in the original Enlisted Cre
+
+Youcan see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, January 28, 2027 at 10:15 AM - 11:30 AM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### February 2027
+
+#### Pinewood Derby / Blue & Gold Banquet
+
+**Date:** Saturday, February 20, 2027 at 5:00 AM - 8:00 AM
+
+**Location:** Point Pleasant United Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Details TBA
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, February 25, 2027 at 10:15 AM - 11:30 AM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### March 2027
+
+#### Scouting for Food - Flyer Distribution
+
+**Date:** Saturday, March 6, 2027 at 1:00 AM - 3:00 AM
+
+**Location:** Zehnder Ranch Elementary School - EGUSD
+9880 Denali Cir, Elk Grove, CA 95757, USA
+
+Help distribute flyers to notify the neighborhood of the Scouting for Food event.
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Pack Meeting - AoL Crossover!
+
+**Date:** Thursday, March 11, 2027 at 10:15 AM - 11:30 AM
+
+**Location:** Point Pleasant Methodist Church
+3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
+
+Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening Ceremony
+6:40-7:15 - Activities
+7:15-7:30 - Closing Ceremony
+
+Attire: 
+ClassA Uniform (Field Uniform) is encouraged for Pack Meetings.
+
+Families (including siblings) are welcome.
+
+RSVP is appreciated to help us have an idea of headcount for materials and snacks. Hope to see you there!
+
+You cansee the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Scouting for food- Front Store Donation (Bruceville/Whitelock Safeway)
+
+**Date:** Friday, March 12, 2027 at 9:00 AM - 11:00 AM
+
+**Location:** Safeway
+10050 Bruceville Rd, Elk Grove, CA 95757, USA
+
+We will have a table set up at the front of the store.
+
+During their shift, scouts will politely ask customers entering the store to consider purchasing non-perishable food items and donating them on their wayout.
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Scouting for food- Front Store Donation
+
+**Date:** Saturday, March 13, 2027 at 12:00 AM - 2:00 AM
+
+**Location:** Safeway
+10050 Bruceville Rd, Elk Grove, CA 95757, USA
+
+We will have a table set up at the front of the store.
+
+During their shift, scouts will politely ask customers entering the store to consider purchasing non-perishable food items and donating them on their wayout.
+
+The food will need to be delivered to the Elk Grove food bank by Saturday at 11AM.
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, March 25, 2027 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+### April 2027
+
+#### Possible Pack Family Campout?
+
+**Date:** Friday, April 16, 2027
+
+If you are interested in planning a campout for the pack (including helping with location reservation & coordination), please talk to CMMike.
+
+For now these dates will be held for a possible pack family campout.
+
+(Stephanie Landers added)
+
+---
+
+#### Bear Den Meeting (3rd Grade)
+
+**Date:** Thursday, April 22, 2027 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
+
+---
+
+#### 3R District Pinewood Derby (Time/Location TBA)
+
+**Date:** Saturday, April 24, 2027 at 3:00 AM - 7:00 AM
+
+You can see the RSVP status of this event in BAND.
+(StephanieLanders added)
+
+---
+
+#### Bear Den - Possible BONUS Meeting (3rd Grade)
+
+**Date:** Thursday, April 29, 2027 at 11:15 AM - 12:30 PM
+
+Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
+
+Attire: Class A Uniform encouraged
+
+Materials: ___TBA___
+
+Adventure Focus: ___TBA___
+
+Meeting Agenda:
+6:15-6:30 - Gathering Time
+6:30-6:40 - Opening (Flags, Oath, Law, Awards/acknowledgements)
+6:40-7:25 - Adventures toward Advancement
+7:25-7:30- Closing
+
+You can see the RSVP status of this event in BAND.
+(Stephanie Landers added)
 
 ---
 

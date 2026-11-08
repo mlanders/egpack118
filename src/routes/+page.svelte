@@ -56,11 +56,11 @@
             </div>
             <div class="mt-6">
                 <a
-                    href="/downloads/Pack_118_General_Information.pdf"
+                    href="https://docs.google.com/document/d/130Qhzcci0fZK6IpjYKI2BFWYTeBfkf0oZHm4podlVd4/edit?usp=sharing"
                     class="inline-block bg-scout-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-                    download
+                    target="_blank"
                 >
-                    Learn more about Pack 118 (PDF)
+                    Learn more about Pack 118
                 </a>
             </div>
         </div>
