@@ -13,7 +13,7 @@
 
     <!-- Intro Section -->
     <div class="max-w-4xl mx-auto mb-12">
-        <div class="bg-blue-50 border-l-4 border-scout-blue p-6 rounded-lg">
+        <div class="bg-blue-50 border border-scout-blue/20 p-6 rounded-lg">
             <p class="text-lg text-gray-700">
                 Becoming a Cub Scout leader is a rewarding way to support your
                 child's Scouting experience and contribute to the community.

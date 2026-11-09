@@ -1,27 +1,14 @@
 # Pack 118 Calendar
 
-*Last updated: 11/8/2026, 4:52:48 AM*
+*Last updated: 11/8/2026, 3:49:39 PM*
 
 ## Upcoming Events (Next 6 Months)
 
 ### November 2026
 
-#### Arrow of Light Den Meeting
-
-**Date:** Sunday, November 8, 2026 at 6:00 AM - 7:30 AM
-
-**Location:** 101 I St, Sacramento, CA 95814, USA
-
-First Aid Adventure in Old Sacramento State Historic Park
-
-You can see the RSVP status of this event in BAND.
-(John Fraser added)
-
----
-
 #### Elk Grove Veterans Day Parade (Details TBA)
 
-**Date:** Wednesday, November 11, 2026 at 1:00 AM - 4:00 AM
+**Date:** Wednesday, November 11, 2026 at 9:00 AM - 12:00 PM
 
 **Location:** 8820 Elk Grove Blvd, Elk Grove, CA 95624, USA
 
@@ -40,7 +27,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pack Meeting!
 
-**Date:** Thursday, November 12, 2026 at 2:15 AM - 3:30 AM
+**Date:** Thursday, November 12, 2026 at 6:15 PM - 7:30 PM
 
 **Location:** Point Pleasant Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -65,7 +52,7 @@ You cansee the RSVP status of this event in BAND.
 
 #### GCC University of Scouting (Parent and Leader Training) - Registration due by Nov 4
 
-**Date:** Saturday, November 14, 2026 at 1:00 AM - 7:30 AM
+**Date:** Saturday, November 14, 2026 at 9:00 AM - 3:30 PM
 
 **Location:** 4000 E Covell Blvd, Davis, CA 95618, USA
 
@@ -89,7 +76,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Bear Den Hike (3rd Grade) **weather permitting**
 
-**Date:** Sunday, November 15, 2026 at 6:00 AM - 8:00 AM
+**Date:** Sunday, November 15, 2026 at 2:00 PM - 4:00 PM
 
 Location & details TBA
 
@@ -100,7 +87,7 @@ You can see the RSVP status of this event in BAND.
 
 #### 3 Rivers District Round Table Meeting
 
-**Date:** Thursday, November 19, 2026 at 3:00 AM - 5:00 AM
+**Date:** Thursday, November 19, 2026 at 7:00 PM - 9:00 PM
 
 Pack 118 needs at least one representative to attend the 3R Round Table each month and report back to the pack on district-level updates.Please RSVP if you volunteer to be the pack representative for the day. 
 
@@ -115,7 +102,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pack Committee Meeting (Leaders)
 
-**Date:** Thursday, December 3, 2026 at 2:30 AM - 3:30 AM
+**Date:** Thursday, December 3, 2026 at 6:30 PM - 7:30 PM
 
 https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
 
@@ -130,7 +117,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Bear Den **Weekend** Meeting (3rd Grade)
 
-**Date:** Sunday, December 13, 2026 at 6:00 AM - 8:00 AM
+**Date:** Sunday, December 13, 2026 at 2:00 PM - 4:00 PM
 
 Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
 
@@ -155,7 +142,7 @@ You can see the RSVP status of this event in BAND.
 
 #### USS Hornet Overnight ("Live Aboard Adventure") ($100pp)
 
-**Date:** Saturday, January 9, 2027 at 8:30 AM - 2:00 AM
+**Date:** Saturday, January 9, 2027 at 4:30 PM - 10:00 AM
 
 **Location:** USS Hornet Museum
 707 W Hornet Ave, Alameda, CA 94501, USA
@@ -183,7 +170,7 @@ Youcan see the RSVP status of this event in BAND.
 
 #### Bear Den Meeting (3rd Grade)
 
-**Date:** Thursday, January 28, 2027 at 10:15 AM - 11:30 AM
+**Date:** Thursday, January 28, 2027 at 6:15 PM - 7:30 PM
 
 Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
 
@@ -208,7 +195,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pinewood Derby / Blue & Gold Banquet
 
-**Date:** Saturday, February 20, 2027 at 5:00 AM - 8:00 AM
+**Date:** Saturday, February 20, 2027 at 1:00 PM - 4:00 PM
 
 **Location:** Point Pleasant United Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -222,7 +209,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Bear Den Meeting (3rd Grade)
 
-**Date:** Thursday, February 25, 2027 at 10:15 AM - 11:30 AM
+**Date:** Thursday, February 25, 2027 at 6:15 PM - 7:30 PM
 
 Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
 
@@ -247,7 +234,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Scouting for Food - Flyer Distribution
 
-**Date:** Saturday, March 6, 2027 at 1:00 AM - 3:00 AM
+**Date:** Saturday, March 6, 2027 at 9:00 AM - 11:00 AM
 
 **Location:** Zehnder Ranch Elementary School - EGUSD
 9880 Denali Cir, Elk Grove, CA 95757, USA
@@ -261,7 +248,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Pack Meeting - AoL Crossover!
 
-**Date:** Thursday, March 11, 2027 at 10:15 AM - 11:30 AM
+**Date:** Thursday, March 11, 2027 at 6:15 PM - 7:30 PM
 
 **Location:** Point Pleasant Methodist Church
 3329 Point Pleasant Rd, Elk Grove, CA 95757, USA
@@ -286,7 +273,7 @@ You cansee the RSVP status of this event in BAND.
 
 #### Scouting for food- Front Store Donation (Bruceville/Whitelock Safeway)
 
-**Date:** Friday, March 12, 2027 at 9:00 AM - 11:00 AM
+**Date:** Friday, March 12, 2027 at 5:00 PM - 7:00 PM
 
 **Location:** Safeway
 10050 Bruceville Rd, Elk Grove, CA 95757, USA
@@ -302,7 +289,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Scouting for food- Front Store Donation
 
-**Date:** Saturday, March 13, 2027 at 12:00 AM - 2:00 AM
+**Date:** Saturday, March 13, 2027 at 8:00 AM - 10:00 AM
 
 **Location:** Safeway
 10050 Bruceville Rd, Elk Grove, CA 95757, USA
@@ -320,7 +307,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Bear Den Meeting (3rd Grade)
 
-**Date:** Thursday, March 25, 2027 at 11:15 AM - 12:30 PM
+**Date:** Thursday, March 25, 2027 at 6:15 PM - 7:30 PM
 
 Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
 
@@ -357,7 +344,7 @@ For now these dates will be held for a possible pack family campout.
 
 #### Bear Den Meeting (3rd Grade)
 
-**Date:** Thursday, April 22, 2027 at 11:15 AM - 12:30 PM
+**Date:** Thursday, April 22, 2027 at 6:15 PM - 7:30 PM
 
 Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
 
@@ -380,7 +367,7 @@ You can see the RSVP status of this event in BAND.
 
 #### 3R District Pinewood Derby (Time/Location TBA)
 
-**Date:** Saturday, April 24, 2027 at 3:00 AM - 7:00 AM
+**Date:** Saturday, April 24, 2027 at 10:00 AM - 2:00 PM
 
 You can see the RSVP status of this event in BAND.
 (StephanieLanders added)
@@ -389,7 +376,7 @@ You can see the RSVP status of this event in BAND.
 
 #### Bear Den - Possible BONUS Meeting (3rd Grade)
 
-**Date:** Thursday, April 29, 2027 at 11:15 AM - 12:30 PM
+**Date:** Thursday, April 29, 2027 at 6:15 PM - 7:30 PM
 
 Denner: __TBA___ (arrives early to help with setup and welcoming Cub Scouts/families; leads opening)
 

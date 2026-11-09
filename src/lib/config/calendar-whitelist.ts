@@ -145,6 +145,13 @@ export function isUrlAllowed(url: string): boolean {
   return false;
 }
 
+// The BAND export appends an RSVP pointer and "(Name added)" to every event; drop both.
+function stripBandBoilerplate(text: string | undefined): string | undefined {
+  return text
+    ?.replace(/You can ?see the RSVP status of this event in BAND\.?\s*(\([^)]*added\))?/gi, "")
+    .trim();
+}
+
 /**
  * Clean event data by filtering sensitive information
  */
@@ -166,6 +173,6 @@ export function cleanEventData(event: {
   return {
     ...event,
     location: isLocationAllowed(event.location) ? event.location : undefined,
-    description: filterSensitiveContent(event.description),
+    description: stripBandBoilerplate(filterSensitiveContent(event.description)),
   };
 }
