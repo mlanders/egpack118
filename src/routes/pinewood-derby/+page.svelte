@@ -49,7 +49,7 @@
     </div>
 
     <!-- Event Info -->
-    <div class="bg-blue-50 border-l-4 border-scout-blue p-6 rounded mb-12">
+    <div class="bg-blue-50 border border-scout-blue/20 p-6 rounded mb-12">
         <h2 class="text-2xl font-bold text-gray-900 mb-3">Event Details</h2>
         <p class="text-gray-700 mb-2">
             The Pinewood Derby is one of our most exciting annual events! Scouts

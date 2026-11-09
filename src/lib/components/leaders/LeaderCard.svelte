@@ -4,25 +4,8 @@
 </script>
 
 <div
-    class="leader-card bg-white border-2 border-gray-200 rounded-lg p-6 flex flex-col items-center w-64"
-    style="transition: box-shadow 0.2s;"
+    class="bg-white border-2 border-gray-200 rounded-lg p-3 sm:p-6 flex flex-col items-center w-full sm:w-64 text-center transition-shadow hover:shadow-lg"
     role="group"
-    onmouseover={(event) => {
-        const target = event.currentTarget as HTMLElement | null;
-        if (target) target.style.boxShadow = "0 4px 16px rgba(26,95,180,0.10)";
-    }}
-    onmouseout={(event) => {
-        const target = event.currentTarget as HTMLElement | null;
-        if (target) target.style.boxShadow = "";
-    }}
-    onfocus={(event) => {
-        const target = event.currentTarget as HTMLElement | null;
-        if (target) target.style.boxShadow = "0 4px 16px rgba(26,95,180,0.10)";
-    }}
-    onblur={(event) => {
-        const target = event.currentTarget as HTMLElement | null;
-        if (target) target.style.boxShadow = "";
-    }}
 >
     {#if avatar}
         <img

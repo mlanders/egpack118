@@ -17,7 +17,6 @@
 
     // Navigation configuration - single source of truth
     const navigationConfig: NavSection[] = [
-        { type: "link", label: "Home", href: "/" },
         { type: "link", label: "Calendar", href: "/calendar" },
         {
             type: "dropdown",
@@ -42,7 +41,7 @@
                 { href: "/become-a-leader", label: "Become a Leader" },
                 {
                     href: medicalForm,
-                    label: "Medical Form A & B",
+                    label: "Medical Form A & B (PDF)",
                 },
                 {
                     href: "/resources/university-of-scouting",
@@ -119,12 +118,12 @@
                     </div>
                     <div class="ml-3">
                         <div
-                            class="text-2xl font-bold text-scout-blue drop-shadow-md group-hover:text-blue-700 transition-colors"
+                            class="text-2xl font-bold text-scout-blue group-hover:text-blue-700 transition-colors"
                         >
                             Cub Scout Pack 118
                         </div>
                         <div
-                            class="text-sm text-scout-gold font-semibold tracking-wide"
+                            class="text-sm text-gray-600 font-semibold tracking-wide"
                         >
                             Elk Grove, CA
                         </div>
@@ -138,14 +137,14 @@
                     {#if navItem.type === "link"}
                         <a
                             href={navItem.href}
-                            class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
+                            class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
                         >
                             {navItem.label}
                         </a>
                     {:else if navItem.type === "dropdown"}
                         <div class="relative" onmouseleave={closeDropdown}>
                             <button
-                                class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105 flex items-center gap-1"
+                                class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all flex items-center gap-1"
                                 onmouseenter={() =>
                                     openDropdownMenu(navItem.label)}
                                 onclick={() => toggleDropdown(navItem.label)}
@@ -199,6 +198,12 @@
                         </div>
                     {/if}
                 {/each}
+                <a
+                    href="/new-family-guide"
+                    class="ml-2 px-4 py-2 bg-scout-gold text-gray-900 font-semibold rounded-lg hover:bg-yellow-400 transition-colors"
+                >
+                    Visit a meeting
+                </a>
             </div>
 
             <!-- Mobile Menu Button -->
@@ -304,6 +309,13 @@
                         </div>
                     {/if}
                 {/each}
+                <a
+                    href="/new-family-guide"
+                    class="block mt-2 px-4 py-3 bg-scout-gold text-gray-900 font-semibold rounded-lg text-center"
+                    onclick={closeMobileMenu}
+                >
+                    Visit a meeting
+                </a>
             </div>
         </div>
     {/if}

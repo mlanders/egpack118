@@ -1,27 +1,27 @@
-import { writeFileSync } from "fs";
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import { CALENDAR_SNAPSHOT_KEY } from "../src/lib/calendar-snapshot.js";
 
 const ICAL_URL =
   "https://calendar.google.com/calendar/ical/ld2c70e20kot5palni2skd61bjlr71s6%40import.calendar.google.com/public/basic.ics";
-const OUTPUT_PATH = join(__dirname, "../static/calendar.md");
 
-// Parse iCal data
+/** @typedef {{ startDate: Date, startDateRaw: string, endDate?: Date, summary?: string, description?: string, location?: string }} CalendarEvent */
+
+/** @param {string} icalData */
 function parseICalendar(icalData) {
+  /** @type {CalendarEvent[]} */
   const events = [];
   const lines = icalData.split("\n");
+  /** @type {Partial<CalendarEvent> | null} */
   let currentEvent = null;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
 
     if (line === "BEGIN:VEVENT") {
+      if (currentEvent) throw new Error("Unexpected nested iCal event");
       currentEvent = {};
     } else if (line === "END:VEVENT" && currentEvent) {
-      events.push(currentEvent);
+      if (!currentEvent.startDate || !currentEvent.startDateRaw) throw new Error("iCal event is missing DTSTART");
+      events.push({ ...currentEvent, startDate: currentEvent.startDate, startDateRaw: currentEvent.startDateRaw });
       currentEvent = null;
     } else if (currentEvent) {
       const colonIndex = line.indexOf(":");
@@ -40,11 +40,10 @@ function parseICalendar(icalData) {
         const baseKey = semiIndex > 0 ? key.substring(0, semiIndex) : key;
 
         if (baseKey === "DTSTART") {
-          currentEvent.startDate = parseICalDate(value);
+          currentEvent.startDate = parseICalDate(value, /(?:^|;)TZID="?([^;"]+)/i.exec(key)?.[1]);
           currentEvent.startDateRaw = value;
         } else if (baseKey === "DTEND") {
-          currentEvent.endDate = parseICalDate(value);
-          currentEvent.endDateRaw = value;
+          currentEvent.endDate = parseICalDate(value, /(?:^|;)TZID="?([^;"]+)/i.exec(key)?.[1]);
         } else if (baseKey === "SUMMARY") {
           currentEvent.summary = value
             .replace(/\\,/g, ",")
@@ -65,39 +64,37 @@ function parseICalendar(icalData) {
     }
   }
 
+  if (currentEvent) throw new Error("Incomplete iCal event");
   return events;
 }
 
-// Parse iCal date format (YYYYMMDD or YYYYMMDDTHHMMSS)
-// Converts UTC times to Pacific Time
-function parseICalDate(dateStr) {
-  const year = parseInt(dateStr.substring(0, 4));
-  const month = parseInt(dateStr.substring(4, 6)) - 1;
-  const day = parseInt(dateStr.substring(6, 8));
+const PACIFIC = "America/Los_Angeles";
 
-  if (dateStr.length > 8 && dateStr.includes("T")) {
-    const hour = parseInt(dateStr.substring(9, 11));
-    const minute = parseInt(dateStr.substring(11, 13));
-    const second = parseInt(dateStr.substring(13, 15));
+/** @param {string} value */
+function parseICalDate(value, timezone = PACIFIC) {
+  const parts = /^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2})(Z)?)?$/.exec(value);
+  if (!parts) throw new Error("Invalid iCal date");
+  const [, year, month, day, hour, minute, second, utc] = parts;
+  const wallTime = Date.UTC(+year, +month - 1, +day, +(hour ?? 12), +(minute ?? 0), +(second ?? 0));
+  if (utc) return new Date(wallTime);
 
-    // Create UTC date
-    const utcDate = new Date(Date.UTC(year, month, day, hour, minute, second));
-
-    // Convert to Pacific Time by creating a new date with the UTC time
-    // interpreted as Pacific Time (which is UTC-8 or UTC-7 during DST)
-    const pacificDate = new Date(
-      utcDate.toLocaleString("en-US", { timeZone: "America/Los_Angeles" }),
-    );
-
-    return pacificDate;
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: timezone, year: "numeric", month: "numeric", day: "numeric",
+    hour: "numeric", minute: "numeric", second: "numeric", hourCycle: "h23",
+  });
+  // Resolve a local wall time to an instant. The second pass handles an offset
+  // change between the initial UTC guess and the corrected instant.
+  let instant = wallTime;
+  for (let pass = 0; pass < 2; pass++) {
+    const local = Object.fromEntries(formatter.formatToParts(instant).map(({ type, value }) => [type, Number(value)]));
+    instant += wallTime - Date.UTC(local.year, local.month - 1, local.day, local.hour, local.minute, local.second);
   }
-
-  // For all-day events, use noon Pacific Time to avoid date shifting
-  return new Date(year, month, day, 12, 0, 0);
+  return new Date(instant);
 }
 
-// Format date for display in Pacific Time
+/** @param {Date} date @param {boolean} isAllDay */
 function formatDate(date, isAllDay) {
+  /** @type {Intl.DateTimeFormatOptions} */
   const options = {
     weekday: "long",
     year: "numeric",
@@ -117,19 +114,20 @@ function formatDate(date, isAllDay) {
   });
 }
 
-// Generate markdown from events
-function generateMarkdown(events) {
-  const now = new Date();
-  const sixMonthsFromNow = new Date();
+/** @param {CalendarEvent[]} events @param {Date} now */
+function generateMarkdown(events, now) {
+  const sixMonthsFromNow = new Date(now);
+  const pacificDay = new Intl.DateTimeFormat("en-CA", { timeZone: PACIFIC, dateStyle: "short" });
   sixMonthsFromNow.setMonth(sixMonthsFromNow.getMonth() + 6);
 
   // Filter events: upcoming events within the next 6 months
   const filteredEvents = events
     .filter((event) => {
       const eventDate = event.startDate;
-      return eventDate >= now && eventDate <= sixMonthsFromNow;
+      const isToday = event.startDateRaw?.length === 8 && eventDate && pacificDay.format(eventDate) === pacificDay.format(now);
+      return (eventDate >= now || isToday) && eventDate <= sixMonthsFromNow;
     })
-    .sort((a, b) => a.startDate - b.startDate);
+    .sort((a, b) => a.startDate.getTime() - b.startDate.getTime());
 
   let markdown = `# Pack 118 Calendar\n\n`;
   markdown += `*Last updated: ${now.toLocaleString("en-US", { timeZone: "America/Los_Angeles" })}*\n\n`;
@@ -141,6 +139,7 @@ function generateMarkdown(events) {
   }
 
   // Group events by month
+  /** @type {Record<string, CalendarEvent[]>} */
   const eventsByMonth = {};
   filteredEvents.forEach((event) => {
     const monthKey = event.startDate.toLocaleDateString("en-US", {
@@ -189,34 +188,16 @@ function generateMarkdown(events) {
   return markdown;
 }
 
-// Main function
-async function main() {
-  try {
-    console.log("Fetching calendar data...");
-    const response = await fetch(ICAL_URL);
+/** @param {{ put(key: string, value: string): Promise<unknown> }} namespace */
+export async function refreshCalendar(namespace, { fetchFeed = fetch, now = new Date() } = {}) {
+  const response = await fetchFeed(ICAL_URL, { signal: AbortSignal.timeout(15_000) });
+  if (!response.ok) throw new Error(`Calendar feed returned HTTP ${response.status}`);
 
-    if (!response.ok) {
-      throw new Error(
-        `Failed to fetch calendar: ${response.status} ${response.statusText}`,
-      );
-    }
-
-    const icalData = await response.text();
-    console.log("Parsing calendar events...");
-
-    const events = parseICalendar(icalData);
-    console.log(`Found ${events.length} total events`);
-
-    const markdown = generateMarkdown(events);
-
-    console.log("Writing calendar.md...");
-    writeFileSync(OUTPUT_PATH, markdown, "utf8");
-
-    console.log("✓ Calendar updated successfully!");
-  } catch (error) {
-    console.error("Error updating calendar:", error);
-    process.exit(1);
+  const data = await response.text();
+  if (!/^BEGIN:VCALENDAR\r?\n/i.test(data) || !/\r?\nEND:VCALENDAR\s*$/i.test(data)) {
+    throw new Error("Calendar feed did not return a complete iCal document");
   }
-}
 
-main();
+  const events = parseICalendar(data);
+  await namespace.put(CALENDAR_SNAPSHOT_KEY, generateMarkdown(events, now));
+}

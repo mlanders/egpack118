@@ -97,7 +97,7 @@
     .presentation h3 {
         margin: 0 0 0.3em 0;
         font-size: 1.25rem;
-        color: #1a5fb4;
+        color: var(--color-scout-blue);
     }
     .presentation .presenter {
         margin: 0 0 0.3em 0;
@@ -117,7 +117,7 @@
         margin-bottom: 0.3em;
     }
     .file-links a {
-        color: #1a5fb4;
+        color: var(--color-scout-blue);
         text-decoration: underline;
     }
     .file-links a:hover {
