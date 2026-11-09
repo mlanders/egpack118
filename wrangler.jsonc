@@ -14,6 +14,12 @@
 	"kv_namespaces": [
 		{ "binding": "CALENDAR_CACHE", "id": "1de7a703907045d395ebb4d32a955cf4" }
 	],
+	// Previews only read the calendar snapshot; only the cron handler writes to KV and cron does not run on previews.
+	"previews": {
+		"kv_namespaces": [
+			{ "binding": "CALENDAR_CACHE", "id": "1de7a703907045d395ebb4d32a955cf4" }
+		]
+	},
 	"observability": { "enabled": true },
 	"workers_dev": true,
 	"preview_urls": true
