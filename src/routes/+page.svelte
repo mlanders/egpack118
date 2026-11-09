@@ -29,7 +29,7 @@
         );
         const secondThursday = (year: number, month: number) => {
             const first = new Date(year, month, 1);
-            return new Date(year, month, 1 + ((4 - first.getDay() + 7) % 7) + 7, 18, 30);
+            return new Date(year, month, 1 + ((4 - first.getDay() + 7) % 7) + 7, 18, 15);
         };
         let d = secondThursday(pacificNow.getFullYear(), pacificNow.getMonth());
         if (d < pacificNow) d = secondThursday(pacificNow.getFullYear(), pacificNow.getMonth() + 1);
