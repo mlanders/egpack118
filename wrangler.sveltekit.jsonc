@@ -1,0 +1,8 @@
+{
+	// SvelteKit writes this entry. The main Wrangler config deploys worker.js.
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	}
+}

@@ -68,10 +68,10 @@
     <!-- Calendar Section -->
     <div class="max-w-5xl mx-auto">
         <!-- Meeting Schedule -->
-        <div class="bg-blue-50 border-l-4 border-scout-blue p-6 rounded mb-8">
-            <h3 class="text-xl font-bold text-gray-900 mb-3">
+        <div class="bg-blue-50 border border-scout-blue/20 p-6 rounded mb-8">
+            <h2 class="text-xl font-bold text-gray-900 mb-3">
                 Regular Pack Meetings
-            </h3>
+            </h2>
             <p class="text-gray-700 mb-2">
                 <strong>When:</strong> 2nd Thursday of each month, 6:15pm - 7:30pm
             </p>
@@ -97,7 +97,7 @@
 
             {#if data.lastUpdated}
                 <div class="text-sm text-gray-500">
-                    Last updated: {data.lastUpdated as string}
+                    Last updated: {(data.lastUpdated as string).split(",")[0]}
                 </div>
             {/if}
         </div>

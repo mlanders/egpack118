@@ -7,7 +7,7 @@ SvelteKit 2 / Svelte 5 (runes) / Tailwind v4 static-content site for Cub Scout P
 npm run dev      # dev server (port 5173)
 npm run build    # production build
 npm run check    # svelte-check
-node scripts/update-calendar.js  # refresh src/content/calendar.json from the iCal feed
+node --test tests/calendar-feed.test.js  # check the Cloudflare calendar refresh
 ```
 
 ## Layout

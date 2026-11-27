@@ -1,18 +1,21 @@
 <script>
+    import slides from "$lib/UoS/NewCubParentOrientation/New_Cub_Parent_Orientation.pptx?url";
+    import summary from "$lib/UoS/NewCubParentOrientation/New_Cub_Scout_Orientation_Summary.pdf?url";
+
     // Static list of presentations for University of Scouting
     const presentations = [
         {
             title: "New Cub Parent Orientation",
-            presenter: "Michael Landers",
+            presenter: "Michael L.",
             blurb: "How to engage, include and encourage participation by new families in your unit, utilizing their skills to make your pack program more creative and functional.",
             links: [
                 {
                     label: "New Cub Parent Orientation Presentation (PPTX)",
-                    href: "/src/lib/UoS/NewCubParentOrientation/New_Cub_Parent_Orientation.pptx",
+                    href: slides,
                 },
                 {
                     label: "New Cub Scout Orientation Summary (PDF)",
-                    href: "/src/lib/UoS/NewCubParentOrientation/New_Cub_Scout_Orientation_Summary.pdf",
+                    href: summary,
                 },
             ],
         },
@@ -97,7 +100,7 @@
     .presentation h3 {
         margin: 0 0 0.3em 0;
         font-size: 1.25rem;
-        color: #1a5fb4;
+        color: var(--color-scout-blue);
     }
     .presentation .presenter {
         margin: 0 0 0.3em 0;
@@ -117,7 +120,7 @@
         margin-bottom: 0.3em;
     }
     .file-links a {
-        color: #1a5fb4;
+        color: var(--color-scout-blue);
         text-decoration: underline;
     }
     .file-links a:hover {

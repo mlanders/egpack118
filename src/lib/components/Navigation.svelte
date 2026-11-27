@@ -17,7 +17,6 @@
 
     // Navigation configuration - single source of truth
     const navigationConfig: NavSection[] = [
-        { type: "link", label: "Home", href: "/" },
         { type: "link", label: "Calendar", href: "/calendar" },
         {
             type: "dropdown",
@@ -42,7 +41,7 @@
                 { href: "/become-a-leader", label: "Become a Leader" },
                 {
                     href: medicalForm,
-                    label: "Medical Form A & B",
+                    label: "Medical Form A & B (PDF)",
                 },
                 {
                     href: "/resources/university-of-scouting",
@@ -97,9 +96,18 @@
     </svg>`;
 </script>
 
+<svelte:window
+    onkeydown={(e) => {
+        if (e.key !== "Escape") return;
+        // Return focus to the control that opened the menu.
+        document.querySelector<HTMLElement>('nav [aria-expanded="true"]')?.focus();
+        closeMobileMenu();
+    }}
+/>
+
 <nav class="bg-white shadow-lg sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center h-20">
+        <div class="flex justify-between items-center h-20 whitespace-nowrap">
             <!-- Logo -->
             <div class="flex items-center">
                 <a
@@ -119,12 +127,12 @@
                     </div>
                     <div class="ml-3">
                         <div
-                            class="text-2xl font-bold text-scout-blue drop-shadow-md group-hover:text-blue-700 transition-colors"
+                            class="text-2xl font-bold text-scout-blue group-hover:text-blue-700 transition-colors"
                         >
                             Cub Scout Pack 118
                         </div>
                         <div
-                            class="text-sm text-scout-gold font-semibold tracking-wide"
+                            class="text-sm text-gray-600 font-semibold tracking-wide"
                         >
                             Elk Grove, CA
                         </div>
@@ -133,21 +141,23 @@
             </div>
 
             <!-- Desktop Navigation -->
-            <div class="hidden md:flex space-x-2 items-center">
+            <div class="hidden lg:flex space-x-1 items-center">
                 {#each navigationConfig as navItem}
                     {#if navItem.type === "link"}
                         <a
                             href={navItem.href}
-                            class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105"
+                            class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all"
                         >
                             {navItem.label}
                         </a>
                     {:else if navItem.type === "dropdown"}
-                        <div class="relative" onmouseleave={closeDropdown}>
+                        <div class="relative" role="group" onmouseleave={closeDropdown}>
                             <button
-                                class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all transform hover:scale-105 flex items-center gap-1"
-                                onmouseenter={() =>
+                                class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all flex items-center gap-1"
+                                onpointerenter={(e) =>
+                                    e.pointerType === "mouse" &&
                                     openDropdownMenu(navItem.label)}
+                                aria-expanded={isDropdownOpen(navItem.label)}
                                 onclick={() => toggleDropdown(navItem.label)}
                             >
                                 {navItem.label}
@@ -199,13 +209,20 @@
                         </div>
                     {/if}
                 {/each}
+                <a
+                    href="/new-family-guide"
+                    class="ml-2 px-4 py-2 bg-scout-gold text-gray-900 font-semibold rounded-lg hover:bg-yellow-400 transition-colors"
+                >
+                    Visit a meeting
+                </a>
             </div>
 
             <!-- Mobile Menu Button -->
             <button
-                class="md:hidden text-scout-blue hover:text-blue-700 p-2 rounded-lg hover:bg-scout-blue/10 transition-all"
+                class="lg:hidden text-scout-blue hover:text-blue-700 p-2 rounded-lg hover:bg-scout-blue/10 transition-all"
                 onclick={toggleMobileMenu}
                 aria-label="Toggle menu"
+                aria-expanded={mobileMenuOpen}
             >
                 {#if mobileMenuOpen}
                     <svg
@@ -242,7 +259,7 @@
 
     <!-- Mobile Menu -->
     {#if mobileMenuOpen}
-        <div class="md:hidden border-t border-scout-blue/20 bg-white">
+        <div class="lg:hidden border-t border-scout-blue/20 bg-white">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 {#each navigationConfig as navItem}
                     {#if navItem.type === "link"}
@@ -258,6 +275,7 @@
                             <button
                                 class="w-full text-left px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all flex items-center justify-between"
                                 onclick={() => toggleDropdown(navItem.label)}
+                                aria-expanded={isDropdownOpen(navItem.label)}
                             >
                                 {navItem.label}
                                 <svg
@@ -304,6 +322,13 @@
                         </div>
                     {/if}
                 {/each}
+                <a
+                    href="/new-family-guide"
+                    class="block mt-2 px-4 py-3 bg-scout-gold text-gray-900 font-semibold rounded-lg text-center"
+                    onclick={closeMobileMenu}
+                >
+                    Visit a meeting
+                </a>
             </div>
         </div>
     {/if}

@@ -13,34 +13,32 @@
         onClose,
     }: { show: boolean; event: EventDetails | null; onClose: () => void } =
         $props();
+
+    let dialog = $state<HTMLDialogElement>();
+
+    // Native modal: traps focus, closes on Escape, returns focus on close().
+    function openModal(node: HTMLDialogElement) {
+        node.showModal();
+    }
 </script>
 
 {#if show && event}
-    <div
-        class="fixed inset-0 z-50 overflow-y-auto"
-        onclick={onClose}
-        onkeydown={(e: KeyboardEvent) => e.key === "Escape" && onClose()}
-        role="dialog"
-        aria-modal="true"
-        tabindex="-1"
+    <!-- Clicks on the backdrop target the dialog itself; Escape is native. -->
+    <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
+    <dialog
+        bind:this={dialog}
+        use:openModal
+        onclose={onClose}
+        onclick={(e) => e.target === dialog && dialog?.close()}
+        aria-labelledby="event-title"
+        class="m-auto w-[calc(100%-2rem)] max-w-2xl max-h-[calc(100dvh-2rem)] rounded-lg p-0 shadow-xl backdrop:bg-black/50"
     >
-        <!-- Backdrop -->
-        <div
-            class="fixed inset-0 bg-black bg-opacity-50 transition-opacity"
-        ></div>
-
-        <!-- Modal Content -->
-        <div class="flex min-h-full items-center justify-center p-4">
-            <div
-                onclick={(e: MouseEvent) => e.stopPropagation()}
-                role="document"
-                class="relative bg-white rounded-lg shadow-xl max-w-2xl w-full p-6 transform transition-all"
-            >
+            <div class="relative p-6">
                 <!-- Close Button -->
                 <button
                     aria-label="Close"
-                    onclick={onClose}
-                    class="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
+                    onclick={() => dialog?.close()}
+                    class="absolute top-2 right-2 p-2 text-gray-500 hover:text-gray-700"
                 >
                     <svg
                         class="w-6 h-6"
@@ -58,7 +56,10 @@
                 </button>
 
                 <!-- Event Title -->
-                <h2 class="text-2xl font-bold text-gray-900 mb-4 pr-8">
+                <h2
+                    id="event-title"
+                    class="text-2xl font-bold text-gray-900 mb-4 pr-8 break-words"
+                >
                     {event.title}
                 </h2>
 
@@ -134,7 +135,7 @@
                                 />
                             </svg>
                             <p
-                                class="text-gray-700 whitespace-pre-line text-base flex-1"
+                                class="text-gray-700 whitespace-pre-line text-base flex-1 min-w-0 break-words"
                             >
                                 {event.description}
                             </p>
@@ -145,13 +146,12 @@
                 <!-- Close Button at Bottom -->
                 <div class="mt-6 flex justify-end">
                     <button
-                        onclick={onClose}
+                        onclick={() => dialog?.close()}
                         class="px-6 py-2 bg-scout-blue text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
                     >
                         Close
                     </button>
                 </div>
             </div>
-        </div>
-    </div>
+    </dialog>
 {/if}

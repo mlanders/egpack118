@@ -208,6 +208,7 @@
                 </ul>
                 <div class="mt-6 flex justify-center">
                     <img
+                        loading="lazy"
                         src={uniformCombined}
                         alt="Cub Scout Class A Uniform Guide"
                         class="max-w-full md:max-w-2xl rounded-lg shadow-md"
@@ -381,7 +382,7 @@
         <SectionCard variant="border">
             <ul class="space-y-3 text-gray-700">
                 <ChecklistItem type="circle"
-                    >Attend a pack meeting (2nd Tuesday at 6:15pm)</ChecklistItem
+                    >Attend a pack meeting (2nd Thursday at 6:15pm)</ChecklistItem
                 >
                 <ChecklistItem type="circle"
                     >Complete registration and pay fees</ChecklistItem

@@ -71,10 +71,10 @@
   .resource-item h2 {
     margin: 0 0 0.3em 0;
     font-size: 1.25rem;
-    color: #1a5fb4;
+    color: var(--color-scout-blue);
   }
   .resource-item a {
-    color: #1a5fb4;
+    color: var(--color-scout-blue);
     text-decoration: underline;
   }
   .resource-item a:hover {

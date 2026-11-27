@@ -1,28 +1,24 @@
-import { readFileSync } from "fs";
-import { join } from "path";
-import { dev } from "$app/environment";
+import { CALENDAR_SNAPSHOT_KEY } from "$lib/calendar-snapshot.js";
 import type { PageServerLoad } from "./$types";
 import { cleanEventData } from "$lib/config/calendar-whitelist";
+import { abbreviateNames } from "$lib/name-filter.js";
+// Imported, not served from static/, so the unfiltered text is never public.
+import fallbackCalendar from "$lib/calendar-fallback.md?raw";
 
-export const load: PageServerLoad = async ({ fetch }) => {
+export const load: PageServerLoad = async ({ platform, setHeaders }) => {
   try {
-    let calendarContent: string;
-
-    if (dev) {
-      // In development, read from filesystem
-      const calendarPath = join(process.cwd(), "static/calendar.md");
-      calendarContent = readFileSync(calendarPath, "utf-8");
-    } else {
-      // In production, fetch via HTTP
-      const response = await fetch("/calendar.md");
-      if (!response.ok) {
-        throw new Error(`Failed to fetch calendar: ${response.status}`);
-      }
-      calendarContent = await response.text();
+    setHeaders({ "cache-control": "no-store" });
+    let calendarContent: string | null = null;
+    try {
+      calendarContent = await platform?.env?.CALENDAR_CACHE?.get(CALENDAR_SNAPSHOT_KEY) ?? null;
+    } catch {
+      console.error("Calendar snapshot unavailable; using the bundled calendar.");
     }
 
+    calendarContent ??= fallbackCalendar;
+
     // Parse the markdown into structured data
-    const events = parseCalendarMarkdown(calendarContent);
+    const events = parseCalendarMarkdown(abbreviateNames(calendarContent));
 
     // Apply whitelist filtering to events
     const cleanedEvents = events.map((monthGroup) => ({
@@ -117,17 +113,9 @@ function parseCalendarMarkdown(content: string): MonthGroup[] {
     // Match date line
     else if (line.startsWith("**Date:**") && currentEvent) {
       const dateContent = line.replace("**Date:**", "").trim();
-      // Check if there's a time range (contains '-')
-      if (
-        dateContent.includes(" - ") &&
-        (dateContent.includes("AM") || dateContent.includes("PM"))
-      ) {
-        const parts = dateContent.split(" at ");
-        currentEvent.date = parts[0]?.trim() || dateContent;
-        currentEvent.time = parts[1]?.trim() || undefined;
-      } else {
-        currentEvent.date = dateContent;
-      }
+      const [date, time] = dateContent.split(" at ");
+      currentEvent.date = date.trim();
+      currentEvent.time = time?.trim();
       // Parse date to Date object
       currentEvent.dateObj = parseDateString(dateContent);
       inDescription = false;

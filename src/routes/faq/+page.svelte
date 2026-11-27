@@ -1,6 +1,8 @@
 <script>
+    /** @type {Set<string>} */
     let openItems = new Set();
 
+    /** @param {string} index */
     function toggleItem(index) {
         if (openItems.has(index)) {
             openItems.delete(index);
@@ -170,6 +172,7 @@
                         <button
                             class="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition-colors"
                             on:click={() => toggleItem(index)}
+                            aria-expanded={openItems.has(index)}
                         >
                             <span class="font-semibold text-gray-900 pr-4">
                                 {item.question}

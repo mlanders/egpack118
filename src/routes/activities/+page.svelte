@@ -28,6 +28,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={pack_meetings}
                     alt="Pack Meeting"
                     class="w-full h-full object-cover"
@@ -38,7 +39,7 @@
                     Pack Meetings
                 </h3>
                 <p class="text-gray-700">
-                    Usually held at 6:30 p.m. on the 2nd Thursday of each month.
+                    Usually held at 6:15 p.m. on the 2nd Thursday of each month.
                     Pack meetings bring all dens together for fun activities,
                     ceremonies, and awards.
                 </p>
@@ -51,6 +52,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={pinewood_derby}
                     alt="Pinewood Derby"
                     class="w-full h-full object-cover"
@@ -79,6 +81,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={den_meetings}
                     alt="Den Meeting"
                     class="w-full h-full object-cover"
@@ -101,6 +104,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={blue_and_gold_banquet}
                     alt="Blue & Gold Banquet"
                     class="w-full h-full object-cover"
@@ -124,6 +128,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={service_projects}
                     alt="Service Projects"
                     class="w-full h-full object-cover"
@@ -147,6 +152,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={camping}
                     alt="Camping & Nature Hikes"
                     class="w-full h-full object-cover"
