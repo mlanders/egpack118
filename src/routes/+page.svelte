@@ -52,7 +52,7 @@
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-40 pb-12 md:pt-56 md:pb-16">
         <p class="font-semibold text-scout-gold mb-3">Cub Scout Pack 118 · Elk Grove, CA</p>
         <h1 class="display text-4xl sm:text-5xl md:text-6xl font-bold max-w-3xl text-balance">
-            Kindergarten to 5th grade. Come to a meeting, no sign-up needed.
+            K–5th grade. Come try a meeting.
         </h1>
         <div class="mt-8 inline-block bg-scout-gold text-gray-900 rounded-lg px-5 py-4">
             <p class="text-sm font-semibold">Next pack meeting</p>
@@ -68,7 +68,7 @@
                 New family guide
             </a>
         </div>
-        <p class="mt-4 text-sm">Come as you are. No uniform needed for your first visit.</p>
+        <p class="mt-4 text-sm">Come as you are. No sign-up or uniform needed for your first visit.</p>
     </div>
 </section>
 
