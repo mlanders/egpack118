@@ -9,6 +9,12 @@
     });
 </script>
 
+<svelte:head>
+    <title>
+        {$page.status === 404 ? "Page not found" : "Something went wrong"} - Cub Scout Pack 118
+    </title>
+</svelte:head>
+
 <div class="flex flex-col items-center justify-center px-4 py-16 md:py-24">
     <div class="text-center max-w-2xl">
         <!-- Error Code -->
@@ -40,14 +46,14 @@
         <div class="flex flex-wrap gap-4 justify-center items-center">
             <a
                 href="/"
-                class="px-6 py-3 bg-scout-blue text-white rounded-lg hover:bg-opacity-90 transition-all duration-200 font-medium shadow-md hover:shadow-lg"
+                class="px-6 py-3 bg-scout-blue text-white rounded-lg hover:bg-blue-700 transition-all duration-200 font-medium shadow-md hover:shadow-lg"
             >
                 Go to Homepage
             </a>
             {#if canGoBack}
                 <button
                     onclick={() => window.history.back()}
-                    class="px-6 py-3 border-2 border-scout-blue text-scout-blue rounded-lg hover:bg-scout-blue hover:text-white transition-all duration-200 font-medium ml-4"
+                    class="px-6 py-3 border-2 border-scout-blue text-scout-blue rounded-lg hover:bg-scout-blue hover:text-white transition-all duration-200 font-medium"
                 >
                     Go Back
                 </button>
@@ -56,8 +62,7 @@
 
         <!-- Scout-themed decoration -->
         {#if $page.status === 404}
-            <div class="mt-12 text-6xl opacity-20">🏕️</div>
-            <p class="mt-4 text-sm text-gray-500 italic">
+            <p class="mt-8 text-sm text-gray-600 italic">
                 Looks like you've wandered off the trail!
             </p>
         {/if}

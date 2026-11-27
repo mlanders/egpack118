@@ -117,7 +117,7 @@
                 >
                     <!-- Cub Scouts Logo -->
                     <div
-                        class="relative w-16 h-16 flex items-center justify-center"
+                        class="relative w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center"
                     >
                         <img
                             src={cubScoutsLogo}
@@ -125,9 +125,9 @@
                             class="w-full h-full object-contain drop-shadow-lg group-hover:brightness-110 transition-all"
                         />
                     </div>
-                    <div class="ml-3">
+                    <div class="ml-2 sm:ml-3">
                         <div
-                            class="text-2xl font-bold text-scout-blue group-hover:text-blue-700 transition-colors"
+                            class="text-lg sm:text-2xl font-bold text-scout-blue group-hover:text-blue-700 transition-colors"
                         >
                             Cub Scout Pack 118
                         </div>

@@ -54,6 +54,10 @@
 
 <svelte:head>
     <title>Calendar - Cub Scout Pack 118</title>
+    <meta
+        name="description"
+        content="Upcoming pack meetings, den outings and events for Cub Scout Pack 118 in Elk Grove."
+    />
 </svelte:head>
 
 <div class="w-full px-4 sm:px-6 lg:px-8 py-16">
@@ -62,7 +66,7 @@
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Calendar
         </h1>
-        <p class="text-xl text-gray-600">Discover Events & Join Today</p>
+        <p class="text-xl text-gray-600">Pack meetings, den outings and events</p>
     </div>
 
     <!-- Calendar Section -->
@@ -73,7 +77,7 @@
                 Regular Pack Meetings
             </h2>
             <p class="text-gray-700 mb-2">
-                <strong>When:</strong> 2nd Thursday of each month, 6:15pm - 7:30pm
+                <strong>When:</strong> 2nd Thursday of each month, 6:15 PM - 7:30 PM
             </p>
             <p class="text-gray-700 mb-2">
                 <strong>Where:</strong> United Methodist Church
@@ -83,7 +87,7 @@
             </p>
             <a
                 href="https://maps.google.com/?q=3329+Point+Pleasant+Rd+Elk+Grove+CA+95757"
-                class="text-scout-blue hover:underline mt-2 inline-block font-semibold"
+                class="text-scout-blue hover:underline inline-block py-2 font-semibold"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -92,7 +96,7 @@
         </div>
 
         <!-- View Toggle and Last Updated -->
-        <div class="flex justify-between items-center mb-6">
+        <div class="flex flex-wrap justify-between items-center gap-2 mb-6">
             <ViewToggle {viewMode} onToggle={setViewMode} />
 
             {#if data.lastUpdated}

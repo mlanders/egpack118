@@ -109,7 +109,7 @@
                     {#if descriptionNeedsTruncation}
                         <button
                             onclick={onToggleExpand}
-                            class="text-scout-blue hover:underline text-sm font-medium mt-2"
+                            class="text-scout-blue hover:underline text-sm font-medium py-3"
                         >
                             {isExpanded ? "Show less" : "Show more"}
                         </button>

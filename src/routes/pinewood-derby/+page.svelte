@@ -26,6 +26,10 @@
 
 <svelte:head>
     <title>Pinewood Derby - Cub Scout Pack 118</title>
+    <meta
+        name="description"
+        content="Pinewood Derby rules, building tips and car design templates from Cub Scout Pack 118."
+    />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
