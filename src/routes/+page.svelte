@@ -72,41 +72,24 @@
     </div>
 </section>
 
-<!-- What is Cub Scouts -->
-<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-    <h2 class="display text-3xl md:text-4xl font-bold text-gray-900 mb-6">What is Cub Scouts?</h2>
-    <div class="text-lg text-gray-700 space-y-4">
-        <p>
-            <strong>Cub Scouts</strong> is a values-based, family-oriented program within Scouting America (formerly
-            Boy Scouts of America), designed for boys and girls in <strong>Kindergarten through 5th grade</strong>
-            (ages 5-10 years old). Scouting America does not currently have a curriculum for Transitional Kindergarten
-            (TK). Therefore, it is suggested to wait to join until entering Kindergarten <em>and</em> at least 5 years old.
-        </p>
-        <p>
-            The mission of Scouting America is to prepare young people to make ethical and moral choices over their
-            lifetimes by instilling in them the values of the Scout Oath and Law. The Aims of Scouting are:
-        </p>
-        <p class="font-semibold text-scout-blue">Character, Citizenship, Personal Fitness, and Leadership.</p>
-    </div>
-    <a
-        href="https://docs.google.com/document/d/130Qhzcci0fZK6IpjYKI2BFWYTeBfkf0oZHm4podlVd4/edit?usp=sharing"
-        class="mt-6 inline-block bg-scout-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        Learn more about Pack 118
-    </a>
-</section>
-
 <!-- What kids do -->
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <div class="grid md:grid-cols-2 gap-12 items-center">
         <div>
             <h2 class="display text-3xl md:text-4xl font-bold text-gray-900 mb-4">One den for every grade</h2>
+            <p class="text-lg text-gray-700 mb-4">
+                Cub Scouts is a values-based, family-oriented program of Scouting America (formerly Boy Scouts of America)
+                for boys and girls in Kindergarten through 5th grade (ages 5-10).
+            </p>
             <p class="text-lg text-gray-700 mb-6">
                 Kids earn adventures, belt loops and ranks with friends their age, build a car for the
                 <a href="/pinewood-derby" class="text-scout-blue underline">Pinewood Derby</a>, and learn to do their best together.
-                Cub Scouts welcomes boys and girls.
+                <a
+                    href="https://docs.google.com/document/d/130Qhzcci0fZK6IpjYKI2BFWYTeBfkf0oZHm4podlVd4/edit?usp=sharing"
+                    class="text-scout-blue underline"
+                    target="_blank"
+                    rel="noopener noreferrer">Learn more about Pack 118</a
+                >.
             </p>
             <ul class="grid grid-cols-3 gap-4">
                 {#each dens as den}
@@ -140,6 +123,10 @@
                 <p class="text-gray-700">Dens meet through the month, and the whole pack comes together for events and campouts.</p>
             </li>
         </ol>
+        <p class="mt-8 text-gray-700 max-w-3xl">
+            Scouting America does not currently have a curriculum for Transitional Kindergarten (TK), so we suggest waiting
+            to join until your child is in Kindergarten <em>and</em> at least 5 years old.
+        </p>
     </div>
 </section>
 
@@ -165,6 +152,11 @@
 <!-- Scout Oath -->
 <section class="bg-scout-blue text-white py-16">
     <figure class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-4">Character, Citizenship, Personal Fitness, and Leadership</h2>
+        <p class="text-lg mb-10">
+            These are the Aims of Scouting. Our mission is to prepare young people to make ethical and moral choices over
+            their lifetimes by instilling in them the values of the Scout Oath and Law.
+        </p>
         <blockquote class="display text-xl md:text-2xl leading-relaxed">
             On my honor I will do my best to do my duty to God and my country and to obey the Scout Law;
             to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.
