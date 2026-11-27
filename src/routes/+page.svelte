@@ -79,7 +79,9 @@
             <h2 class="display text-3xl md:text-4xl font-bold text-gray-900 mb-4">One den for every grade</h2>
             <p class="text-lg text-gray-700 mb-4">
                 Cub Scouts is a values-based, family-oriented program of Scouting America (formerly Boy Scouts of America)
-                for boys and girls in Kindergarten through 5th grade (ages 5-10).
+                for boys and girls in Kindergarten through 5th grade (ages 5-10). Our mission is to prepare young people to
+                make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and
+                Law. The Aims of Scouting are <strong>Character, Citizenship, Personal Fitness, and Leadership</strong>.
             </p>
             <p class="text-lg text-gray-700 mb-6">
                 Kids earn adventures, belt loops and ranks with friends their age, build a car for the
@@ -152,11 +154,6 @@
 <!-- Scout Oath -->
 <section class="bg-scout-blue text-white py-16">
     <figure class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-2xl md:text-3xl font-bold mb-4">Character, Citizenship, Personal Fitness, and Leadership</h2>
-        <p class="text-lg mb-10">
-            These are the Aims of Scouting. Our mission is to prepare young people to make ethical and moral choices over
-            their lifetimes by instilling in them the values of the Scout Oath and Law.
-        </p>
         <blockquote class="display text-xl md:text-2xl leading-relaxed">
             On my honor I will do my best to do my duty to God and my country and to obey the Scout Law;
             to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.
