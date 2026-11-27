@@ -132,7 +132,7 @@
             </div>
 
             <!-- Desktop Navigation -->
-            <div class="hidden md:flex space-x-2 items-center">
+            <div class="hidden lg:flex space-x-2 items-center">
                 {#each navigationConfig as navItem}
                     {#if navItem.type === "link"}
                         <a
@@ -208,7 +208,7 @@
 
             <!-- Mobile Menu Button -->
             <button
-                class="md:hidden text-scout-blue hover:text-blue-700 p-2 rounded-lg hover:bg-scout-blue/10 transition-all"
+                class="lg:hidden text-scout-blue hover:text-blue-700 p-2 rounded-lg hover:bg-scout-blue/10 transition-all"
                 onclick={toggleMobileMenu}
                 aria-label="Toggle menu"
             >
@@ -247,7 +247,7 @@
 
     <!-- Mobile Menu -->
     {#if mobileMenuOpen}
-        <div class="md:hidden border-t border-scout-blue/20 bg-white">
+        <div class="lg:hidden border-t border-scout-blue/20 bg-white">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 {#each navigationConfig as navItem}
                     {#if navItem.type === "link"}
