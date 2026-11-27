@@ -26,6 +26,9 @@ The public website for Cub Scout Pack 118 in Elk Grove, CA. Success is a new fam
 - Pack meetings are the 2nd Thursday of each month, 6:15-7:30 PM, at the United Methodist Church, 3329 Point Pleasant Rd, Elk Grove, CA 95757.
 - The calendar comes from an iCal feed (events are entered through BAND) and is refreshed by a Cloudflare Worker.
 - Contact is by email: ElkGrovePack118@gmail.com.
+- A parent or guardian must stay for Lions and Tigers (K-1); for grades 2-5 it is strongly encouraged.
+- No uniform is needed for a first visit. The Class A uniform is encouraged at pack meetings; den meetings can be casual.
+- Families buy the scout handbook and uniform; neither is included in the fees.
 
 ## Capabilities and Constraints
 

@@ -62,7 +62,7 @@
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Calendar
         </h1>
-        <p class="text-xl text-gray-600">Discover Events & Join Today</p>
+        <p class="text-xl text-gray-600">Pack meetings, den outings and events</p>
     </div>
 
     <!-- Calendar Section -->
