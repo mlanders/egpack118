@@ -9,6 +9,7 @@
 >
     {#if avatar}
         <img
+            loading="lazy"
             src={avatar}
             alt={alt || `${name} avatar`}
             class="w-24 h-24 rounded-full object-cover mb-4 border-4 border-scout-blue shadow"

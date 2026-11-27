@@ -7,6 +7,7 @@
 
 <div class="flex items-start gap-4">
     <img
+        loading="lazy"
         src={insignia}
         alt="{rank} rank insignia"
         class="w-16 h-16 object-contain flex-shrink-0"

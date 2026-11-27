@@ -28,6 +28,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={pack_meetings}
                     alt="Pack Meeting"
                     class="w-full h-full object-cover"
@@ -51,6 +52,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={pinewood_derby}
                     alt="Pinewood Derby"
                     class="w-full h-full object-cover"
@@ -79,6 +81,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={den_meetings}
                     alt="Den Meeting"
                     class="w-full h-full object-cover"
@@ -101,6 +104,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={blue_and_gold_banquet}
                     alt="Blue & Gold Banquet"
                     class="w-full h-full object-cover"
@@ -124,6 +128,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={service_projects}
                     alt="Service Projects"
                     class="w-full h-full object-cover"
@@ -147,6 +152,7 @@
         >
             <div class="h-48 overflow-hidden">
                 <img
+                    loading="lazy"
                     src={camping}
                     alt="Camping & Nature Hikes"
                     class="w-full h-full object-cover"

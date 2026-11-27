@@ -8,7 +8,7 @@ The whitelist system protects private information (like personal addresses and Z
 
 ## How It Works
 
-When the calendar data is loaded from `calendar.md`, the server applies filters to:
+When the calendar data is loaded (from KV or `src/lib/calendar-fallback.md`), the server applies filters to:
 
 1. **Remove private locations** - Only addresses matching the whitelist are displayed in the location field
 2. **Filter sensitive URLs** - Zoom links and other blocked URLs are removed from descriptions
@@ -109,7 +109,7 @@ blockedUrlPatterns: [
 ## Security Notes
 
 - The whitelist is server-side only - filtered data never reaches the browser
-- The original `calendar.md` file is not modified - filtering happens at runtime
+- The original calendar text is not modified - filtering happens at runtime
 - Private addresses from the Google Calendar still exist in the markdown file but are hidden from public view
 - Consider the whitelist a security layer, not the only protection for sensitive data
 

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { refreshCalendar } from "../scripts/calendar-feed.js";
+import { abbreviateNames } from "../src/lib/name-filter.js";
 
 /** @param {...string} events */
 const feed = (...events) =>
@@ -60,4 +61,9 @@ test("shortens full names of event authors everywhere", async () => {
   assert.doesNotMatch(snapshot, /Pat Example/);
   assert.match(snapshot, /Pay Pat E\. by Friday on Veterans Day/);
   assert.match(snapshot, /\(Pat E\. added\)/);
+});
+
+test("shortens author names typed without a space", () => {
+  assert.equal(abbreviateNames("(PatExample added) PatExample"), "(Pat E. added) Pat E.");
+  assert.equal(abbreviateNames("(Pat McExample added)"), "(Pat M. added)");
 });

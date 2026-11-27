@@ -11,8 +11,14 @@
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">
+    <a
+        href="#main"
+        class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-[60] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:shadow-lg"
+    >
+        Skip to main content
+    </a>
     <Navigation />
-    <main class="grow">
+    <main id="main" tabindex="-1" class="grow scroll-mt-20 focus:outline-none">
         {@render children()}
     </main>
     <Footer />

@@ -41,7 +41,7 @@ You can preview the production build with `npm run preview`.
 
 The Pack 118 Worker refreshes its public iCal feed every six hours on UTC
 time. It writes the latest successful snapshot to the `CALENDAR_CACHE` KV
-namespace. The calendar page uses the bundled `static/calendar.md` until the
+namespace. The calendar page uses the bundled `src/lib/calendar-fallback.md` until the
 first successful refresh, and applies its existing public-content filter to
 both sources.
 

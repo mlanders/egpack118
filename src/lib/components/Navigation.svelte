@@ -96,6 +96,15 @@
     </svg>`;
 </script>
 
+<svelte:window
+    onkeydown={(e) => {
+        if (e.key !== "Escape") return;
+        // Return focus to the control that opened the menu.
+        document.querySelector<HTMLElement>('nav [aria-expanded="true"]')?.focus();
+        closeMobileMenu();
+    }}
+/>
+
 <nav class="bg-white shadow-lg sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20 whitespace-nowrap">
@@ -142,11 +151,13 @@
                             {navItem.label}
                         </a>
                     {:else if navItem.type === "dropdown"}
-                        <div class="relative" onmouseleave={closeDropdown}>
+                        <div class="relative" role="group" onmouseleave={closeDropdown}>
                             <button
                                 class="px-4 py-2 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all flex items-center gap-1"
-                                onmouseenter={() =>
+                                onpointerenter={(e) =>
+                                    e.pointerType === "mouse" &&
                                     openDropdownMenu(navItem.label)}
+                                aria-expanded={isDropdownOpen(navItem.label)}
                                 onclick={() => toggleDropdown(navItem.label)}
                             >
                                 {navItem.label}
@@ -211,6 +222,7 @@
                 class="lg:hidden text-scout-blue hover:text-blue-700 p-2 rounded-lg hover:bg-scout-blue/10 transition-all"
                 onclick={toggleMobileMenu}
                 aria-label="Toggle menu"
+                aria-expanded={mobileMenuOpen}
             >
                 {#if mobileMenuOpen}
                     <svg
@@ -263,6 +275,7 @@
                             <button
                                 class="w-full text-left px-4 py-3 text-scout-blue font-semibold hover:bg-scout-blue/10 hover:text-blue-700 rounded-lg transition-all flex items-center justify-between"
                                 onclick={() => toggleDropdown(navItem.label)}
+                                aria-expanded={isDropdownOpen(navItem.label)}
                             >
                                 {navItem.label}
                                 <svg

@@ -2,8 +2,10 @@ import { CALENDAR_SNAPSHOT_KEY } from "$lib/calendar-snapshot.js";
 import type { PageServerLoad } from "./$types";
 import { cleanEventData } from "$lib/config/calendar-whitelist";
 import { abbreviateNames } from "$lib/name-filter.js";
+// Imported, not served from static/, so the unfiltered text is never public.
+import fallbackCalendar from "$lib/calendar-fallback.md?raw";
 
-export const load: PageServerLoad = async ({ fetch, platform, setHeaders }) => {
+export const load: PageServerLoad = async ({ platform, setHeaders }) => {
   try {
     setHeaders({ "cache-control": "no-store" });
     let calendarContent: string | null = null;
@@ -13,11 +15,7 @@ export const load: PageServerLoad = async ({ fetch, platform, setHeaders }) => {
       console.error("Calendar snapshot unavailable; using the bundled calendar.");
     }
 
-    if (calendarContent === null) {
-      const response = await fetch("/calendar.md");
-      if (!response.ok) throw new Error(`Failed to fetch calendar: ${response.status}`);
-      calendarContent = await response.text();
-    }
+    calendarContent ??= fallbackCalendar;
 
     // Parse the markdown into structured data
     const events = parseCalendarMarkdown(abbreviateNames(calendarContent));

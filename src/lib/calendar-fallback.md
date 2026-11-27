@@ -104,7 +104,7 @@ You can see the RSVP status of this event in BAND.
 
 **Date:** Thursday, December 3, 2026 at 6:30 PM - 7:30 PM
 
-https://csus.zoom.us/j/82084718748?pwd=1uYOqQwlHL3z1SUIHPNwlRFOS1gVaP.1 
+[meeting link sent to committee members] 
 
 Agenda: TBA
 
@@ -368,7 +368,7 @@ You can see the RSVP status of this event in BAND.
 **Date:** Saturday, April 24, 2027 at 10:00 AM - 2:00 PM
 
 You can see the RSVP status of this event in BAND.
-(StephanieLanders added)
+(Stephanie L. added)
 
 ---
 
