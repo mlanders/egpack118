@@ -72,6 +72,32 @@
     </div>
 </section>
 
+<!-- What is Cub Scouts -->
+<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+    <h2 class="display text-3xl md:text-4xl font-bold text-gray-900 mb-6">What is Cub Scouts?</h2>
+    <div class="text-lg text-gray-700 space-y-4">
+        <p>
+            <strong>Cub Scouts</strong> is a values-based, family-oriented program within Scouting America (formerly
+            Boy Scouts of America), designed for boys and girls in <strong>Kindergarten through 5th grade</strong>
+            (ages 5-10 years old). Scouting America does not currently have a curriculum for Transitional Kindergarten
+            (TK). Therefore, it is suggested to wait to join until entering Kindergarten <em>and</em> at least 5 years old.
+        </p>
+        <p>
+            The mission of Scouting America is to prepare young people to make ethical and moral choices over their
+            lifetimes by instilling in them the values of the Scout Oath and Law. The Aims of Scouting are:
+        </p>
+        <p class="font-semibold text-scout-blue">Character, Citizenship, Personal Fitness, and Leadership.</p>
+    </div>
+    <a
+        href="https://docs.google.com/document/d/130Qhzcci0fZK6IpjYKI2BFWYTeBfkf0oZHm4podlVd4/edit?usp=sharing"
+        class="mt-6 inline-block bg-scout-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Learn more about Pack 118
+    </a>
+</section>
+
 <!-- What kids do -->
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -114,10 +140,6 @@
                 <p class="text-gray-700">Dens meet through the month, and the whole pack comes together for events and campouts.</p>
             </li>
         </ol>
-        <p class="mt-8 text-gray-700 max-w-3xl">
-            Scouting America (formerly Boy Scouts of America) has no curriculum for Transitional Kindergarten, so we suggest
-            waiting until your child is in Kindergarten <em>and</em> at least 5 years old.
-        </p>
     </div>
 </section>
 
@@ -166,9 +188,9 @@
                 alt="Cubmaster Mike L"
             />
             <LeaderCard
-                name="Daniel A."
+                name="Stephanie K."
                 position="Committee Chair"
-                alt="Committee Chair Daniel A."
+                alt="Committee Chair Stephanie K."
             />
             <LeaderCard
                 name="This could be you!"
@@ -194,6 +216,11 @@
                 name="Ryan W."
                 position="Den Leader"
                 alt="Den Leader Ryan W."
+            />
+            <LeaderCard
+                name="Freddy S."
+                position="Den Leader"
+                alt="Den Leader Freddy S."
             />
     </div>
 </section>
