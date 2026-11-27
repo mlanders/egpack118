@@ -21,7 +21,7 @@ After the parade, there will be a community picnic open to the public.
 
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -46,7 +46,7 @@ Families (including siblings) are welcome.
 RSVP is appreciated to help us have an idea of headcount for materials and snacks. Hope to see you there!
 
 You cansee the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -70,7 +70,7 @@ Diane Weiss: Program Volunteer
 dianeweissnotary@gmail.com
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -81,7 +81,7 @@ You can see the RSVP status of this event in BAND.
 Location & details TBA
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -94,7 +94,7 @@ Pack 118 needs at least one representative to attend the 3R Round Table each mon
 Verify location on the GEC calendar: https://scoutingevent.com/047  
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -111,7 +111,7 @@ Agenda: TBA
 Previous Meeting Minutes: TBA
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -134,7 +134,7 @@ Meeting Agenda:
 3:50-4pm - Closing
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -147,7 +147,7 @@ You can see the RSVP status of this event in BAND.
 **Location:** USS Hornet Museum
 707 W Hornet Ave, Alameda, CA 94501, USA
 
-$100/person. Full payment for your party due to Stephanie Landers via Venmo or Zelle no later than 12/19. 
+$100/person. Full payment for your party due to Stephanie L. via Venmo or Zelle no later than 12/19. 
 
 
 ***Must be at least 5 years old, recommended at least 8 years old*** Eligible siblings and adults of all ages arewelcome. 
@@ -162,7 +162,7 @@ During the Night Ops Overnight you will tour key areas of the ship to see variou
 - Enjoying Dinner and Breakfast in the original Enlisted Cre
 
 Youcan see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -185,7 +185,7 @@ Meeting Agenda:
 7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -201,7 +201,7 @@ You can see the RSVP status of this event in BAND.
 Details TBA
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -224,7 +224,7 @@ Meeting Agenda:
 7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -240,7 +240,7 @@ You can see the RSVP status of this event in BAND.
 Help distribute flyers to notify the neighborhood of the Scouting for Food event.
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -265,7 +265,7 @@ Families (including siblings) are welcome.
 RSVP is appreciated to help us have an idea of headcount for materials and snacks. Hope to see you there!
 
 You cansee the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -281,7 +281,7 @@ We will have a table set up at the front of the store.
 During their shift, scouts will politely ask customers entering the store to consider purchasing non-perishable food items and donating them on their wayout.
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -299,7 +299,7 @@ During their shift, scouts will politely ask customers entering the store to con
 The food will need to be delivered to the Elk Grove food bank by Saturday at 11AM.
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -322,7 +322,7 @@ Meeting Agenda:
 7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -336,7 +336,7 @@ If you are interested in planning a campout for the pack (including helping with
 
 For now these dates will be held for a possible pack family campout.
 
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -359,7 +359,7 @@ Meeting Agenda:
 7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 
@@ -391,7 +391,7 @@ Meeting Agenda:
 7:25-7:30- Closing
 
 You can see the RSVP status of this event in BAND.
-(Stephanie Landers added)
+(Stephanie L. added)
 
 ---
 

@@ -1,6 +1,7 @@
 import { CALENDAR_SNAPSHOT_KEY } from "$lib/calendar-snapshot.js";
 import type { PageServerLoad } from "./$types";
 import { cleanEventData } from "$lib/config/calendar-whitelist";
+import { abbreviateNames } from "$lib/name-filter.js";
 
 export const load: PageServerLoad = async ({ fetch, platform, setHeaders }) => {
   try {
@@ -19,7 +20,7 @@ export const load: PageServerLoad = async ({ fetch, platform, setHeaders }) => {
     }
 
     // Parse the markdown into structured data
-    const events = parseCalendarMarkdown(calendarContent);
+    const events = parseCalendarMarkdown(abbreviateNames(calendarContent));
 
     // Apply whitelist filtering to events
     const cleanedEvents = events.map((monthGroup) => ({

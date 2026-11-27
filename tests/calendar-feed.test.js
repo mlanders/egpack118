@@ -47,3 +47,17 @@ test("drops payment handles but keeps the rest of the description", async () => 
   assert.match(snapshot, /Pay by 12\/19 via Venmo or Zelle\./);
   assert.match(snapshot, /Bring a coat/);
 });
+
+test("shortens full names of event authors everywhere", async () => {
+  let snapshot = "";
+  await refreshCalendar({ put: async (_key, value) => { snapshot = value; } }, {
+    now: new Date("2026-07-01T00:00:00Z"),
+    fetchFeed: async () => new Response(feed(
+      "BEGIN:VEVENT\r\nDTSTART:20260703T013000Z\r\nSUMMARY:Trip\r\nDESCRIPTION:Pay Pat Example by Friday on Veterans Day\r\nEND:VEVENT",
+      "BEGIN:VEVENT\r\nDTSTART:20260704T013000Z\r\nSUMMARY:Hike\r\nDESCRIPTION:(Pat Example added)\r\nEND:VEVENT",
+    )),
+  });
+  assert.doesNotMatch(snapshot, /Pat Example/);
+  assert.match(snapshot, /Pay Pat E\. by Friday on Veterans Day/);
+  assert.match(snapshot, /\(Pat E\. added\)/);
+});

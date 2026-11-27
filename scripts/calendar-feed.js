@@ -1,5 +1,6 @@
 import { CALENDAR_SNAPSHOT_KEY } from "../src/lib/calendar-snapshot.js";
 import { stripPaymentHandles } from "../src/lib/payment-filter.js";
+import { abbreviateNames } from "../src/lib/name-filter.js";
 
 const ICAL_URL =
   "https://calendar.google.com/calendar/ical/ld2c70e20kot5palni2skd61bjlr71s6%40import.calendar.google.com/public/basic.ics";
@@ -200,5 +201,5 @@ export async function refreshCalendar(namespace, { fetchFeed = fetch, now = new 
   }
 
   const events = parseICalendar(data);
-  await namespace.put(CALENDAR_SNAPSHOT_KEY, generateMarkdown(events, now));
+  await namespace.put(CALENDAR_SNAPSHOT_KEY, abbreviateNames(generateMarkdown(events, now)));
 }
