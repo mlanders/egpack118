@@ -132,7 +132,7 @@
             </div>
 
             <!-- Desktop Navigation -->
-            <div class="hidden lg:flex space-x-2 items-center">
+            <div class="hidden lg:flex space-x-1 items-center">
                 {#each navigationConfig as navItem}
                     {#if navItem.type === "link"}
                         <a
