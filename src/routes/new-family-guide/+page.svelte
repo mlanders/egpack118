@@ -39,6 +39,17 @@
                 everything seems new—we're here to help you every step of the
                 way.
             </p>
+            <p class="text-lg leading-relaxed mt-4">
+                <strong>Visit a pack meeting:</strong> 2nd Thursday of each
+                month, 6:15&ndash;7:30 PM, United Methodist Church, 3329 Point
+                Pleasant Rd, Elk Grove.
+                <a
+                    href="https://maps.google.com/?q=3329+Point+Pleasant+Rd+Elk+Grove+CA+95757"
+                    class="underline font-semibold"
+                    target="_blank"
+                    rel="noopener noreferrer">Get directions</a
+                >
+            </p>
         </SectionCard>
     </section>
 
@@ -122,13 +133,15 @@
                         >Questions for the leaders (we love to help!)</ChecklistItem
                     >
                     <ChecklistItem
-                        >Parent/guardian must stay during the meeting</ChecklistItem
+                        >A parent or guardian (must stay for Kindergarten and 1st grade)</ChecklistItem
                     >
                 </ul>
             </SectionCard>
             <SectionCard title="Once Registered">
                 <ul class="space-y-3 text-gray-700">
-                    <ChecklistItem>Scout handbook</ChecklistItem>
+                    <ChecklistItem
+                        >Scout handbook (families buy it)</ChecklistItem
+                    >
                     <ChecklistItem
                         >Pencil or pen for handbook activities</ChecklistItem
                     >
@@ -136,7 +149,7 @@
                         >Small backpack to carry supplies</ChecklistItem
                     >
                     <ChecklistItem
-                        >Uniform (when available—not required immediately)</ChecklistItem
+                        >Uniform shirt (encouraged at pack meetings)</ChecklistItem
                     >
                 </ul>
             </SectionCard>
@@ -152,9 +165,8 @@
                     Class A Uniform (Official Uniform)
                 </h3>
                 <p class="text-gray-700 mb-4">
-                    The Class A uniform is worn for ceremonies, special events,
-                    and when requested by leaders. While not mandatory
-                    immediately, it helps build pride and belonging.
+                    We encourage the Class A uniform at pack meetings, ceremonies and
+                    special events. You don't need it for a first visit.
                 </p>
                 <InfoBox title="Where to Purchase:">
                     <ul class="text-gray-700 space-y-1">
@@ -220,10 +232,8 @@
                     Class B Uniform (Activity Uniform)
                 </h3>
                 <p class="text-gray-700">
-                    For regular pack and den meetings, scouts may wear a pack
-                    t-shirt (if provided) or comfortable clothes appropriate for
-                    activities. Save the fancy clothes for other
-                    occasions—scouts will be active!
+                    For den meetings and active outings, scouts may wear a pack
+                    t-shirt (if provided) or comfortable clothes.
                 </p>
             </div>
         </div>
@@ -319,8 +329,8 @@
                     <strong>Pack Fee:</strong> $100 (Pack 118)
                 </p>
                 <p class="text-gray-700">
-                    Additional costs may include uniform, optional camping
-                    trips, and special events. Fundraising opportunities help
+                    Families also buy the scout handbook and uniform. Optional
+                    camping trips and special events may cost extra. Fundraising opportunities help
                     offset some expenses.
                 </p>
             </SectionCard>
@@ -388,7 +398,7 @@
                     >Complete registration and pay fees</ChecklistItem
                 >
                 <ChecklistItem type="circle"
-                    >Get your scout's handbook</ChecklistItem
+                    >Buy your scout's handbook (Scout Shop or ScoutShop.org)</ChecklistItem
                 >
                 <ChecklistItem type="circle"
                     >Meet your den leader and get den meeting schedule</ChecklistItem

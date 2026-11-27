@@ -18,7 +18,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Map Link
+					Get directions
 				</a>
 			</div>
 

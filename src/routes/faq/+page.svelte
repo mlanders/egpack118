@@ -26,7 +26,7 @@
                 },
                 {
                     question: "What does it cost?",
-                    answer: "There are two fees: (1) Registration Fee of $165 paid to Scouting America, which covers national and council registration. (2) Pack Fee of $100 paid to Pack 118, which covers rank badges, adventure belt loops, awards, Pinewood Derby, supplies, and celebrations like the Blue and Gold Banquet.",
+                    answer: "There are two fees: (1) Registration Fee of $165 paid to Scouting America, which covers national and council registration. (2) Pack Fee of $100 paid to Pack 118, which covers rank badges, adventure belt loops, awards, Pinewood Derby, supplies, and celebrations like the Blue and Gold Banquet. Families buy the scout handbook and uniform separately.",
                 },
                 {
                     question: "Can my child join mid-year?",
@@ -55,7 +55,7 @@
                 },
                 {
                     question: "Are parents required to stay?",
-                    answer: "Yes, at least one parent/guardian must remain during all Cub Scout activities. Scouting America requires adult supervision, and parent involvement is a key part of the Cub Scout experience.",
+                    answer: "For Lions and Tigers (Kindergarten and 1st grade), yes: a parent or guardian must stay for all den and pack activities. For 2nd through 5th grade, we strongly encourage you to stay.",
                 },
             ],
         },
@@ -64,11 +64,11 @@
             questions: [
                 {
                     question: "Does my scout need a uniform?",
-                    answer: "While uniforms aren't mandatory at first, they are strongly encouraged. The uniform helps build a sense of belonging and pride. At minimum, scouts should have a Class A uniform shirt for ceremonies and special events. Uniforms can be purchased at the Scout Shop or online.",
+                    answer: "Not for a first visit. Once your scout joins, we encourage the Class A uniform (the official Cub Scout shirt) at pack meetings, ceremonies and special events. You can buy it at the Scout Shop or ScoutShop.org.",
                 },
                 {
                     question: "What should my scout wear to meetings?",
-                    answer: "Scouts should wear their Class A uniform (blue shirt with patches) or pack/den t-shirt if provided. Otherwise, comfortable clothes appropriate for activities are fine.",
+                    answer: "At pack meetings, we encourage the Class A uniform shirt. Den meetings can be casual: a pack t-shirt or comfortable clothes for activities. On a first visit, come as you are.",
                 },
                 {
                     question: "Where do I get patches and badges?",
@@ -76,7 +76,7 @@
                 },
                 {
                     question: "What should scouts bring to meetings?",
-                    answer: "Scouts should bring their handbook (provided at registration), a water bottle, and any specific items requested by the den leader. A small backpack is helpful for carrying supplies.",
+                    answer: "Registered scouts should bring their handbook (families buy it, for example at the Scout Shop), a water bottle, and any specific items requested by the den leader. A small backpack is helpful for carrying supplies.",
                 },
             ],
         },

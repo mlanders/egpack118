@@ -135,7 +135,7 @@
 <!-- Costs -->
 <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <h2 class="display text-3xl md:text-4xl font-bold text-gray-900 mb-2">What it costs</h2>
-    <p class="text-gray-700 mb-8">Paid once per scouting year (2025-26). Total: <strong>$265</strong>.</p>
+    <p class="text-gray-700 mb-8">Paid once per scouting year (2025-26). Total: <strong>$265</strong>. The scout handbook and uniform are bought separately.</p>
     <dl class="grid md:grid-cols-2 gap-8">
         <div>
             <dt class="display text-2xl font-bold text-scout-blue">$165 registration</dt>
