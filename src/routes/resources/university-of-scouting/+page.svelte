@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-    <title>University of Scouting Presentations</title>
+    <title>University of Scouting - Cub Scout Pack 118</title>
     <meta
         name="description"
         content="Reference materials and presentations from University of Scouting sessions for Cub Scout leaders and volunteers."
@@ -43,7 +43,7 @@
     <ul class="presentation-list">
         {#each presentations as pres}
             <li class="presentation">
-                <h3>{pres.title}</h3>
+                <h2>{pres.title}</h2>
                 <p class="presenter">
                     <strong>Presenter:</strong>
                     {pres.presenter}
@@ -97,7 +97,7 @@
         padding-bottom: 1em;
         border-bottom: 1px solid #eee;
     }
-    .presentation h3 {
+    .presentation h2 {
         margin: 0 0 0.3em 0;
         font-size: 1.25rem;
         color: var(--color-scout-blue);

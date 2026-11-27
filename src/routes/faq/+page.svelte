@@ -22,7 +22,7 @@
                 },
                 {
                     question: "How do I register my child?",
-                    answer: "The best way to start is to attend one of our pack meetings (2nd Thursday of each month at 6:15pm). You can meet the leaders, see what we do, and get help with registration. You can also email us at ElkGrovePack118@gmail.com for more information.",
+                    answer: "The best way to start is to attend one of our pack meetings (2nd Thursday of each month at 6:15 PM). You can meet the leaders, see what we do, and get help with registration. You can also email us at ElkGrovePack118@gmail.com for more information.",
                 },
                 {
                     question: "What does it cost?",
@@ -43,7 +43,7 @@
             questions: [
                 {
                     question: "When and where are pack meetings?",
-                    answer: "Pack meetings are held on the 2nd Thursday of each month from 6:15pm to 7:30pm at the United Methodist Church (3329 Point Pleasant Rd, Elk Grove, CA 95757).",
+                    answer: "Pack meetings are held on the 2nd Thursday of each month from 6:15 PM to 7:30 PM at the United Methodist Church (3329 Point Pleasant Rd, Elk Grove, CA 95757).",
                 },
                 {
                     question: "What are den meetings?",
@@ -144,6 +144,10 @@
 
 <svelte:head>
     <title>FAQ - Cub Scout Pack 118</title>
+    <meta
+        name="description"
+        content="Answers about joining Pack 118: ages, costs, meetings, uniforms and parent involvement."
+    />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

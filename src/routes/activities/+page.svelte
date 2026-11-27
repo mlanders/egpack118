@@ -9,6 +9,10 @@
 
 <svelte:head>
     <title>Activities - Cub Scout Pack 118</title>
+    <meta
+        name="description"
+        content="Pack meetings, den meetings, the Pinewood Derby, service projects, camping and hikes with Cub Scout Pack 118 in Elk Grove."
+    />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -35,11 +39,11 @@
                 />
             </div>
             <div class="p-6">
-                <h3 class="text-2xl font-bold text-scout-blue mb-3">
+                <h2 class="text-2xl font-bold text-scout-blue mb-3">
                     Pack Meetings
-                </h3>
+                </h2>
                 <p class="text-gray-700">
-                    Usually held at 6:15 p.m. on the 2nd Thursday of each month.
+                    Usually held at 6:15 PM on the 2nd Thursday of each month.
                     Pack meetings bring all dens together for fun activities,
                     ceremonies, and awards.
                 </p>
@@ -59,9 +63,9 @@
                 />
             </div>
             <div class="p-6">
-                <h3 class="text-2xl font-bold text-scout-blue mb-3">
+                <h2 class="text-2xl font-bold text-scout-blue mb-3">
                     Pinewood Derby
-                </h3>
+                </h2>
                 <p class="text-gray-700 mb-4">
                     Annual racing event with awards for speed, design, and
                     slowest car. Scouts build and race their own custom cars.
@@ -88,9 +92,9 @@
                 />
             </div>
             <div class="p-6">
-                <h3 class="text-2xl font-bold text-scout-blue mb-3">
+                <h2 class="text-2xl font-bold text-scout-blue mb-3">
                     Den Meetings
-                </h3>
+                </h2>
                 <p class="text-gray-700">
                     Monthly gatherings of small groups by grade level, covering
                     advancement requirements, crafts, games, and outdoor skills.
@@ -111,9 +115,9 @@
                 />
             </div>
             <div class="p-6">
-                <h3 class="text-2xl font-bold text-scout-blue mb-3">
+                <h2 class="text-2xl font-bold text-scout-blue mb-3">
                     Blue & Gold Banquet
-                </h3>
+                </h2>
                 <p class="text-gray-700">
                     Spring celebration featuring dinner and trophy distribution.
                     This annual event honors scouts' achievements and celebrates
@@ -135,9 +139,9 @@
                 />
             </div>
             <div class="p-6">
-                <h3 class="text-2xl font-bold text-scout-blue mb-3">
+                <h2 class="text-2xl font-bold text-scout-blue mb-3">
                     Service Projects
-                </h3>
+                </h2>
                 <p class="text-gray-700">
                     Community initiatives including food bank support and
                     cleanups. Scouts learn the importance of giving back to
@@ -159,9 +163,9 @@
                 />
             </div>
             <div class="p-6">
-                <h3 class="text-2xl font-bold text-scout-blue mb-3">
+                <h2 class="text-2xl font-bold text-scout-blue mb-3">
                     Camping & Nature Hikes
-                </h3>
+                </h2>
                 <p class="text-gray-700">
                     Overnight trips and regional hiking adventures. Scouts
                     experience the outdoors, learn camping skills, and build

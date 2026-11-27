@@ -16,6 +16,10 @@
 
 <svelte:head>
     <title>New Family Guide - Cub Scout Pack 118</title>
+    <meta
+        name="description"
+        content="What to expect at your first Pack 118 meeting, what to bring, costs, uniforms and ranks by grade."
+    />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -62,7 +66,7 @@
             <div class="space-y-6">
                 <div>
                     <h3 class="text-xl font-bold text-scout-blue mb-2">
-                        Arrival (6:15pm)
+                        Arrival (6:15 PM)
                     </h3>
                     <p class="text-gray-700">
                         Arrive a few minutes early to check in. Look for the
@@ -104,7 +108,7 @@
                 </div>
                 <div>
                     <h3 class="text-xl font-bold text-scout-blue mb-2">
-                        Announcements & Closing (7:30pm)
+                        Announcements & Closing (7:30 PM)
                     </h3>
                     <p class="text-gray-700">
                         Leaders share upcoming events and important information.
@@ -392,7 +396,7 @@
         <SectionCard variant="border">
             <ul class="space-y-3 text-gray-700">
                 <ChecklistItem type="circle"
-                    >Attend a pack meeting (2nd Thursday at 6:15pm)</ChecklistItem
+                    >Attend a pack meeting (2nd Thursday at 6:15 PM)</ChecklistItem
                 >
                 <ChecklistItem type="circle"
                     >Complete registration and pay fees</ChecklistItem

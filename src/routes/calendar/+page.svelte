@@ -54,6 +54,10 @@
 
 <svelte:head>
     <title>Calendar - Cub Scout Pack 118</title>
+    <meta
+        name="description"
+        content="Upcoming pack meetings, den outings and events for Cub Scout Pack 118 in Elk Grove."
+    />
 </svelte:head>
 
 <div class="w-full px-4 sm:px-6 lg:px-8 py-16">
@@ -73,7 +77,7 @@
                 Regular Pack Meetings
             </h2>
             <p class="text-gray-700 mb-2">
-                <strong>When:</strong> 2nd Thursday of each month, 6:15pm - 7:30pm
+                <strong>When:</strong> 2nd Thursday of each month, 6:15 PM - 7:30 PM
             </p>
             <p class="text-gray-700 mb-2">
                 <strong>Where:</strong> United Methodist Church

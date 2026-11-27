@@ -1,5 +1,9 @@
 <svelte:head>
     <title>Become a Leader - Cub Scout Pack 118</title>
+    <meta
+        name="description"
+        content="The steps to become a Cub Scout leader with Pack 118: application, Live Scan and youth safety training."
+    />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -37,9 +41,9 @@
                     </div>
                 </div>
                 <div class="ml-4 flex-1">
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">
                         Complete the Adult Application
-                    </h3>
+                    </h2>
                     <p class="text-gray-700 mb-3">
                         Fill out the application form with your personal
                         information and agree to the leadership guidelines and
@@ -69,9 +73,9 @@
                     </div>
                 </div>
                 <div class="ml-4 flex-1">
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">
                         Waiver Agreement & Live Scan
-                    </h3>
+                    </h2>
                     <p class="text-gray-700 mb-3">
                         Complete the waiver agreement form and prepare for your
                         Live Scan background check.
@@ -110,9 +114,9 @@
                     </div>
                 </div>
                 <div class="ml-4 flex-1">
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">
                         Complete Safeguarding Youth Training
-                    </h3>
+                    </h2>
                     <p class="text-gray-700 mb-3">
                         This training covers important safety practices,
                         including how to protect children and recognize
@@ -143,9 +147,9 @@
                     </div>
                 </div>
                 <div class="ml-4 flex-1">
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">
                         Complete Mandated Reporter Training
-                    </h3>
+                    </h2>
                     <p class="text-gray-700 mb-3">
                         This course will teach you how to identify and report
                         signs of abuse or neglect, a crucial responsibility for
@@ -176,9 +180,9 @@
                     </div>
                 </div>
                 <div class="ml-4 flex-1">
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">
                         Save Your Certificates
-                    </h3>
+                    </h2>
                     <p class="text-gray-700">
                         After completing the two training courses, be sure to
                         save your certificates of completion, as they are
@@ -201,9 +205,9 @@
                     </div>
                 </div>
                 <div class="ml-4 flex-1">
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">
                         Submit All Documentation to the Cubmaster
-                    </h3>
+                    </h2>
                     <p class="text-gray-700">
                         Once you have finished the application and training,
                         provide the Cubmaster with your completed adult
