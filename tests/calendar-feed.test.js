@@ -34,3 +34,16 @@ test("keeps the previous snapshot when the feed is unavailable or incomplete", a
     }, { fetchFeed: async () => response }));
   }
 });
+
+test("drops payment handles but keeps the rest of the description", async () => {
+  let snapshot = "";
+  await refreshCalendar({ put: async (_key, value) => { snapshot = value; } }, {
+    now: new Date("2026-07-01T00:00:00Z"),
+    fetchFeed: async () => new Response(feed(
+      "BEGIN:VEVENT\r\nDTSTART:20260703T013000Z\r\nSUMMARY:Trip\r\nDESCRIPTION:Pay by 12/19 via Venmo or Zelle.\\nVenmo: @someone (https://venmo.com/u/someone)\\nZelle: Some One 555-0100\\nBring a coat\r\nEND:VEVENT",
+    )),
+  });
+  assert.doesNotMatch(snapshot, /@someone|venmo\.com|555-0100/);
+  assert.match(snapshot, /Pay by 12\/19 via Venmo or Zelle\./);
+  assert.match(snapshot, /Bring a coat/);
+});

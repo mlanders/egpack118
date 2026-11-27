@@ -1,3 +1,5 @@
+import { stripPaymentHandles } from "$lib/payment-filter.js";
+
 /**
  * Calendar Content Whitelist Configuration
  *
@@ -173,6 +175,8 @@ export function cleanEventData(event: {
   return {
     ...event,
     location: isLocationAllowed(event.location) ? event.location : undefined,
-    description: stripBandBoilerplate(filterSensitiveContent(event.description)),
+    description: stripBandBoilerplate(
+      filterSensitiveContent(event.description && stripPaymentHandles(event.description)),
+    ),
   };
 }

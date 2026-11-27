@@ -149,8 +149,6 @@ You can see the RSVP status of this event in BAND.
 
 $100/person. Full payment for your party due to Stephanie Landers via Venmo or Zelle no later than 12/19. 
 
-Venmo: @steph_landers (https://venmo.com/u/steph_landers) - QR code attached
-Zelle: Stephanie Landers916-541-7691 - QR code attached 
 
 ***Must be at least 5 years old, recommended at least 8 years old*** Eligible siblings and adults of all ages arewelcome. 
 
