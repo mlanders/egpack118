@@ -83,7 +83,7 @@
             </p>
             <a
                 href="https://maps.google.com/?q=3329+Point+Pleasant+Rd+Elk+Grove+CA+95757"
-                class="text-scout-blue hover:underline mt-2 inline-block font-semibold"
+                class="text-scout-blue hover:underline inline-block py-2 font-semibold"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -92,7 +92,7 @@
         </div>
 
         <!-- View Toggle and Last Updated -->
-        <div class="flex justify-between items-center mb-6">
+        <div class="flex flex-wrap justify-between items-center gap-2 mb-6">
             <ViewToggle {viewMode} onToggle={setViewMode} />
 
             {#if data.lastUpdated}

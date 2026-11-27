@@ -14,7 +14,7 @@
 				<p class="text-gray-300">Elk Grove, CA 95757</p>
 				<a
 					href="https://maps.google.com/?q=3329+Point+Pleasant+Rd+Elk+Grove+CA+95757"
-					class="text-scout-gold hover:underline mt-2 inline-block"
+					class="inline-block py-2 text-scout-gold hover:underline"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
